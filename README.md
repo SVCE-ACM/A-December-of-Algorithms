@@ -15,18 +15,25 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
     Guess 38 (half of 37 to 40) → spot on!
     ```
 - **Resources**
-  - Insert Resources Here
   - [Binary Search](https://www.geeksforgeeks.org/binary-search/)
 
-### **December 2 - **
+### **December 2 - Are Triangles Similar**
 - **Problem**
-  -
+  - You have two triangles A1B1C1 and A2B2C2 on a plane. Your task is to determine whether they are rather similar, i.e. if their corresponding angles have the same measurements.       
+  - In order for two triangles to be rather similar, the following equations must be true:        
+    ```bash
+    angle(A1B1, B1C1) = angle(A2B2, B2C2)        
+    angle(A1C1, C1B1) = angle(A2C2, C2B2)        
+    angle(B1A1, A1C1) = angle(B2A2, A2C2)        
+    ```
+  - Where angle(AB, CD) refers to an angle between segments AB and CD in the triangle.        
 - **Example**
     ```bash
-
+    For coordinates = [0, 0, 0, 1, 1, 0, 0, 0, 0, -3, -3, 0], the output should be        
+    areTrianglesSimilar(coordinates) = true.
     ```
 - **Resources**
-  -
+  - Seriously ?!?
 
 ### **December 3 - Digit manipulation**
 - **Problem**
@@ -39,7 +46,7 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 - **Resources**
   - The basic functionality needed to solve this problem is extracting all the digits from a number and manipulate it according to your needs for which this [link](https://www.youtube.com/watch?v=rporZ07Tc4M) can be used.
 
-###  **December 4 - Fibonacci Series**
+###  **December 4 - **
 - **Problem**
   - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series
 - **Uses**
