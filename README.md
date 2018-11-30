@@ -1,9 +1,11 @@
 # A December of Algorithms
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate :)
 
+## What to do?
+- If you
 ## FAQ:
 #### Who can join the Challenge ?
-Anyone who are passionate about coding and can dedicate at least one hour a day for the challenge for next 100 days.
+Anyone who are passionate about coding and can dedicate at least one hour a day for the challenge for next 31 days.
 #### What language should we use to code ?
 Its completely up to you. Just choose the language which you think is good for you.
 #### How many algorithms can we solve per day ?
