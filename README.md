@@ -24,7 +24,7 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 
 ###  **December 4 - Big factorial**
 - **Problem**
-  - Factorial of a non-negative integer is the multiplication of all integers smaller than or equal to n. For example factorial of 6 is 6*5*4*3*2*1 which is 720. Factorial of 100 has 158 digits. It is not possible to store these many digits even if we use long long int. The challenge in this is to implement an algorithm to find the factorial of large numbers
+  - Factorial of a non-negative integer is the multiplication of all integers smaller than or equal to n. For example factorial of 6 is 6x5x4x3x2x1 which is 720. Factorial of 100 has 158 digits. It is not possible to store these many digits even if we use long long int. The challenge in this is to implement an algorithm to find the factorial of large numbers
 - **Uses**
   - Factorials are used everywhere. We use it when we have to find the numbers of ways in which objects have to be used and also the number of ways they can be arranged. It is used in probability and statistics greatly which is in turn used in a lot of data analysis. But using the normal coding languages we can only find out the factorials of whole numbers up to 13 which is not of much value in these applications hence the need for big factorial.
 - **Resources**
