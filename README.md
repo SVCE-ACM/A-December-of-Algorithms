@@ -1,7 +1,16 @@
 # A December of Algorithms
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate :)
 
+## FAQ:
+#### Who can join the Challenge ?
+Anyone who are passionate about coding and can dedicate at least one hour a day for the challenge for next 100 days.
+#### What language should we use to code ?
+Its completely up to you. Just choose the language which you think is good for you.
+#### How many algorithms can we solve per day ?
+There's no rush. We have an entire 31 days on our hands so one or two algorithms a day is completely fine
+
 ## Index
+- [**Frequently Asked Questions**](#faq)
 - [**December 1 - Binary Search**](#december-1---binary-search)
 - [**December 2 - Are Triangles Similar**](#december-2---are-triangles-similar)
 - [**December 3 - Digit manipulation**](#december-3---fibonacci-series)
