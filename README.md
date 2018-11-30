@@ -46,7 +46,7 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 - **Resources**
   - The basic functionality needed to solve this problem is extracting all the digits from a number and manipulate it according to your needs for which this [link](https://www.youtube.com/watch?v=rporZ07Tc4M) can be used.
 
-###  **December 4 - **
+### **December 4 - Fibonacci Series**
 - **Problem**
   - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series
 - **Uses**
