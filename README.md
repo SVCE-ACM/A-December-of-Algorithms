@@ -1,5 +1,12 @@
 # A-December-of-Algorithms
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate :)
+## Index
+### [**December 1 - Binary Search**](#december-1---binary-search)
+### [**December 2 - Are Triangles Similar**](#december-2---are-triangles-similar)
+### [**December 3 - Digit manipulation**](#december-3---fibonacci-series)
+### [**December 4 - Fibonacci Series**](#december-4---fibonacci-series)
+### [**December 5 - The Hanoi Tower**](#december-5---the-hanoi-tower)
+
 ## Algorithms
 ### **December 1 - Binary Search**
 - **Problem**
@@ -58,7 +65,7 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 - **Resources**
   - [Video Link](https://youtu.be/wTlw7fNcO-0)
 
-###  **December 5 - File Handling**
+###  **December 5 - The Hanoi Tower**
 - **Problem**
   - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
   - Just think of it, we need to move the largest disk to right tower, first. For that, we need to move all but this disk to middle tower. Hence we are solving the very same problem [twice] with one less disk.
