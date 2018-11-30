@@ -2,10 +2,14 @@
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate :)
 ## Algorithms
 ### **December 1 - Title Here**
-- Uses
-  - Uses Body
-- Resources
-  - Resources Body
+- **Problem**
+  - Insert Problem Here
+- **Example**
+  ```bash
+   Insert Example Here
+  ```
+- **Resources**
+  - Insert Resources Here
 
 ### **December 3 - Digit manipulation**
 - **Problem**
