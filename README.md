@@ -58,7 +58,7 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 - **Problem**
   - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series
 - **Uses**
-  - A great real time application of Fibonacci series that’s used mostly these days as an unknown fact are the mile to kilometer conversion & Kilometer to mile conversion…..
+  - A great real-time application of Fibonacci series that’s used mostly these days as an unknown fact is the mile to kilometre conversion & Kilometer to mile conversion…..
   - Let’s now see the Fibonacci series :
   ```bash
   0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,…
@@ -72,11 +72,11 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
   - Just think of it, we need to move the largest disk to right tower, first. For that, we need to move all but this disk to middle tower. Hence we are solving the very same problem [twice] with one less disk.
   - To move N disks from left to right:
     - a. [recursively] move N-1 disks from left to middle
-    - b. move largest disk from left to right
+    - b. move the largest disk from left to right
     - c. [recursively] move N-1 disks from middle to right
 - **Sample Run**
     ```bash
-    > hanoi(3)
+    > Hanoi(3)
       left => right
       left => middle
       right => middle
