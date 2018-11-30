@@ -1,7 +1,7 @@
 # A-December-of-Algorithms
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate :)
 ## Algorithms
-### **December 1 - Title Here**
+### **December 1 - Binary Search**
 - **Problem**
   - Player A chooses a secret number n. Player B can guess a number x and A replies how does x compare to n (equal, larger, smaller). What's an efficient strategy for B to guess n?
 - **Example**
@@ -16,6 +16,17 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
     ```
 - **Resources**
   - Insert Resources Here
+  - [Binary Search](https://www.geeksforgeeks.org/binary-search/)
+
+### **December 2 - **
+- **Problem**
+  -
+- **Example**
+    ```bash
+
+    ```
+- **Resources**
+  -
 
 ### **December 3 - Digit manipulation**
 - **Problem**
@@ -28,26 +39,17 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 - **Resources**
   - The basic functionality needed to solve this problem is extracting all the digits from a number and manipulate it according to your needs for which this [link](https://www.youtube.com/watch?v=rporZ07Tc4M) can be used.
 
-###  **December 4 - Big factorial**
+###  **December 4 - Fibonacci Series**
 - **Problem**
-  - Factorials are used everywhere. We use it when we have to find the numbers of ways in which objects have to be used and also the number of ways they can be arranged. It is used in probability and statistics greatly which is in turn used in a lot of data analysis. But using the normal coding languages we can only find out the factorials of whole numbers up to 13 (this is as much as conventional data types can hold and it can only be achieved with simple loops and without the use of libraries) which is not of much value in these applications hence the need for big factorial.
+  - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series
 - **Uses**
-  - Factorials are used everywhere. We use it when we have to find the numbers of ways in which objects have to be used and also the number of ways they can be arranged. It is used in probability and statistics greatly which is in turn used in a lot of data analysis. But using the normal coding languages we can only find out the factorials of whole numbers up to 13 which is not of much value in these applications hence the need for big factorial.
+  - A great real time application of Fibonacci series that’s used mostly these days as an unknown fact are the mile to kilometer conversion & Kilometer to mile conversion…..
+  - Let’s now see the Fibonacci series :
+  ```bash
+  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,…
+  ```
 - **Resources**
-  - **factorial(n)**:
-  - Create an array ‘res[ ]’ of MAX size where MAX is number of maximum digits in output.
-  - Initialize value stored in ‘res[ ]’ as 1 and initialize ‘res_size’ (size of ‘res[ ]’) as 1.
-  - Do following for all numbers from x = 2 to n......
-  - a. Multiply x with res[ ] and update res[ ] and res_size to store the multiplication result.
-    ```bash
-    multiply(res[ ], x)
-    ```
-  - Initialize carry as 0.
-  - Do following for i = 0 to res_size – 1 .....
-    - a. Find value of res[i] * x + carry. Let this value be prod.
-    - b. Update res[i] by storing last digit of prod in it.
-    - c. Update carry by storing remaining digits in carry.
-  - Put all digits of carry in res[ ] and increase res_size by number of digits in carry
+  - [Video Link](https://youtu.be/wTlw7fNcO-0)
 
 ###  **December 5 - File Handling**
 - **Problem**
