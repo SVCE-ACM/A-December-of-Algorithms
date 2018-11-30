@@ -70,9 +70,9 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
   - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
   - Just think of it, we need to move the largest disk to right tower, first. For that, we need to move all but this disk to middle tower. Hence we are solving the very same problem [twice] with one less disk.
   - To move N disks from left to right:
-    - 1. [recursively] move N-1 disks from left to middle
-    - 2. move largest disk from left to right
-    - 3. [recursively] move N-1 disks from middle to right
+    - a. [recursively] move N-1 disks from left to middle
+    - b. move largest disk from left to right
+    - c. [recursively] move N-1 disks from middle to right
 - **Sample Run**
     ```bash
     > hanoi(3)
