@@ -2,13 +2,13 @@
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate. :)
 
 ## Algorithms
-[**December 1 — Title Here**](https://github.com/https://github.com/SVCE-ACM/A-December-of-Algorithms/December-1)
+[**December 1 — Title Here**](https://github.com/https://github.com/SVCE-ACM/A-December-of-Algorithms/December-01)
 - Uses
   - Uses Body
 - Resources
   - Resources Body
 
-[**December 3- Digit manipulation**]((https://github.com/https://github.com/SVCE-ACM/A-December-of-Algorithms/December-3))
+[**December 3- Digit manipulation**](https://github.com/https://github.com/SVCE-ACM/A-December-of-Algorithms/December-03)
 - **Problem**
   - Ticket numbers usually consist of an even number of digits. A ticket number is considered lucky if the sum of the first half of the digits is equal to the sum of the second half.  Given a ticket number n, determine if it's lucky or not.
 - **Example**
