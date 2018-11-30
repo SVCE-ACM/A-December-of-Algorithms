@@ -46,12 +46,12 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 ###  **December 5 - File Handling**
 - **Problem**
   - Handling files is an integral part of any programming language as it helps us store the result of our operations and it also helps us perform some operation on data. There are two parts in this problem’s implementation which have to be coded as two functions. They are:
-  - 1. A function that counts how often each word appears in the text and prints:
+  - A function that counts how often each word appears in the text and prints:
     ```bash
     word1 count1
     word2 count2
     ```
-  - 2. A function which is similar to the above function but which prints just the top 20 most common words sorted so the most common word is first, then the next most common, and so on.
+  - A function which is similar to the above function but which prints just the top 20 most common words sorted so the most common word is first, then the next most common, and so on.
 - **Uses**
   - Using file operations we can read data from a word document or an excel sheet and it can be manipulated in any way we would like .
   - E.g: We use csv files for machine learning in python
