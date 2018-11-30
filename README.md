@@ -16,5 +16,5 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
   For n = 239017, the output should be isLucky(n) = false
   ```
 - **Resources**
-  The basic functionality needed to solve this problem is extracting all the digits from a number and manipulate it according to your needs for which this link can be used.
-  [Video Tutorial](https://www.youtube.com/watch?v=rporZ07Tc4M)
+  - The basic functionality needed to solve this problem is extracting all the digits from a number and manipulate it according to your needs for which this link can be used.
+  - [Video Tutorial](https://www.youtube.com/watch?v=rporZ07Tc4M)
