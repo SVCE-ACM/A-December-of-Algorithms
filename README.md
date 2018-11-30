@@ -1,5 +1,6 @@
-# A-December-of-Algorithms
+# A December of Algorithms
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate :)
+
 ## Index
 - [**December 1 - Binary Search**](#december-1---binary-search)
 - [**December 2 - Are Triangles Similar**](#december-2---are-triangles-similar)
