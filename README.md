@@ -56,8 +56,8 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
   - Using file operations we can read data from a word document or an excel sheet and it can be manipulated in any way we would like .
   - E.g: We use csv files for machine learning in python
 - **Resources**
-    Files in C here : [Link](https://www.programiz.com/c-programming/c-file-input-output)
-    Files in C++ here : [Link](http://www.cplusplus.com/doc/tutorial/files/)
-    Files in Java here : [Link](https://www.tutorialspoint.com/java/java_files_io.htm)
-    Files in python here : [Link](https://www.w3schools.com/python/python_file_handling.asp)
-    An interesting video to visualise sorting : [Link](https://www.youtube.com/watch?v=kPRA0W1kECg)
+    - Files in C here : [Link](https://www.programiz.com/c-programming/c-file-input-output)
+    - Files in C++ here : [Link](http://www.cplusplus.com/doc/tutorial/files/)
+    - Files in Java here : [Link](https://www.tutorialspoint.com/java/java_files_io.htm)
+    - Files in python here : [Link](https://www.w3schools.com/python/python_file_handling.asp)
+    - An interesting video to visualise sorting : [Link](https://www.youtube.com/watch?v=kPRA0W1kECg)
