@@ -32,15 +32,15 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
   - Create an array ‘res[ ]’ of MAX size where MAX is number of maximum digits in output.
   - Initialize value stored in ‘res[ ]’ as 1 and initialize ‘res_size’ (size of ‘res[ ]’) as 1.
   - Do following for all numbers from x = 2 to n......
-  - a) Multiply x with res[ ] and update res[ ] and res_size to store the multiplication result.
+  - a. Multiply x with res[ ] and update res[ ] and res_size to store the multiplication result.
     ```bash
     multiply(res[ ], x)
     ```
   - Initialize carry as 0.
   - Do following for i = 0 to res_size – 1 .....
-  - a) Find value of res[i] * x + carry. Let this value be prod.
-  - b) Update res[i] by storing last digit of prod in it.
-  - c) Update carry by storing remaining digits in carry.
+    - a. Find value of res[i] * x + carry. Let this value be prod.
+    - b. Update res[i] by storing last digit of prod in it.
+    - c. Update carry by storing remaining digits in carry.
   - Put all digits of carry in res[ ] and increase res_size by number of digits in carry
 
 ###  **December 5 - File Handling**
