@@ -60,19 +60,20 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 
 ###  **December 5 - File Handling**
 - **Problem**
-  - Handling files is an integral part of any programming language as it helps us store the result of our operations and it also helps us perform some operation on data. There are two parts to this problem’s implementation which have to be coded as two functions. They are:
-  - A function that counts how often each word appears in the text and prints:
+  - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
+  - Just think of it, we need to move the largest disk to right tower, first. For that, we need to move all but this disk to middle tower. Hence we are solving the very same problem [twice] with one less disk.
+  - To move N disks from left to right:
+    - 1. [recursively] move N-1 disks from left to middle
+    - 2. move largest disk from left to right
+    - 3. [recursively] move N-1 disks from middle to right
+- **Sample Run**
     ```bash
-    word1 count1
-    word2 count2
+    > hanoi(3)
+      left => right
+      left => middle
+      right => middle
+      left => right
+      middle => left
+      middle => right
+      left => right
     ```
-  - A function which is similar to the above function but which prints just the top 20 most common words sorted so the most common word is first, then the next most common, and so on.
-- **Uses**
-  - Using file operations we can read data from a word document or an excel sheet and it can be manipulated in any way we would like.
-  - E.g: We use CSV files for machine learning in python
-- **Resources**
-    - Files in C here : [Link](https://www.programiz.com/c-programming/c-file-input-output)
-    - Files in C++ here : [Link](http://www.cplusplus.com/doc/tutorial/files/)
-    - Files in Java here : [Link](https://www.tutorialspoint.com/java/java_files_io.htm)
-    - Files in python here : [Link](https://www.w3schools.com/python/python_file_handling.asp)
-    - An interesting video to visualise sorting : [Link](https://www.youtube.com/watch?v=kPRA0W1kECg)
