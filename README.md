@@ -91,7 +91,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - `middle->left`, `middle->right`
     - `right->left`, `right->middle`
   - Your input will be a number indicating the total number of disks on the first (left) tower.    
-- **Sample Run**
+- **Example**
     ```bash
     > Hanoi(3)
       left => right
@@ -108,7 +108,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Return the least common multiple of two or more numbers.
   - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
   - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
-- **Sample Run**
+- **Example**
   ```bash
   Input:
     12, 7
@@ -126,7 +126,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Problem**
   - Checks if two numbers are approximately equal to each other.
   - `Optional:` Add Tolerance level as a third parameter
-- **Sample Run**
+- **Example**
   - Without Tolerance Level:
   ```bash
   IsApproximatelyEqual(3.0, 2.5706); // true
@@ -142,7 +142,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
   - Also if both the arguments are strings, output the singular and plural word from the input given.
   - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
-- **Sample Run**
+- **Example**
   - Without Tolerance Level:
   ```bash
   > SingularPlural("Apple", 2)
@@ -164,7 +164,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Problem**
   - Returns `true` if the given string is an absolute URL, `false` otherwise.
   - **Hint:** Regular Expressions can be used to solve this problem.
-- **Sample Run**
+- **Example**
   ```bash
   > IsURL("https://duckduckgo.com/?q=test+string&atb=v143-2__&ia=web")
     True
@@ -181,7 +181,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ###  **December 10 - Find the Determinant**
 - **Problem**
   - Find the Determinant of an input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up … and it works!
-- **Sample Run**
+- **Example**
   ```bash
   X = np.array([[4, 9, 2],
                 [3, 5, 7],
