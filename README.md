@@ -12,6 +12,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 5 - The Tower of Hanoi**](#december-5---the-tower-of-hanoi)
 - [**December 6 - LCM**](#december-6---lcm)
 - [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal?)
+- [**December 8 - Singular-Plural**](#december-7---singular-plural)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -106,10 +107,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
   - **Hint:** The GCD formula might use recursion.
 - **Sample Run**
-```bash
-lcm(12, 7) # 84
-lcm([1, 3, 4], 5) # 60
-```
+  ```bash
+  lcm(12, 7) # 84
+  lcm([1, 3, 4], 5) # 60
+  ```
+
 ###  **December 7 - Are they approximately equal?**
 - **Problem**
   - Checks if two numbers are approximately equal to each other.
@@ -124,7 +126,27 @@ lcm([1, 3, 4], 5) # 60
   IsApproximatelyEqual(3.0, 2.5706, 0.01); // false as the difference is more than the Tolerance Level
   ```
 
-
+###  **December 8 - Singular-Plural**
+- **Problem**
+  - Returns the singular or plural form of the word based on the input number.
+  - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
+  - Also if both the arguments are strings, output the singular and plural word from the input given.
+  - `Optional:` To spice things up, use a dictionary file to compare give the appropirate outputs.
+- **Sample Run**
+  - Without Tolerance Level:
+  ```bash
+  > SingularPlural("Apple", 2)
+      Apples
+  > SingularPlural("Apple", 1)
+      Apple
+  > SingularPlural("Apples", 1)
+      Apple
+  > SingularPlural("Apples", "Apple")
+      Singular: Apple
+      Plural: Apples
+  > SingularPlural("Apples", "Orange")
+      Invalid Input
+  ```
 
 
 
