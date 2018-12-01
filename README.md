@@ -135,7 +135,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Also if both the arguments are strings, output the singular and plural word from the input given.
   - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
 - **Sample Run**
-  - Without Tolerance Level:
   ```bash
   > SingularPlural("Apple", 2)
       Apples
