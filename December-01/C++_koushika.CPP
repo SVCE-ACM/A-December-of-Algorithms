@@ -1,3 +1,9 @@
+/*
+Author: Koushika Kesavan
+Date of Creation: 30 November 2018, Friday
+Time Complexity: log(n)
+All rights reserved
+*/
 #include<iostream.h>
 #include<conio.h>
 #include<stdio.h>
@@ -6,7 +12,7 @@
 void main()
 {
 clrscr();
-int min=0,max=100,beg,end,mid;
+int min=0,max=100,beg,end,mid;//Range set static, can be set dynamically too.
 char str[40];
 cout<<"\nRULES";
 cout<<"\n1.You are PLAYER A,think of a secret number for PLAYER B to guess";
