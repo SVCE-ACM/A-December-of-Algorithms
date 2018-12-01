@@ -107,12 +107,20 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Problem**
   - Return the least common multiple of two or more numbers.
   - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
-  - **Hint:** The GCD formula might use recursion.
+  - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
 - **Sample Run**
   ```bash
-  lcm(12, 7) # 84
-  lcm([1, 3, 4], 5) # 60
+  Input:
+    12, 7
+  Output:
+    84
+  Input:
+    [1, 3, 4], 5
+  Output:
+    60
   ```
+- **Resources**
+  - [Greatest Common Factor]( https://www.mathsisfun.com/greatest-common-factor.html)
 
 ###  **December 7 - Are they approximately equal?**
 - **Problem**
