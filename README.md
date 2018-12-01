@@ -10,6 +10,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 3 - Lucky Number**](#december-3---lucky-number)
 - [**December 4 - Fibonacci Series**](#december-4---fibonacci-series)
 - [**December 5 - The Tower of Hanoi**](#december-5---the-tower-of-hanoi)
+- [**December 6 - LCM**](#december-6---lcm)
+- [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal?)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -97,9 +99,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       middle => right
       left => right
     ```
+
 ###  **December 6 - LCM**
 - **Problem**
-  - Returns the least common multiple of two or more numbers.
+  - Return the least common multiple of two or more numbers.
   - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
   - **Hint:** The GCD formula might use recursion.
 - **Sample Run**
@@ -107,6 +110,23 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 lcm(12, 7) # 84
 lcm([1, 3, 4], 5) # 60
 ```
+###  **December 7 - Are they approximately equal?**
+- **Problem**
+  - Checks if two numbers are approximately equal to each other.
+  - `Optional:` Add Tolerance level as a third parameter
+- **Sample Run**
+  - Without Tolerance Level:
+  ```bash
+  IsApproximatelyEqual(3.0, 2.5706); // true
+  ```
+  - With Tolerance Level:
+  ```bash
+  IsApproximatelyEqual(3.0, 2.5706, 0.01); // false as the difference is more than the Tolerance Level
+  ```
+
+
+
+
 
 ## FAQ:
 #### Who can join the Challenge ?
