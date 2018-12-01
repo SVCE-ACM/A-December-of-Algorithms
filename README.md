@@ -97,7 +97,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       middle => right
       left => right
     ```
-###  **December 5 - The Tower of Hanoi**
+###  **December 6 - LCM**
 - **Problem**
   - Returns the least common multiple of two or more numbers.
   - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
