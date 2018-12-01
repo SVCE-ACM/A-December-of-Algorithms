@@ -14,7 +14,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal)
 - [**December 8 - Singular-Plural**](#december-8---singular-plural)
 - [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
-- [**December 10 - **](#december-9---)
+- [**December 10 - Find the Determinant**](#december-9---find-the-determinant)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -170,15 +170,17 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [Regular Expressions in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
   - [Regular Expressions in Java](https://www.javatpoint.com/java-regex)
 
-###  **December 10 - **
+###  **December 10 - Find the Determinant**
 - **Problem**
-  -
+  - Find the Determinant of an input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up … and it works!
 - **Sample Run**
   ```bash
-
+  X = np.array([[4, 9, 2],
+                [3, 5, 7],
+                [8, 1, 6]])
+  > determinant(X)
+  360.0
   ```
-- **Resources**
-  -
 
 ## FAQ:
 #### Who can join the Challenge ?
