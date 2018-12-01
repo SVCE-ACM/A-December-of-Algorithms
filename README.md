@@ -109,13 +109,13 @@ Not a problem. While coding every day is nice, we understand that other commitme
 Anything! New to C? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
 #### Fork? Pull request? Git? What is all that?
-If you are new to Git or GitHub, check out this [small tutorial.](https://guides.github.com/activities/hello-world/)
-Other useful resources for Git and Github :
-https://in.udacity.com/course/how-to-use-git-and-github--ud775
-https://www.udemy.com/git-going-fast/?couponCode=GITONEFREE_FB&siteID=bt30QTxEyjA-75fTiyXkHy55pDSdgk679Q&LSNPUBID=bt30QTxEyjA
-https://in.udacity.com/course/github-collaboration--ud456
-https://in.udacity.com/course/version-control-with-git--ud123
-https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/
+- If you are new to Git or GitHub, check out this [small tutorial.](https://guides.github.com/activities/hello-world/)
+- Other useful resources for Git and Github :
+  - https://in.udacity.com/course/how-to-use-git-and-github--ud775
+  - https://www.udemy.com/git-going-fast/?couponCode=GITONEFREE_FB&siteID=bt30QTxEyjA-75fTiyXkHy55pDSdgk679Q&LSNPUBID=bt30QTxEyjA
+  - https://in.udacity.com/course/github-collaboration--ud456
+  - https://in.udacity.com/course/version-control-with-git--ud123
+  - https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/
 
 #### Where are the rest of the problems?
 Our code ninjas are hard at work preparing the rest of the problems. Don't worry, they'll be up soon.
