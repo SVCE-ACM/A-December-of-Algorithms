@@ -12,7 +12,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 5 - The Tower of Hanoi**](#december-5---the-tower-of-hanoi)
 - [**December 6 - LCM**](#december-6---lcm)
 - [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal)
-- [**December 8 - Singular-Plural**](#december-7---singular-plural)
+- [**December 8 - Singular-Plural**](#december-8---singular-plural)
+- [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
+- [**December 10 - **](#december-9---)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -128,10 +130,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ###  **December 8 - Singular-Plural**
 - **Problem**
-  - Returns the singular or plural form of the word based on the input number.
+  - Returns the singular or plural form of any regular nouns based on the input number.
   - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
   - Also if both the arguments are strings, output the singular and plural word from the input given.
-  - `Optional:` To spice things up, use a dictionary file to compare give the appropirate outputs.
+  - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this'll cover Irregular nouns in it too.
 - **Sample Run**
   - Without Tolerance Level:
   ```bash
@@ -147,8 +149,46 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   > SingularPlural("Apples", "Orange")
       Invalid Input
   ```
+- **Resources**
+  - [Plural Nouns: Rules and Examples](https://www.grammarly.com/blog/plural-nouns/)
 
+###  **December 9 - Is this an URL?**
+- **Problem**
+  - Returns `true` if the given string is an absolute URL, `false` otherwise.
+  - **Hint:** Regular Expressions can be used to solve this problem.
+- **Sample Run**
+  ```bash
+  > IsURL("https://duckduckgo.com/?q=test+string&atb=v143-2__&ia=web")
+    True
+  > IsURL("Martha?")
+    False
+  > IsURL("https://duckduckgo")
+    False
+  ```
+- **Resources**
+  - [Regular Expressions in C++](http://www.cplusplus.com/reference/regex/)
+  - [Regular Expressions in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
+  - [Regular Expressions in Java](https://www.javatpoint.com/java-regex)
 
+###  **December 10 - **
+- **Problem**
+  - Let’s spice things up and say we want to find roots of the polynomial, e.g. x⁵+x⁴+x³+x²+x+1. While there’s no analytical solution for higher order polynomials, numerical solution is just an application of linear algebra.
+
+  - All we need is to construct a matrix whose characteristic polynomial is the one we are solving.
+- **Sample Run**
+  ```bash
+  > roots(1, 1, 1, 1, 1, 1) # x^5 + x^4 + x^3 + x^2 + x + 1 = 0
+  array([0.5+0.8660254j,
+         0.5-0.8660254j,
+        -1.0+0.j,
+        -0.5+0.8660254j,
+        -0.5-0.8660254j])
+
+  > roots(10, -1)
+  array([0.1])
+  ```
+- **Resources**
+  -
 
 ## FAQ:
 #### Who can join the Challenge ?
