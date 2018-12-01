@@ -81,7 +81,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ###  **December 5 - The Tower of Hanoi**
 - **Problem**
   - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
-  - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower have no disks.
+  - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower has no disks.
   - Your task is to move all the disks from the first tower to the third hour while following these rules:
     - Only one disk can be moved at a time.
     - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
@@ -133,7 +133,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Returns the singular or plural form of any regular nouns based on the input number.
   - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
   - Also if both the arguments are strings, output the singular and plural word from the input given.
-  - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this'll cover Irregular nouns in it too.
+  - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
 - **Sample Run**
   - Without Tolerance Level:
   ```bash
@@ -183,13 +183,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ```
 
 ## FAQ:
-#### Who can join the Challenge ?
-Anyone who is passionate about coding and can dedicate a little time a day for the challenge for next 31 days.
+#### Who can join the Challenge?
+Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
-#### What if I'm not able to code everyday?
-Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus it's holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
+#### What if I'm not able to code every day?
+Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
 
-#### What language should I use to code ?
+#### What language should I use to code?
 Anything! New to C? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
 #### Fork? Pull request? What is all that?
@@ -215,4 +215,4 @@ git merge upstream/master
 If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
 
 #### I received a merge error. What do I do?
-This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simples thing to do is to make a copy of your code outside the repository, and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
