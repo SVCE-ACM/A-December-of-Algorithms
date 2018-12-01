@@ -124,16 +124,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ###  **December 7 - Are they approximately equal?**
 - **Problem**
-  - Checks if two numbers are approximately equal to each other.
-  - `Optional:` Add Tolerance level as a third parameter
+  - Checks if two numbers are approximately equal (i.e. Closer using the concept of rounding numbers) to each other or not.
+  - `Optional:` Add a third parameter `Tolerance level` that sets a threshold level beyond/below which the output is `false`
 - **Example**
   - Without Tolerance Level:
   ```bash
-  IsApproximatelyEqual(3.0, 2.5706); // true
+  IsApproximatelyEqual(3.0, 2.5706) -> true
   ```
   - With Tolerance Level:
   ```bash
-  IsApproximatelyEqual(3.0, 2.5706, 0.01); // false as the difference is more than the Tolerance Level
+  IsApproximatelyEqual(3.0, 2.5706, 0.01) -> false as the difference is more than the Tolerance Level
   ```
 
 ###  **December 8 - Singular-Plural**
