@@ -139,8 +139,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ###  **December 8 - Singular-Plural**
 - **Problem**
   - Returns the singular or plural form of any regular noun based on the input number.
+  - Let `num` be the second integer parameter.
   - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
-  - Also if both the arguments are strings, output the singular and plural word from the input given.
+  - Also if the second arguments is a string (rather than an integer), then print the singular and plural word out of the inputs provided.
   - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
 - **Example**
   - Without Tolerance Level:
