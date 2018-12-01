@@ -184,13 +184,15 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Find the Determinant of an input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up … and it works!
 - **Example**
   ```bash
-  X = np.array([[4, 9, 2],
-                [3, 5, 7],
-                [8, 1, 6]])
-  > determinant(X)
-  360.0
+  Input Array(X):
+    4  9  2
+    3  5  7
+    8  1  6
+  determinant(X)
+    360.0
   ```
-
+- **Resources**
+  -[Matrix: Determinant](https://www.mathsisfun.com/algebra/matrix-determinant.html)
 ## FAQ:
 #### Who can join the Challenge?
 Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
