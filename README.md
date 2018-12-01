@@ -31,7 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 2 - Similar Triangles**
 - **Problem**
-  - You have two triangles ABC and PQR on a plane. Your task is to determine whether they are similar. 
+  - You have two triangles ABC and PQR on a plane. Your task is to determine whether they are similar.
   - In order for two triangles to be similar, any of these three conditions must be true      
     - The sides of triangle ABC are proportional to the sides of PQR. (SSS Rule)
     `AB/PQ = BC/QR = CA/RP`
@@ -41,14 +41,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     `angle(ABC) = angle(PQR) AND angle(BCA) = angle(QRP) AND angle(CAB) = angle(RPQ)`    
 - **Example**
     ```bash
-    Input: 
+    Input:
     side1 = [2, 3, 3] angle1 = [80, 60, 40]
     side2 = [4, 6, 6] angle2 = [40, 60, 80]
-    Output: Triangles are similar by SSS AAA SAS 
+    Output: Triangles are similar by SSS AAA SAS
     ```
 - **Resources**
   - You just need to find the ratio between the sides of the triangle and compare the angles.
-  - Remember that the input triangles may be rotated around. For the problem given above, if `side2 = [6. 6. 4]` and `angle2 = [80, 60, 40]`, the triangles are still similar. 
+  - Remember that the input triangles may be rotated around. For the problem given above, if `side2 = [6. 6. 4]` and `angle2 = [80, 60, 40]`, the triangles are still similar.
 
 ### **December 3 - Lucky Number**
 - **Problem**
@@ -97,6 +97,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       middle => right
       left => right
     ```
+###  **December 5 - The Tower of Hanoi**
+- **Problem**
+  - Returns the least common multiple of two or more numbers.
+  - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
+  - **Hint:** The GCD formula might use recursion.
+- **Sample Run**
+```bash
+lcm(12, 7) # 84
+lcm([1, 3, 4], 5) # 60
+```
 
 ## FAQ:
 #### Who can join the Challenge ?
