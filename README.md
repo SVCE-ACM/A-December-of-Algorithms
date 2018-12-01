@@ -1,5 +1,7 @@
 # A December of Algorithms
-Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish it all to get a certificate :)
+Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish them all to get a certificate :)
+
+**Send a pull request only after completing all 31 algorithms.**
 
 ## What Do I Do?
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
@@ -102,18 +104,21 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       middle => right
       left => right
     ```
+- **Resources**
+  - [The Tower of Hanoi - Visualized](https://www.mathsisfun.com/games/towerofhanoi.html)
 
 ###  **December 6 - LCM**
 - **Problem**
   - Return the least common multiple of two or more numbers.
   - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
   - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
+  - `Optional:` Allow for input of more than 2 numbers and find the comined LCM of all the numbers.
 - **Example**
   ```bash
-  Input:
-    12, 7
-  Output:
-    84
+  Input: 12, 7
+  Output: 84
+  Optional Input: 2, 3, 6, 12, 24
+  Output: 24
   ```
 - **Resources**
   - [Greatest Common Factor]( https://www.mathsisfun.com/greatest-common-factor.html)
@@ -121,7 +126,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ###  **December 7 - Are they approximately equal?**
 - **Problem**
   - Checks if two numbers are approximately equal (i.e. Closer using the concept of rounding numbers) to each other or not.
-  - `Optional:` Add a third parameter `Tolerance level` that sets a threshold level beyond/below which the output is `false`
+  - `Optional:` Most languages have a built in function to round a number. Can you implement the rounding function by yourself?
+  - `Optional:` Add a third parameter `Tolerance level` that sets an acceptable threshold level. If the difference between the two numbers is more than the threshold value, then the output will be false.
 - **Example**
   - Without Tolerance Level:
   ```bash
@@ -177,8 +183,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ###  **December 10 - Find the Determinant**
 - **Problem**
-  - Find the Determinant of any 3x3 input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up … and it works!
-  - `Optional:` Find the Determinant for any order matrix.
+  - Find the Determinant of any 2x2 or 3x3 input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up… and it works!
+  - `Optional:` Find the determinant for a matrix of any order (4x4 and above).
 - **Example**
   ```bash
   Input Array(X):
@@ -193,6 +199,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## FAQ:
 #### Who can join the Challenge?
 Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
+
+#### When should I submit the pull request?
+You don't need to submit it everyday. Just submit it once you're done with all 31 algorithms.
 
 #### What if I'm not able to code every day?
 Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
@@ -213,7 +222,7 @@ Some examples:
 `c_exampleUser.c`
 **Please do not modify any existing files in the repository.**
 
-#### I forked the repository but some problems were added only after that?
+#### I forked the repository but some problems were added only after that. How do I access those problems?
 Not to worry! Open your nearest terminal or command prompt and navigate over to your forked repository. Enter these commands:
 ```bash
 git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms.git
