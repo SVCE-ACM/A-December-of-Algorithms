@@ -114,10 +114,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     12, 7
   Output:
     84
-  Input:
-    [1, 3, 4], 5
-  Output:
-    60
   ```
 - **Resources**
   - [Greatest Common Factor]( https://www.mathsisfun.com/greatest-common-factor.html)
