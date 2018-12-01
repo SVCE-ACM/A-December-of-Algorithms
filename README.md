@@ -181,7 +181,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ###  **December 10 - Find the Determinant**
 - **Problem**
-  - Find the Determinant of an input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up … and it works!
+  - Find the Determinant of any 3x3 input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up … and it works!
+  - `Optional:` Find the Determinant for any order matrix.
 - **Example**
   ```bash
   Input Array(X):
