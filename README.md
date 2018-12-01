@@ -81,7 +81,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ###  **December 5 - The Tower of Hanoi**
 - **Problem**
   - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
-  - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower has no disks.
+  - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower have no disks.
   - Your task is to move all the disks from the first tower to the third hour while following these rules:
     - Only one disk can be moved at a time.
     - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
@@ -130,7 +130,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ###  **December 8 - Singular-Plural**
 - **Problem**
-  - Returns the singular or plural form of any regular nouns based on the input number.
+  - Returns the singular or plural form of any regular noun based on the input number.
   - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
   - Also if both the arguments are strings, output the singular and plural word from the input given.
   - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
