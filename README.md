@@ -143,12 +143,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
   - Also if the second arguments is a string (rather than an integer), then print the singular and plural word out of the inputs provided.
   - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
-<<<<<<< HEAD
 - **Example**
   - Without Tolerance Level:
-=======
-- **Sample Run**
->>>>>>> 8c3997f86f22a9aac14234d916ad51552bf76039
   ```bash
   > SingularPlural("Apple", 2)
       Apples
