@@ -14,7 +14,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal)
 - [**December 8 - Singular-Plural**](#december-8---singular-plural)
 - [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
-- [**December 10 - Find the Determinant**](#december-9---find-the-determinant)
+- [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
 - [**FAQ**](#faq)
 
 ## Algorithms
