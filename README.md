@@ -10,6 +10,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 3 - Lucky Number**](#december-3---lucky-number)
 - [**December 4 - Fibonacci Series**](#december-4---fibonacci-series)
 - [**December 5 - The Tower of Hanoi**](#december-5---the-tower-of-hanoi)
+- [**December 6 - LCM**](#december-6---lcm)
+- [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal)
+- [**December 8 - Singular-Plural**](#december-8---singular-plural)
+- [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
+- [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -31,7 +36,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 2 - Similar Triangles**
 - **Problem**
-  - You have two triangles ABC and PQR on a plane. Your task is to determine whether they are similar. 
+  - You have two triangles ABC and PQR on a plane. Your task is to determine whether they are similar.
   - In order for two triangles to be similar, any of these three conditions must be true      
     - The sides of triangle ABC are proportional to the sides of PQR. (SSS Rule)
     `AB/PQ = BC/QR = CA/RP`
@@ -41,14 +46,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     `angle(ABC) = angle(PQR) AND angle(BCA) = angle(QRP) AND angle(CAB) = angle(RPQ)`    
 - **Example**
     ```bash
-    Input: 
+    Input:
     side1 = [2, 3, 3] angle1 = [80, 60, 40]
     side2 = [4, 6, 6] angle2 = [40, 60, 80]
-    Output: Triangles are similar by SSS AAA SAS 
+    Output: Triangles are similar by SSS AAA SAS
     ```
 - **Resources**
   - You just need to find the ratio between the sides of the triangle and compare the angles.
-  - Remember that the input triangles may be rotated around. For the problem given above, if `side2 = [6. 6. 4]` and `angle2 = [80, 60, 40]`, the triangles are still similar. 
+  - Remember that the input triangles may be rotated around. For the problem given above, if `side2 = [6. 6. 4]` and `angle2 = [80, 60, 40]`, the triangles are still similar.
 
 ### **December 3 - Lucky Number**
 - **Problem**
@@ -86,7 +91,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - `middle->left`, `middle->right`
     - `right->left`, `right->middle`
   - Your input will be a number indicating the total number of disks on the first (left) tower.    
-- **Sample Run**
+- **Example**
     ```bash
     > Hanoi(3)
       left => right
@@ -98,14 +103,101 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       left => right
     ```
 
+###  **December 6 - LCM**
+- **Problem**
+  - Return the least common multiple of two or more numbers.
+  - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
+  - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
+- **Example**
+  ```bash
+  Input:
+    12, 7
+  Output:
+    84
+  ```
+- **Resources**
+  - [Greatest Common Factor]( https://www.mathsisfun.com/greatest-common-factor.html)
+
+###  **December 7 - Are they approximately equal?**
+- **Problem**
+  - Checks if two numbers are approximately equal (i.e. Closer using the concept of rounding numbers) to each other or not.
+  - `Optional:` Add a third parameter `Tolerance level` that sets a threshold level beyond/below which the output is `false`
+- **Example**
+  - Without Tolerance Level:
+  ```bash
+  IsApproximatelyEqual(3.0, 2.5706) -> true
+  ```
+  - With Tolerance Level:
+  ```bash
+  IsApproximatelyEqual(3.0, 2.5706, 0.01) -> false as the difference is more than the Tolerance Level
+  ```
+
+###  **December 8 - Singular-Plural**
+- **Problem**
+  - Returns the singular or plural form of any regular noun based on the input number.
+  - Let `num` be the second integer parameter.
+  - If `num` is either `-1 or 1`, return the singular form of the word. If `num` is any other number, return the plural form.
+  - Also if the second arguments is a string (rather than an integer), then print the singular and plural word out of the inputs provided.
+  - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
+- **Example**
+  - Without Tolerance Level:
+  ```bash
+  > SingularPlural("Apple", 2)
+      Apples
+  > SingularPlural("Apple", 1)
+      Apple
+  > SingularPlural("Apples", 1)
+      Apple
+  > SingularPlural("Apples", "Apple")
+      Singular: Apple
+      Plural: Apples
+  > SingularPlural("Apples", "Orange")
+      Invalid Input
+  ```
+- **Resources**
+  - [Plural Nouns: Rules and Examples](https://www.grammarly.com/blog/plural-nouns/)
+
+###  **December 9 - Is this an URL?**
+- **Problem**
+  - Returns `true` if the given string is an absolute URL, `false` otherwise.
+  - **Hint:** Regular Expressions can be used to solve this problem.
+- **Example**
+  ```bash
+  > IsURL("https://duckduckgo.com/?q=test+string&atb=v143-2__&ia=web")
+    True
+  > IsURL("Martha?")
+    False
+  > IsURL("https://duckduckgo")
+    False
+  ```
+- **Resources**
+  - [Regular Expressions in C++](http://www.cplusplus.com/reference/regex/)
+  - [Regular Expressions in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
+  - [Regular Expressions in Java](https://www.javatpoint.com/java-regex)
+
+###  **December 10 - Find the Determinant**
+- **Problem**
+  - Find the Determinant of any 3x3 input matrix. Multiply all the values in a column or row with all values in other columns or row, sum them up … and it works!
+  - `Optional:` Find the Determinant for any order matrix.
+- **Example**
+  ```bash
+  Input Array(X):
+    4  9  2
+    3  5  7
+    8  1  6
+  determinant(X)
+    360.0
+  ```
+- **Resources**
+  -[Matrix: Determinant](https://www.mathsisfun.com/algebra/matrix-determinant.html)
 ## FAQ:
-#### Who can join the Challenge ?
-Anyone who is passionate about coding and can dedicate a little time a day for the challenge for next 31 days.
+#### Who can join the Challenge?
+Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
-#### What if I'm not able to code everyday?
-Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus it's holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
+#### What if I'm not able to code every day?
+Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
 
-#### What language should I use to code ?
+#### What language should I use to code?
 Anything! New to C? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
 #### Fork? Pull request? What is all that?
@@ -131,4 +223,4 @@ git merge upstream/master
 If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
 
 #### I received a merge error. What do I do?
-This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simples thing to do is to make a copy of your code outside the repository, and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
