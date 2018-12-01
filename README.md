@@ -172,20 +172,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ###  **December 10 - **
 - **Problem**
-  - Let’s spice things up and say we want to find roots of the polynomial, e.g. x⁵+x⁴+x³+x²+x+1. While there’s no analytical solution for higher order polynomials, numerical solution is just an application of linear algebra.
-
-  - All we need is to construct a matrix whose characteristic polynomial is the one we are solving.
+  -
 - **Sample Run**
   ```bash
-  > roots(1, 1, 1, 1, 1, 1) # x^5 + x^4 + x^3 + x^2 + x + 1 = 0
-  array([0.5+0.8660254j,
-         0.5-0.8660254j,
-        -1.0+0.j,
-        -0.5+0.8660254j,
-        -0.5-0.8660254j])
 
-  > roots(10, -1)
-  array([0.1])
   ```
 - **Resources**
   -
