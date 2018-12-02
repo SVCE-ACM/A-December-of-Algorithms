@@ -17,6 +17,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 8 - Singular-Plural**](#december-8---singular-plural)
 - [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
 - [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
+- [**December 11 - Printing matrix in spiral form**](#december-11---printing-matrix-in-spiral-form)
+- [**December 12 -  Reversing a singly linked list**](#december-12--- reversing-a-singly-linked-list)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -195,6 +197,56 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ```
 - **Resources**
   -[Matrix: Determinant](https://www.mathsisfun.com/algebra/matrix-determinant.html)
+
+### December 11 - Printing matrix in spiral form
+- **Problem**
+  - Given a Matrix of size `M * N`, output its elements in spiral form.
+  - To better understand the problem statement, consider the following matrix
+  ```
+  01     02     03
+  04     05     06
+  07     08     09
+   ```
+  - The Spiral form of a matrix is as below.
+    ```
+    01 --> 02 --> 03 --> 06 --> 09 --> 08 --> 07 --> 04 --> 05
+    ```
+  - Move Right, Move Down, Move Left, Move Up till you cover all elements of matrix.
+- **Uses**
+  - Matrices are used much more in daily life than people would have thought. In fact it is in front of us every day when going to work, at the university and even at home.
+  - [Real Applications of Matrices](https://www.ukessays.com/essays/mathematics/application-of-matrices-in-real-life-problems.php)
+- **Resources**
+  - Matrices are represented using two dimensional arrays in any . So to access a single element in the matrix two “for loops”
+  - [Operations on Matrices](https://www.geeksforgeeks.org/different-operation-matrices/)
+
+
+### December 12 - Reversing a singly linked list
+- **Problem**
+  - Taking a singly linked as the input the output has to be another singly linked list having the reverse of the initial linked list
+
+- **Example**
+  ```
+  Input:
+    10 -> 20 -> 34 -> 23 -> 889
+  Output:
+    889 -> 23 -> 34 -> 20 -> 10
+  ```
+- **Uses**
+  - There are pretty good real examples to show the usage and importance of linkedlist.
+  - Consider the history section of web browsers, where it creates a linked list of web-pages visited, so that when you check history (traversal of a list) or press back button, the previous node's data is fetched.
+  - One common sighted example is low level memory management (i.e. the heap as managed by malloc in C or new in Java, etc) is often implemented as a linked list, with each node representing a used or available (free) block of memory. These blocks may be of any size, change size (combine and split), be freed or assigned in any order, and reordered. A linked list means you can keep track of all of these "nodes" and manipulate them fairly easily.
+  - Also, Hashtables that use chaining to resolve hash collisions typically have one linked list per bucket for the elements in that bucket.
+- **Resources:**
+  - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
+  - `Clue:` This problem requires the use of another data structure
+
+
+
+
+
+
+
+
 ## FAQ:
 #### Who can join the Challenge?
 Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
