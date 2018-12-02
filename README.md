@@ -232,10 +232,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     889 -> 23 -> 34 -> 20 -> 10
   ```
 - **Uses**
-  - There are pretty good real examples to show the usage and importance of linkedlist.
+  - There are pretty good real examples to show the usage and importance of linked-list.
   - Consider the history section of web browsers, where it creates a linked list of web-pages visited, so that when you check history (traversal of a list) or press back button, the previous node's data is fetched.
-  - One common sighted example is low level memory management (i.e. the heap as managed by malloc in C or new in Java, etc) is often implemented as a linked list, with each node representing a used or available (free) block of memory. These blocks may be of any size, change size (combine and split), be freed or assigned in any order, and reordered. A linked list means you can keep track of all of these "nodes" and manipulate them fairly easily.
-  - Also, Hashtables that use chaining to resolve hash collisions typically have one linked list per bucket for the elements in that bucket.
+  - One common sighted example is low level memory management (i.e. the heap as managed by `malloc` in C or new in Java, etc) is often implemented as a linked list, with each node representing a used or available (free) block of memory. These blocks may be of any size, change size (combine and split), be freed or assigned in any order, and reordered. A linked list means you can keep track of all of these "nodes" and manipulate them fairly easily.
+  - Also, Hash-tables that use chaining to resolve hash collisions typically have one linked list per bucket for the elements in that bucket.
 - **Resources:**
   - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
   - `Clue:` This problem requires the use of another data structure
