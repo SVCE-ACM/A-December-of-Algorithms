@@ -214,8 +214,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ```
   - Move Right, Move Down, Move Left, Move Up till you cover all elements of matrix.
 - **Uses**
-  - Matrices are used much more in daily life than people would have thought. In fact it is in front of us every day when going to work, at the university and even at home.
-  - [Real Applications of Matrices](https://www.ukessays.com/essays/mathematics/application-of-matrices-in-real-life-problems.php)
+- Matrices are used much more in daily life than people would have thought or noticed.
+- Matrices find numerous applications in scientific fields and apply to practical real-life problems as well, thus making an indispensable concept for solving many practical problems.
+- [Applications of matrices in real life problems](https://www.ukessays.com/essays/mathematics/application-of-matrices-in-real-life-problems.php)
 - **Resources**
   - Matrices are represented using two dimensional arrays in any . So to access a single element in the matrix two “for loops”
   - [Operations on Matrices](https://www.geeksforgeeks.org/different-operation-matrices/)
