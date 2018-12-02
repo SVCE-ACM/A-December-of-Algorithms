@@ -39,13 +39,49 @@ func MinMax (firstNum int64, secondNum int64) (int64, int64) {
 
 func GetGCD (firstNum int64, secondNum int64) int64 {
 
-	var smallerNum, greaterNum, iter int64
+	var smallerNum, greaterNum, iter, count int64
 	smallerNum, greaterNum = MinMax(firstNum,secondNum)
+	count=0
 
-	for iter=smallerNum; iter>0; iter-- {
+	/*
+	  Optimised the algo here. Instead of counting back from the smallerNum
+	  to 0, we keep dividing the smallerNum by 2 and check to see if it 
+	  divides. However, this only goes on till it is greater than 2.
+	  After that, we break the loop.
+	*/
+
+	for iter=smallerNum; iter>2; iter/=2 {
 		if (smallerNum%iter==0) && (greaterNum%iter==0) {
+			fmt.Printf("The no of tims it looped is %v.\n", count)
 			return iter
 		}
+		count++
+	}
+
+	/*
+	  Let me explain this:-
+	  Taking 50, the factors are 50, 25, 10, 5 and 1. Taking 234, the factors are
+	  234, 117, 9, 3, 2 and 1. You will notice in all these cases that these factors
+	  decrease roughly by a factor of 2. This is why the iter in the above block
+	  lessens by half each time.
+	*/
+
+	/*
+	  However, when sometimes, the half-point reaches 3, half of 3 is 1 and we 
+	  skip over 2. This is why we break off the loop at 2 and then check manually
+	  for 2 and 1.
+	*/
+
+	/*
+	  By doing this, we have increased the efficiency by log(n) times where n is the 
+	  magnitude of the smaller number.
+	*/
+
+	fmt.Printf("The no of times it looped is %v.\n", count)
+	if (smallerNum%2==0) && (greaterNum%2==0) {
+		return 2
+	} else {
+		return 1
 	}
 
 	return 0 //Dummy stmt
