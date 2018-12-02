@@ -1,29 +1,29 @@
-t1s=[]
-t2s=[]
-t1a=[]
-t2a=[]
-condition=""
-c=0
+t1s = []
+t2s = []
+t1a = []
+t2a = []
+condition = ""
+c = 0
 
 def get():
     print("Enter sides of Traingle ABC: ")
     for i in range(0,3):
-        x=int(input())
+        x = int(input())
         t1s.append(x)
 
     print("Enter angles of Traingle ABC: ")
     for i in range(0,3):
-        x=int(input())
+        x = int(input())
         t1a.append(x)
 
     print("Enter sides of Traingle PQR: ")
     for i in range(0,3):
-        x=int(input())
+        x = int(input())
         t2s.append(x)
     
     print("Enter angles of Traingle PQR: ")
     for i in range(0,3):
-        x=int(input())
+        x = int(input())
         t2a.append(x)
 
 def check():
