@@ -22,7 +22,7 @@ func GetNum() string {
 	var enteredText string = scanner.Text()
 	var length int = len(enteredText)
 
-	_ , err := strconv.ParseInt(scanner.Text(),0,64)
+	_ , err := strconv.ParseInt(enteredText,0,64)
 
 	if length%2!=0 {
 		fmt.Printf("Your number should have an even number of digits. Try again!\n\n")
