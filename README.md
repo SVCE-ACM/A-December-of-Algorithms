@@ -13,10 +13,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 4 - Fibonacci Series**](#december-4---fibonacci-series)
 - [**December 5 - The Tower of Hanoi**](#december-5---the-tower-of-hanoi)
 - [**December 6 - LCM**](#december-6---lcm)
-- [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal)
+- [**December 7 - Are They Approximately Equal?**](#december-7---are-they-approximately-equal)
 - [**December 8 - Singular-Plural**](#december-8---singular-plural)
-- [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
+- [**December 9 - Is This an URL?**](#december-9---is-this-an-url)
 - [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
+- [**December 11 - Printing Matrix In Spiral Form**](#december-11---printing-matrix-in-spiral-form)
+- [**December 12 - Reversing A Singly Linked List**](#december-12---reversing-a-singly-linked-list)
+- [**December 13 - Lexicographical Arrangement**](#december-13---lexicographical-arrangement)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -195,6 +198,68 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ```
 - **Resources**
   -[Matrix: Determinant](https://www.mathsisfun.com/algebra/matrix-determinant.html)
+
+### **December 11 - Printing Matrix in Spiral Form**
+- **Problem**
+  - Given a Matrix of size `M * N`, output its elements in spiral form.
+  - To better understand the problem statement, consider the following matrix
+  ```
+  01     02     03
+  04     05     06
+  07     08     09
+   ```
+  - The Spiral form of a matrix is as below.
+    ```
+    01 --> 02 --> 03 --> 06 --> 09 --> 08 --> 07 --> 04 --> 05
+    ```
+  - Move Right, Move Down, Move Left, Move Up till you cover all elements of matrix.
+- **Uses**
+  - Matrices are used much more in daily life than people would have thought or noticed.
+  - Matrices find numerous applications in scientific fields and apply to practical real-life problems as well, thus making an indispensable concept for solving many practical problems.
+  - [Applications of matrices in real life problems](https://www.ukessays.com/essays/mathematics/application-of-matrices-in-real-life-problems.php)
+- **Resources**
+  - Matrices are represented using n-dimensional arrays where n is the order of the matrix. In this case have a 2-D matrix, so you will need to use a 2-D array. You need to use two variables to access an element of the matrix. The first variable is used to denote row while the second denotes the column. To traverse the entire matrix, you will need to use two loops.
+  - [Operations on Matrices](https://www.geeksforgeeks.org/different-operation-matrices/)
+
+
+### **December 12 - Reversing a Singly Linked List**
+- **Problem**
+  - Given a singly linked list, output a linked list containing the same elements but in reverse order.
+  - `Optional:` Complete the task without creating a new list. I.E., reverse the linked list in-place.
+- **Example**
+  ```
+  Input:
+    10 -> 20 -> 34 -> 23 -> 889
+  Output:
+    889 -> 23 -> 34 -> 20 -> 10
+  ```
+- **Uses**
+  - There are pretty good real examples to show the usage and importance of linked-list.
+  - Consider the history section of web browsers, where it creates a linked list of web-pages visited, so that when you check history (traversal of a list) or press back button, the previous node's data is fetched.
+  - One commonly cited example is low level memory management (i.e. the heap as managed by `malloc` in C or new in Java, etc) is often implemented as a linked list, with each node representing a used or available (free) block of memory. These blocks may be of any size, change size (combine and split), be freed or assigned in any order, and reordered. A linked list means you can keep track of all of these "nodes" and manipulate them fairly easily.
+  - Also, Hash-tables that use chaining to resolve hash collisions typically have one linked list per bucket for the elements in that bucket.
+- **Resources:**
+  - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
+
+### **December 13 -  Lexicographical Arrangement**
+- **Problem**
+  - Given an input string, find all possible permutations of this string. Arrange these permutations in alphabetical order and find the position at which the input string occurs.
+- **Example**
+  ```
+  Input:
+    dac
+  Possible combinations:
+    acd
+    adc
+    cad
+    cda
+    dac --> Match Found at Position 5
+    dca
+  ```  
+    - The output for this will be `5` as `dac` is present in the 5th position in the alphabetical list of permutations.
+- **Uses and Resources**
+  - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
+
 ## FAQ:
 #### Who can join the Challenge?
 Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
