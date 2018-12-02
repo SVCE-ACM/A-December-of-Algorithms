@@ -146,7 +146,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Also if the second arguments is a string (rather than an integer), then print the singular and plural word out of the inputs provided.
   - `Optional:` To spice things up, use a dictionary file to compare give the appropriate outputs. Therefore this will cover Irregular nouns in it too.
 - **Example**
-  - Without Tolerance Level:
   ```bash
   > SingularPlural("Apple", 2)
       Apples
