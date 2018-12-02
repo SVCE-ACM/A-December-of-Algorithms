@@ -18,7 +18,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
 - [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
 - [**December 11 - Printing matrix in spiral form**](#december-11---printing-matrix-in-spiral-form)
-- [**December 12 -  Reversing a singly linked list**](#december-12--- reversing-a-singly-linked-list)
+- [**December 12 - Reversing a singly linked list**](#december-12---reversing-a-singly-linked-list)
+- [**December 13 - December 13 - Lexicographical arrangement**](#december-13---lexicographical-arrangement)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -223,7 +224,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 12 - Reversing a singly linked list
 - **Problem**
   - Taking a singly linked as the input the output has to be another singly linked list having the reverse of the initial linked list
-
 - **Example**
   ```
   Input:
@@ -240,9 +240,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
   - `Clue:` This problem requires the use of another data structure
 
-
-
-
+### December 13 -  Lexicographical arrangement
+- **Problem**
+  - In this question the input is a string with a given number of characters. The problem here is to arrange all the possible permutations of this string in the alphabetical order. The next step is to find out the position at which this string occurs in this order.
+- **Example**
+  ```
+    Input:
+      dac
+    Possible combinations:
+      acd
+      adc
+      cad
+      cda
+      dac
+      dca
+    ```
+  - The output for this will be 5 as dac is present in the 5th position in this order
+- **Uses and Resources**
+  - This question is a brain teaser and does not have any practical application as it is and for the resources it is an application of everything you have solved until now and maybe requires the use of some mathematics.
 
 
 
