@@ -223,7 +223,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 12 - Reversing a Singly Linked List**
 - **Problem**
-  - Taking a singly linked as the input the output has to be another singly linked list having the reverse of the initial linked list
+  - Given a singly linked list, output a linked list containing the same elements but in reverse order.
+  - `Optional:` Complete the task without creating a new list. I.E., reverse the linked list in-place.
 - **Example**
   ```
   Input:
@@ -244,17 +245,17 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Given an input string, find all possible permutations of this string. Arrange these permutations in alphabetical order and find the position at which the input string occurs.
 - **Example**
   ```
-    Input:
-      dac
-    Possible combinations:
-      acd
-      adc
-      cad
-      cda
-      dac
-      dca
-    ```
-  - The output for this will be 5 as `dac` is present in the 5th position in this order
+  Input:
+    dac
+  Possible combinations:
+    acd
+    adc
+    cad
+    cda
+    dac --> Match Found at Position 5
+    dca
+  ```  
+    - The output for this will be `5` as `dac` is present in the 5th position in the alphabetical list of permutations.
 - **Uses and Resources**
   - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
 
