@@ -13,13 +13,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 4 - Fibonacci Series**](#december-4---fibonacci-series)
 - [**December 5 - The Tower of Hanoi**](#december-5---the-tower-of-hanoi)
 - [**December 6 - LCM**](#december-6---lcm)
-- [**December 7 - Are they approximately equal?**](#december-7---are-they-approximately-equal)
+- [**December 7 - Are They Approximately Equal?**](#december-7---are-they-approximately-equal)
 - [**December 8 - Singular-Plural**](#december-8---singular-plural)
-- [**December 9 - Is this an URL?**](#december-9---is-this-an-url)
+- [**December 9 - Is This an URL?**](#december-9---is-this-an-url)
 - [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
-- [**December 11 - Printing matrix in spiral form**](#december-11---printing-matrix-in-spiral-form)
-- [**December 12 - Reversing a singly linked list**](#december-12---reversing-a-singly-linked-list)
-- [**December 13 - Lexicographical arrangement**](#december-13---lexicographical-arrangement)
+- [**December 11 - Printing Matrix In Spiral Form**](#december-11---printing-matrix-in-spiral-form)
+- [**December 12 - Reversing A Singly Linked List**](#december-12---reversing-a-singly-linked-list)
+- [**December 13 - Lexicographical Arrangement**](#december-13---lexicographical-arrangement)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -199,7 +199,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Resources**
   -[Matrix: Determinant](https://www.mathsisfun.com/algebra/matrix-determinant.html)
 
-### December 11 - Printing matrix in spiral form
+### **December 11 - Printing Matrix in Spiral Form**
 - **Problem**
   - Given a Matrix of size `M * N`, output its elements in spiral form.
   - To better understand the problem statement, consider the following matrix
@@ -221,7 +221,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [Operations on Matrices](https://www.geeksforgeeks.org/different-operation-matrices/)
 
 
-### December 12 - Reversing a singly linked list
+### **December 12 - Reversing a Singly Linked List**
 - **Problem**
   - Taking a singly linked as the input the output has to be another singly linked list having the reverse of the initial linked list
 - **Example**
@@ -240,7 +240,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
   - `Clue:` This problem requires the use of another data structure
 
-### December 13 -  Lexicographical arrangement
+### **December 13 -  Lexicographical Arrangement**
 - **Problem**
   - In this question the input is a string with a given number of characters. The problem here is to arrange all the possible permutations of this string in the alphabetical order. The next step is to find out the position at which this string occurs in this order.
 - **Example**
