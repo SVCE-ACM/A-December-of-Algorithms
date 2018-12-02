@@ -238,11 +238,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Also, Hash-tables that use chaining to resolve hash collisions typically have one linked list per bucket for the elements in that bucket.
 - **Resources:**
   - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
-  - `Clue:` This problem requires the use of another data structure
 
 ### **December 13 -  Lexicographical Arrangement**
 - **Problem**
-  - In this question the input is a string with a given number of characters. The problem here is to arrange all the possible permutations of this string in the alphabetical order. The next step is to find out the position at which this string occurs in this order.
+  - Given an input string, find all possible permutations of this string. Arrange these permutations in alphabetical order and find the position at which the input string occurs.
 - **Example**
   ```
     Input:
@@ -255,12 +254,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       dac
       dca
     ```
-  - The output for this will be 5 as dac is present in the 5th position in this order
+  - The output for this will be 5 as `dac` is present in the 5th position in this order
 - **Uses and Resources**
-  - This question is a brain teaser and does not have any practical application as it is and for the resources it is an application of everything you have solved until now and maybe requires the use of some mathematics.
-
-
-
+  - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
 
 ## FAQ:
 #### Who can join the Challenge?
