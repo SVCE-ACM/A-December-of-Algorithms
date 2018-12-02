@@ -214,11 +214,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ```
   - Move Right, Move Down, Move Left, Move Up till you cover all elements of matrix.
 - **Uses**
-- Matrices are used much more in daily life than people would have thought or noticed.
-- Matrices find numerous applications in scientific fields and apply to practical real-life problems as well, thus making an indispensable concept for solving many practical problems.
-- [Applications of matrices in real life problems](https://www.ukessays.com/essays/mathematics/application-of-matrices-in-real-life-problems.php)
+  - Matrices are used much more in daily life than people would have thought or noticed.
+  - Matrices find numerous applications in scientific fields and apply to practical real-life problems as well, thus making an indispensable concept for solving many practical problems.
+  - [Applications of matrices in real life problems](https://www.ukessays.com/essays/mathematics/application-of-matrices-in-real-life-problems.php)
 - **Resources**
-  - Matrices are represented using two dimensional arrays in any . So to access a single element in the matrix two “for loops”
+  - Matrices are represented using n-dimensional arrays where n is the order of the matrix. In this case have a 2-D matrix, so you will need to use a 2-D array. You need to use two variables to access an element of the matrix. The first variable is used to denote row while the second denotes the column. To traverse the entire matrix, you will need to use two loops.
   - [Operations on Matrices](https://www.geeksforgeeks.org/different-operation-matrices/)
 
 
@@ -236,7 +236,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Uses**
   - There are pretty good real examples to show the usage and importance of linked-list.
   - Consider the history section of web browsers, where it creates a linked list of web-pages visited, so that when you check history (traversal of a list) or press back button, the previous node's data is fetched.
-  - One common cited example is low level memory management (i.e. the heap as managed by `malloc` in C or new in Java, etc) is often implemented as a linked list, with each node representing a used or available (free) block of memory. These blocks may be of any size, change size (combine and split), be freed or assigned in any order, and reordered. A linked list means you can keep track of all of these "nodes" and manipulate them fairly easily.
+  - One commonly cited example is low level memory management (i.e. the heap as managed by `malloc` in C or new in Java, etc) is often implemented as a linked list, with each node representing a used or available (free) block of memory. These blocks may be of any size, change size (combine and split), be freed or assigned in any order, and reordered. A linked list means you can keep track of all of these "nodes" and manipulate them fairly easily.
   - Also, Hash-tables that use chaining to resolve hash collisions typically have one linked list per bucket for the elements in that bucket.
 - **Resources:**
   - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
