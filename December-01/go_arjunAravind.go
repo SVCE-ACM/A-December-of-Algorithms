@@ -8,7 +8,7 @@ import (
 )
 
 func GetNum () int64 {
-	scanner := bufio.NewScanner(os.Stdin) //We first init the 
+	scanner := bufio.NewScanner(os.Stdin) 
 	_ = scanner.Scan()
 
 	enteredNumber, _ := strconv.ParseInt(scanner.Text(),0,32)

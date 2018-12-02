@@ -39,9 +39,8 @@ func MinMax (firstNum int64, secondNum int64) (int64, int64) {
 
 func GetGCD (firstNum int64, secondNum int64) int64 {
 
-	var smallerNum, greaterNum, iter, count int64
+	var smallerNum, greaterNum, iter int64
 	smallerNum, greaterNum = MinMax(firstNum,secondNum)
-	count=0
 
 	/*
 	  Optimised the algo here. Instead of counting back from the smallerNum
@@ -52,10 +51,8 @@ func GetGCD (firstNum int64, secondNum int64) int64 {
 
 	for iter=smallerNum; iter>2; iter/=2 {
 		if (smallerNum%iter==0) && (greaterNum%iter==0) {
-			fmt.Printf("The no of tims it looped is %v.\n", count)
 			return iter
 		}
-		count++
 	}
 
 	/*
@@ -77,7 +74,6 @@ func GetGCD (firstNum int64, secondNum int64) int64 {
 	  magnitude of the smaller number.
 	*/
 
-	fmt.Printf("The no of times it looped is %v.\n", count)
 	if (smallerNum%2==0) && (greaterNum%2==0) {
 		return 2
 	} else {
