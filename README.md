@@ -19,7 +19,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
 - [**December 11 - Printing matrix in spiral form**](#december-11---printing-matrix-in-spiral-form)
 - [**December 12 - Reversing a singly linked list**](#december-12---reversing-a-singly-linked-list)
-- [**December 13 - December 13 - Lexicographical arrangement**](#december-13---lexicographical-arrangement)
+- [**December 13 - Lexicographical arrangement**](#december-13---lexicographical-arrangement)
 - [**FAQ**](#faq)
 
 ## Algorithms
