@@ -22,7 +22,7 @@ func GetNum() string {
 	var enteredText string = scanner.Text()
 	var length int = len(enteredText)
 
-	_ , err := strconv.ParseInt(enteredText,0,64)
+	_, err := strconv.ParseInt(enteredText,0,64)
 
 	if length%2!=0 {
 		fmt.Printf("Your number should have an even number of digits. Try again!\n\n")
@@ -38,7 +38,7 @@ func GetNum() string {
 func FirstHalfSum (number string) int64 {
 
 	var stringRange int
-	stringRange = (len(number))/2
+	stringRange = len(number)/2
 
 	var sum int64
 	sum = 0
@@ -56,7 +56,7 @@ func SecondHalfSum (number string) int64 {
 
 	var stringStart, length int
 	length = len(number)
-        stringStart = (length/2)
+        stringStart = length/2
 
         var sum int64
 	sum = 0
