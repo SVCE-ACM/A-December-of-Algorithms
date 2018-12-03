@@ -27,11 +27,11 @@ void main()
                   break;
 		}
 	    if(search<a[mid])
-		{
+		{       printf("the value is too high ");
 			last=mid-1;
 		}
 		if(search>a[mid])
-		{
+		{       printf("the value is too low");
 			first=mid+1;
 		}
 		
