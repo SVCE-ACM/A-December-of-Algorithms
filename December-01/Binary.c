@@ -25,15 +25,21 @@ void main()
 	    mid=(low+high)/2;	    
 	    if(s==a[mid])
 	    {
-	    printf("\nThe element is found @ pos=%d",mid+1);
+	    printf("\n  spot on  found @ pos=%d",mid+1);
 	    c++;
 	    break;
 	}
 	else if(s>a[mid])
+	{
     low=mid+1;
+	printf("\nyou are too low");
+	}
 	else
+	{
 	high=mid-1;
+	printf("\nyou are too high");	
 }
+	}		
 if(c==0)
 printf("\n The element is not found : sorry guys");
 	printf("\n\n\t\t\tDo you want to continue your search process (yes==1 or No == 0)");
