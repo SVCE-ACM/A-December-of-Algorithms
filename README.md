@@ -21,7 +21,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 12 - Reversing A Singly Linked List**](#december-12---reversing-a-singly-linked-list)
 - [**December 13 - Lexicographical Arrangement**](#december-13---lexicographical-arrangement)
 - [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
-- [**December 15 - Pascal's triangle**](#december-15---pascal's-triangle)
+- [**December 15 - Pascal's triangle**](#december-15---pascal-s-triangle)
 - [**FAQ**](#faq)
 
 ## Algorithms
