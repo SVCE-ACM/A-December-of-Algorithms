@@ -275,6 +275,26 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ```
 
 
+### **December 15 -  The Strongest String**
+- **Problem**
+  - A string is called unique if all characters of string are distinct.
+  - s1 is called subsequence of string s2 if s1 can be produced from s2 by removing some characters of s2.
+  - s1 is stronger than s2 if s1 is lexicographically greater than s2.
+  - You are given a string. Your task is to find the strongest unique string which is subsequence of given string.
+- **Input:**
+  - first line contains length of string.
+  - second line contains the string.
+- **Output:**
+  - Output the strongest unique string which is subsequence of given string.
+- **Constraints:**
+  ```
+  1≤|S|≤100000
+  All letters are lowercase English letters.
+  ```
+- **Reference and uses**
+  - [Basics of String manipulation](https://www.hackerearth.com/practice/algorithms/string-algorithm/basics-of-string-manipulation/tutorial/)
+
+
 ## FAQ:
 #### Who can join the Challenge?
 Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
