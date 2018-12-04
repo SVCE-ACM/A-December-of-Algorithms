@@ -278,27 +278,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [More on the Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher)
 
 
-### **December 15 -  The Strongest String**
-- **Problem**
-  - A string is called unique if all the characters of string are distinct.
-  - s1 is called subsequence of string s2 if s1 can be produced from s2 by removing some characters of s2.
-  - s1 is stronger than s2 if s1 is **lexicographically greater** than s2.
-  -
-  - Given an example input/output as well.. Your task is to find the strongest unique string which is subsequence of given string.
-- **Input:**
-  - first line contains length of string.
-  - second line contains the string.
-- **Output:**
-  - Output the strongest unique string which is subsequence of given string.
-- **Constraints:**
-  ```
-  1≤|S|≤100000
-  All letters are lowercase English letters.
-  ```
-- **Reference and uses**
-  - [Basics of String manipulation](https://www.hackerearth.com/practice/algorithms/string-algorithm/basics-of-string-manipulation/tutorial/)
-
-## FAQ:
+FAQ:
+======
 #### Who can join the Challenge?
 Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
@@ -335,3 +316,6 @@ If you're curious, the commands simply add a new remote called upstream that is 
 
 #### I received a merge error. What do I do?
 This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+
+#### I'm facing difficulties with/need help understanding a particular question.
+Open up an issue on this repository and we'll do our best to help you out.
