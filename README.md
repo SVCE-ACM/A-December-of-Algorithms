@@ -302,9 +302,10 @@ Find the island that you are most likely to get stuck on. Two islands are consid
 **Input format**:
 First line: Three integers n (the number of islands), m (the number of one-way bridges), and r (the index of the island you are initially on)
 Next m lines: Two integers ui and vi representing a one-way bridge from island ui to vi.
-Output format:
+
+**Output format**:
  
-Print the index of the island that you are most likely to get stuck on. If there are multiple islands,then print them in the increasing order of indices (space separated values in a single line).
+Print the index of the island that you are most likely to get stuck on. If there are multiple islands,then print them in the increasing order of indices.
  
 **Input Constraints**:
  
