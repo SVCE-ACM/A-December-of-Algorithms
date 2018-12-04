@@ -241,7 +241,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Resources:**
   - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
 
-### **December 13 -  Lexicographical Arrangement**
+### **December 13 - Lexicographical Arrangement**
 - **Problem**
   - Given an input string, find all possible permutations of this string. Arrange these permutations in alphabetical order and find the position at which the input string occurs.
 - **Example**
