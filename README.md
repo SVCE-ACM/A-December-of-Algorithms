@@ -280,20 +280,17 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Resources**
   - [More on the Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher)
 
-
-
 ### **December 15 - Pascal's triangle**
 - **Problem**
   - The pascal’s triangle is given as:
   ```
-		                  1
+	                    1
                   1          1
              1          2        1
          1         3         3      1
     1       4          6         4     1
   ```
  - Up To any number of rows. The task here is to generate a pascal’s triangle for n rows and using this find `(x+y)^n`
-
 - **Example**
 ```
 Sample input:
@@ -326,7 +323,6 @@ Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
 
     The polynomial is (a+b)^4 = a^4+4a^3b+6a^2b^2+4ab^3+b^4
     ```
-
 - **Binomial Probability Distributions**
     - If the probability of rolling a die 5 times and getting exactly 2 sixes?
     - Some might say it's (1/6)^2 (two sixes) times (5/6)^4 (four non-sixes).They'd be wrong. As it turns out, this is just the probability of one possibility, like getting two sixes first, then three non-sixes, or a six at the beginning and the end.
