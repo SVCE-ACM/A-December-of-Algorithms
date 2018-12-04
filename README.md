@@ -22,7 +22,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 13 - Lexicographical Arrangement**](#december-13---lexicographical-arrangement)
 - [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
 - [**December 15 - Pascal's triangle**](#december-15---pascals-triangle)
-- [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature difference-between-two-cities)
+- [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature-difference-between-two-cities)
 - [**FAQ**](#faq)
 
 ## Algorithms
