@@ -260,7 +260,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Uses and Resources**
   - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
   
-### **December 15 -  The Strongest String**
+
+### **December 14 -  The Strongest String**
 
 -**Problem**: 
                  A string is called unique if all characters of string are distinct.
@@ -289,7 +290,7 @@ https://www.hackerearth.com/practice/algorithms/string-algorithm/basics-of-strin
 
 
 
-### **December 16 - Lost in the Islands**
+### **December 15 - Lost in the Islands**
 
 **Problem**:
 
@@ -319,7 +320,7 @@ https://www.geeksforgeeks.org/topological-sorting/
 
 
 
-### **December 17 - Bytelandian Gold Coins (Source: HackerEarth)**
+### **December 16 - Bytelandian Gold Coins (Source: HackerEarth)**
 
 **Problem**:
 
@@ -338,14 +339,12 @@ You can change 12 into 6, 4 and 3, and then change these into $6+$4+$3 = $13. If
  
 **Reference**: https://www.geeksforgeeks.org/dynamic-programming/#concepts
 
-### **December 18 -  Beautiful Strings**
+### **December 17 -  Beautiful Strings**
 
 **Problem**:
 
-A string is beautiful if it has equal number of a,b,and c in it. 
- 
-Example "abc" , "aabbcc" , "dabc" , "" are beautiful.
- 
+A string is beautiful if it has equal numbers of a particular alphabet(a,b,c etc) in it. 
+  
 Given a string of alphabets containing only lowercase alphabets (a-z), output the number of non-empty beautiful substring of the given string.
  
  
@@ -353,7 +352,7 @@ Given a string of alphabets containing only lowercase alphabets (a-z), output th
 3
 Mabcd
 Defaabbccdk
-Hufabckiaabbcc
+Hufabckiaabbcc (Considering a,b,c as the alphabets)
  
  
  
