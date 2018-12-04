@@ -282,8 +282,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Problem**
   - A string is called unique if all the characters of string are distinct.
   - s1 is called subsequence of string s2 if s1 can be produced from s2 by removing some characters of s2.
-  - the lexicographic or lexicographical order is a generalization of the way words are alphabetically ordered based on the alphabetical order of their component letters.
   - s1 is stronger than s2 if s1 is **lexicographically greater** than s2.
+  -
   - Given an example input/output as well.. Your task is to find the strongest unique string which is subsequence of given string.
 - **Input:**
   - first line contains length of string.
