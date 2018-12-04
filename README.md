@@ -282,7 +282,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 
 
-  ### **December 15 - Pascal's triangle**
+### **December 15 - Pascal's triangle**
 - **Problem**
   - The pascal’s triangle is given as:
   ```
