@@ -260,7 +260,26 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Uses and Resources**
   - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
 
-## FAQ:
+### **December 14 - Caesar Cipher**
+- **Problem**
+  - The Caesar cipher is one of the earliest known ciphers. Simply put, it should take in an input of a 'key' and some plain text. This key will be a number from 0-25. Your task is to simply replace each character of the message with a new character. This new character is the key-th element from the old character. Check out the examples for better understanding. Also, develop a function to decrypt the given cipher when you are given the key.
+  - `Optional:` The Caesar cipher is trivial for modern computers to crack, even without the key. Write a program that bruteforces the cipher. Bruteforcing means simply trying out every possible combination. So in this case, try out every possible key to decode the cipher.
+- **Example #1:**
+  ```
+  Input: and 3
+  Encoded output: dqg
+  ```
+- **Example #2:**
+  ```
+  Input: feel 4
+  Encoded output: jiip
+  ```
+- **Resources**
+  - [More on the Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher)
+
+
+FAQ:
+======
 #### Who can join the Challenge?
 Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
@@ -297,3 +316,6 @@ If you're curious, the commands simply add a new remote called upstream that is 
 
 #### I received a merge error. What do I do?
 This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+
+#### I'm facing difficulties with/need help understanding a particular question.
+Open up an issue on this repository and we'll do our best to help you out.
