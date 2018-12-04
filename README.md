@@ -19,7 +19,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
 - [**December 11 - Printing Matrix In Spiral Form**](#december-11---printing-matrix-in-spiral-form)
 - [**December 12 - Reversing A Singly Linked List**](#december-12---reversing-a-singly-linked-list)
-- [**December 13 - Lexicographical Arrangement**](#december-13---lexicographical-arrangement)
+- [**December 13 - Lexicographical Arrangement**](#december-13----lexicographical-arrangement)
 - [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
 - [**December 15 - Pascal's triangle**](#december-15---pascals-triangle)
 - [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature-difference-between-two-cities)
@@ -244,7 +244,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Resources:**
   - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
 
-### **December 13 - Lexicographical Arrangement**
+### **December 13 -  Lexicographical Arrangement**
 - **Problem**
   - Given an input string, find all possible permutations of this string. Arrange these permutations in alphabetical order and find the position at which the input string occurs.
 - **Example**
@@ -279,6 +279,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ```
 - **Resources**
   - [More on the Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher)
+
 
 ### **December 15 - Pascal's triangle**
 - **Problem**
