@@ -259,6 +259,117 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - The output for this will be `5` as `dac` is present in the 5th position in the alphabetical list of permutations.
 - **Uses and Resources**
   - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
+  
+### **December 15 -  The Strongest String**
+
+-**Problem**: 
+                 A string is called unique if all characters of string are distinct.
+
+                     String s1 is called subsequence of string s2 if s1 can be produced from s2 by removing some characters of s2.
+ 
+                     String s1 is stronger than s2 if s1 is lexicographically greater than s2.
+ 
+                     You are given a string. Your task is to find the strongest unique string which is subsequence of given string.
+ 
+ **Input**:
+first line contains length of string.
+second line contains the string.
+ 
+**Output**:
+Output the strongest unique string which is subsequence of given string.
+ 
+**Constraints**:
+1≤|S|≤100000
+All letters are lowercase English letters.
+ 
+**Reference and uses**:
+https://www.hackerearth.com/practice/algorithms/string-algorithm/basics-of-string-manipulation/tutorial/
+
+
+
+
+
+### **December 16 - Lost in the Islands**
+
+**Problem**:
+
+There are many islands that are connected by one-way bridges, that is, if a bridge connects islands a and b, then you can only use the bridge to go from a to b but you cannot travel back by using the same.
+ 
+ If you are on island a, then you select (uniformly and randomly) one of the islands that are directly reachable from a through the one-way bridge and move to that island. You are stuck on an island if you cannot move any further. It is guaranteed that after leaving any island it is not possible to come back to that island.
+ 
+Find the island that you are most likely to get stuck on. Two islands are considered equally likely if the absolute difference of the probabilities of ending up on them is <=10−9.
+ 
+**Input format**:
+First line: Three integers n (the number of islands), m (the number of one-way bridges), and r (the index of the island you are initially on)
+Next m lines: Two integers ui and vi representing a one-way bridge from island ui to vi.
+Output format:
+ 
+Print the index of the island that you are most likely to get stuck on. If there are multiple islands,then print them in the increasing order of indices (space separated values in a single line).
+ 
+**Input Constraints**:
+ 
+1≤n≤200000
+1≤m≤500000
+1≤ui,vi,r≤n
+ 
+**Reference and uses**:
+ 
+https://www.geeksforgeeks.org/topological-sorting/
+
+
+
+### **December 17 - Bytelandian Gold Coins (Source: HackerEarth)**
+
+**Problem**:
+
+In Byteland they have a very strange monetary system. Each Bytelandian gold coin has an integer number written on it. A coin n can be exchanged in a bank into three coins: n/2, n/3 and n/4. But these numbers are all rounded down (the banks have to make a profit).
+ 
+You can also sell Bytelandian coins for American dollars. The exchange rate is 1:1. But you can not buy Bytelandian coins. Yo  u have one bytelandian gold coin. What is the maximum amount of American dollars you can get for it?
+ 
+**Input**:
+The input will contain several test cases (not more than 10). Each testcase is a single line with a number n, 0 <= n <= 1 000 000 000. It is the number written on your coin.
+ 
+**Output**:
+ For each test case output a single line, containing the maximum amount of American dollars you can make.
+ 
+**Explanation**:
+You can change 12 into 6, 4 and 3, and then change these into $6+$4+$3 = $13. If you try changing 2 into 3 smaller coins, you will get 1, 0 and 0, and later you can get no more than $1 out of them. It is better just to change the 2 coin directly into $2.
+ 
+**Reference**: https://www.geeksforgeeks.org/dynamic-programming/#concepts
+
+### **December 18 -  Beautiful Strings**
+
+**Problem**:
+
+A string is beautiful if it has equal number of a,b,and c in it. 
+ 
+Example "abc" , "aabbcc" , "dabc" , "" are beautiful.
+ 
+Given a string of alphabets containing only lowercase alphabets (a-z), output the number of non-empty beautiful substring of the given string.
+ 
+ 
+**Input** :
+3
+Mabcd
+Defaabbccdk
+Hufabckiaabbcc
+ 
+ 
+ 
+**Output** :
+1
+1
+2
+ 
+ 
+**Constraints** :
+ 
+1<=T<=10 
+1<=L<=100000
+ 
+**Reference** :
+https://www.geeksforgeeks.org/quick-sort/
+
 
 ## FAQ:
 #### Who can join the Challenge?
