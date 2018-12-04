@@ -19,7 +19,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 10 - Find the Determinant**](#december-10---find-the-determinant)
 - [**December 11 - Printing Matrix In Spiral Form**](#december-11---printing-matrix-in-spiral-form)
 - [**December 12 - Reversing A Singly Linked List**](#december-12---reversing-a-singly-linked-list)
-- [**December 13 - Lexicographical Arrangement**](#december-13---lexicographical-arrangement)
+- [**December 13 - Lexicographical Arrangement**](#december-13----lexicographical-arrangement)
+- [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
 - [**FAQ**](#faq)
 
 ## Algorithms
