@@ -22,6 +22,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 13 - Lexicographical Arrangement**](#december-13---lexicographical-arrangement)
 - [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
 - [**December 15 - Pascal's triangle**](#december-15---pascals-triangle)
+- [**December 16 - Find Temperature Difference Between Two Cities**](#december-15---find-temperature difference-between-two-cities)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -338,6 +339,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - To know more about pascals triangle and how they work[ click here](https://www.youtube.com/watch?v=YUqHdxxdbyM)
 
 
+### **December 16 - Find Temperature Difference Between Two Cities**
+- **Problem**
+  - It’s getting harder to turn around in tech without bumping into some reference to APIs, or application programming interfaces. In the simplest terms, APIs are sets of requirements that govern how one application can talk to another.
+  - OpenWeatherMap is a popular service that provides satellite images, Weather data, Historical data and Soil temperature and moisture.
+  - The problem is to find the current temperature difference between `London, GB` and `Chennai, Tamil Nadu, India` using the OpenWeatherMap API.
+  - `Note:` OpenWeatherMap APIs need a valid API key to allow responses, Packages won't work if you don't provide one. You can signup for a free API key on the OpenWeatherMap website.
+- **Sample Output**
+  ```
+  Taken at 20:35 (IST), 04-12-2018
+  Current Temperature difference between Chennai,TN and London,GB is 19°C
+  ```
+- **Resources:**
+  - [How to get your API key from OpenWeatherMap](https://openweathermap.org/appid)
+  - [Java package for use with openweathermap.org's API.](https://sourceforge.net/projects/openjavaweatherapi/)
+  - [Java package (alternative) for use with openweathermap.org's API.](https://github.com/xSAVIKx/openweathermap-java-api)
+  - [Python package for use with openweathermap.org's API.](https://github.com/csparpa/pyowm)
+  - [Go (golang) package for use with openweathermap.org's API.](https://github.com/briandowns/openweathermap)
+  - [C# Library to interact with the OpenWeatherMap API](https://github.com/swiftyspiffy/OpenWeatherMap-API-CSharp)
 
 FAQ:
 ======
