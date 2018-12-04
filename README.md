@@ -286,7 +286,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Problem**
   - The pascal’s triangle is given as:
   ```
-		                  1
+	                    1
                   1          1
              1          2        1
          1         3         3      1
