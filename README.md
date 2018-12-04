@@ -260,27 +260,31 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Uses and Resources**
   - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
 
-### **December 14 - Ceaser Cipher**
+### **December 14 - Caesar Cipher**
 - **Problem**
-  - There is a specific code in which after the encoding process is done each of the characters are moved by a certain position. The number of positions by which they are moved is given by the number of characters that are present in the given word. This problem requires you to take the input string and encrypt it according to this system and add an decrypting algorithm. In the case of the last few alphabets it should move back again to the first (z->a)
+  - The Caesar cipher is one of the earliest known ciphers. Simply put, it should take in an input of a 'key' and some plain text. This key will be a number from 0-25. Your task is to simply replace each character of the message with a new character. This new character is the key-th element from the old character. Check out the examples for better understanding. Also, develop a function to decrypt the given cipher when you are given the key.
+  - `Optional:` The Caesar cipher is trivial for modern computers to crack, even without the key. Write a program that bruteforces the cipher. Bruteforcing means simply trying out every possible combination. So in this case, try out every possible key to decode the cipher.
 - **Example #1:**
   ```
-  Input: and
+  Input: and 3
   Encoded output: dqg
   ```
 - **Example #2:**
   ```
-  Input: feel
+  Input: feel 4
   Encoded output: jiip
   ```
+- **Resources**
+  - [More on the Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher)
 
 
 ### **December 15 -  The Strongest String**
 - **Problem**
-  - A string is called unique if all characters of string are distinct.
+  - A string is called unique if all the characters of string are distinct.
   - s1 is called subsequence of string s2 if s1 can be produced from s2 by removing some characters of s2.
-  - s1 is stronger than s2 if s1 is lexicographically greater than s2.
-  - You are given a string. Your task is to find the strongest unique string which is subsequence of given string.
+  - the lexicographic or lexicographical order is a generalization of the way words are alphabetically ordered based on the alphabetical order of their component letters.
+  - s1 is stronger than s2 if s1 is **lexicographically greater** than s2.
+  - Given an example input/output as well.. Your task is to find the strongest unique string which is subsequence of given string.
 - **Input:**
   - first line contains length of string.
   - second line contains the string.
@@ -294,6 +298,18 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Reference and uses**
   - [Basics of String manipulation](https://www.hackerearth.com/practice/algorithms/string-algorithm/basics-of-string-manipulation/tutorial/)
 
+### **December 16 - Bytelandian Gold Coins**
+- **Problem**
+  - In Byteland they have a very strange monetary system. Each Bytelandian gold coin has an integer number written on it. A coin n can be exchanged in a bank into three coins: `n/2`, `n/3` and `n/4`. But these numbers are all rounded down (the banks have to make a profit).
+  - You can also sell Bytelandian coins for American dollars. The exchange rate is 1:1. But you can not buy Bytelandian coins. You have one bytelandian gold coin. What is the maximum amount of American dollars you can get for it?
+- **Input:**
+  - The input will contain several test cases (not more than 10). Each testcase is a single line with a number `n`, `0 <= n <= 1,000,000,000`. It is the number written on your coin.
+- **Output:**
+  - For each test case output a single line, containing the maximum amount of American dollars you can make.
+- **Explanation:**
+  - You can change `12` into `6`, `4` and `3`, and then change these into `$6+$4+$3 = $13`. If you try changing `2` into `3` smaller coins, you will get `1`, `0` and `0`, and later you can get no more than `$`1 out of them. It is better just to change the `2` coin directly into `$2`.
+- **Reference**
+  - [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/#concepts)
 
 ## FAQ:
 #### Who can join the Challenge?
