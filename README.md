@@ -308,10 +308,7 @@ Sample output:
 Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
 ```
 - **Uses**
-  -  The numbers in Pascal's triangle have another name: Binomial coefficient, and they show up a bunch. They're generally written like
-<span class="TeXmathchoice" id="MathJax-Span-4"><span class="mstyle" id="MathJax-Span-5"><span class="mrow" id="MathJax-Span-6"><span class="texatom" id="MathJax-Span-7"><span class="mrow" id="MathJax-Span-8"><span class="mo" id="MathJax-Span-9" style="vertical-align: 0em;"><span style="font-family: MathJax_Size1;">(</span></span></span></span></span></span></span><span class="mfrac" id="MathJax-Span-10"><span style="display: inline-block; position: relative; width: 0.424em; height: 0px;"><span style="position: absolute; clip: rect(3.537em, 1000.41em, 4.158em, -1000em); top: -4.444em; left: 50%; margin-left: -0.212em;"><span class="mi" id="MathJax-Span-11" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">n</span><span style="display: inline-block; width: 0px; height: 4em;"></span></span><span style="position: absolute; clip: rect(3.537em, 1000.37em, 4.158em, -1000em); top: -3.655em; left: 50%; margin-left: -0.202em;"><span class="mi" id="MathJax-Span-12" style="font-size: 70.7%; font-family: MathJax_Math; font-style: italic;">x</span><span style="display: inline-block; width: 0px; height: 4em;"></span></span></span></span><span class="TeXmathchoice" id="MathJax-Span-13"><span class="mstyle" id="MathJax-Span-14"><span class="mrow" id="MathJax-Span-15"><span class="texatom" id="MathJax-Span-16"><span class="mrow" id="MathJax-Span-17"><span class="mo" id="MathJax-Span-18" style="vertical-align: 0em;"><span style="font-family: MathJax_Size1;">)</span></span></span></span></span></span></span>
-   where `n` is the row and `x` is the position (starting from 0, not one).
-
+  -  The numbers in Pascal's triangle have another name: Binomial coefficient, and they show up a bunch. 
   - There is a formula for finding them, but for smaller numbers it's about as easy, or easier, to use the triangle as it is the formula.
 - **Application**
   - **Binomial Expansion**
