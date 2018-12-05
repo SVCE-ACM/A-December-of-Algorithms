@@ -25,7 +25,7 @@ void main()
 	    mid=(low+high)/2;	    
 	    if(s==a[mid])
 	    {
-	    printf("\n  spot on @ pos=%d",mid+1);
+	    printf("\nspot on @ pos=%d",mid+1);
 	    c++;
 	    break;
 	}
