@@ -1,6 +1,6 @@
 <div align="left">
 <h1>
-    <img alt="header" src="/src/assets/Header.png" width="900" height="300"></img>
+    <img alt="header" src="/src/assets/Header.png" width="450" height="150"></img>
 </h1>
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish them all to get a certificate :)
 
