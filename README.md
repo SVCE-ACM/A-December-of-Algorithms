@@ -295,7 +295,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
          1         3         3      1
     1       4          6         4     1
   ```
- - Up To any number of rows. The task here is to generate a pascal’s triangle for n rows and using this find `(x+y)^n`
+  - Up To any number of rows. The task here is to generate a pascal’s triangle for n rows and using this find `(x+y)^n`
 - **Example**
 ```
 Sample input:
@@ -308,7 +308,7 @@ Sample output:
 Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
 ```
 - **Uses**
-  -  The numbers in Pascal's triangle have another name: Binomial coefficient, and they show up a bunch. 
+  -  The numbers in Pascal's triangle have another name: Binomial coefficient, and they show up a bunch.
   - There is a formula for finding them, but for smaller numbers it's about as easy, or easier, to use the triangle as it is the formula.
 - **Application**
   - **Binomial Expansion**
