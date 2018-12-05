@@ -1,9 +1,9 @@
 <div align="left">
 <h1>
-    <img alt="HEADER" src="src/assets/header.png" width="900" height="300"></img>
+    <img alt="header" src="src/assets/header.png" width="900" height="300"></img>
 </h1>
 
-# A December of Algorithms
+
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish them all to get a certificate :)
 
 **Send a pull request only after completing all 31 algorithms.**
