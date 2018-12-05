@@ -1,6 +1,6 @@
 <div align="left">
 <h1>
-    <img alt="header" src="src/assets/header.png" width="900" height="300"></img>
+    <img alt="header" src="/src/assets/Header.png" width="900" height="300"></img>
 </h1>
 
 
