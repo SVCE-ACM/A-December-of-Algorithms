@@ -1,4 +1,4 @@
-package main
+package linkedlist
 
 import "fmt"
 
@@ -69,6 +69,26 @@ func (list List) Print () {
 
 	fmt.Printf("\b\b)\n")
 
+}
+
+/**
+  * Prints the length of the list
+ */
+
+func (list List) Length () int8 {
+
+	var pos *Node
+	pos = list.head.next
+
+	var count int8
+	count=0
+
+	for pos != nil {
+		count++
+		pos = pos.next
+	}
+
+	return count
 }
 
 /**
