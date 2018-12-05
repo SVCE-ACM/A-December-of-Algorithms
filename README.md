@@ -362,11 +362,7 @@ Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
 - **Resources:**
   - [How to get your API key from OpenWeatherMap](https://openweathermap.org/appid)
   - [How to retrieve weather data for a city](https://openweathermap.org/current#name)
-  - [Java package for use with openweathermap.org's API.](https://sourceforge.net/projects/openjavaweatherapi/)
-  - [Java package (alternative) for use with openweathermap.org's API.](https://github.com/xSAVIKx/openweathermap-java-api)
-  - [Python package for use with openweathermap.org's API.](https://github.com/csparpa/pyowm)
-  - [Go (golang) package for use with openweathermap.org's API.](https://github.com/briandowns/openweathermap)
-  - [C# Library to interact with the OpenWeatherMap API](https://github.com/swiftyspiffy/OpenWeatherMap-API-CSharp)
+
 
 FAQ:
 ======
