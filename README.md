@@ -24,7 +24,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 12 - Reversing A Singly Linked List**](#december-12---reversing-a-singly-linked-list)
 - [**December 13 - Lexicographical Arrangement**](#december-13----lexicographical-arrangement)
 - [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
-- [**December 15 - Pascal's triangle**](#december-15---pascals-triangle)
+- [**December 15 - Pascal's Triangle**](#december-15---pascals-triangle)
 - [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature-difference-between-two-cities)
 - [**FAQ**](#faq)
 
@@ -284,7 +284,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [More on the Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher)
 
 
-### **December 15 - Pascal's triangle**
+### **December 15 - Pascal's Triangle**
 - **Problem**
   - The pascal’s triangle is given as:
   ```
