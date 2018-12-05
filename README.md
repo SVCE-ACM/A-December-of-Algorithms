@@ -1,4 +1,7 @@
-# A December of Algorithms
+<div align="left">
+<h1>
+    <img alt="header" src="/src/assets/Header.png" width="900" height="300"></img>
+</h1>
 Welcome to A December of Algorithms. This is a small collection of algorithms to implement this December. Finish them all to get a certificate :)
 
 **Send a pull request only after completing all 31 algorithms.**
@@ -21,6 +24,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 12 - Reversing A Singly Linked List**](#december-12---reversing-a-singly-linked-list)
 - [**December 13 - Lexicographical Arrangement**](#december-13----lexicographical-arrangement)
 - [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
+- [**December 15 - Pascal's Triangle**](#december-15---pascals-triangle)
+- [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature-difference-between-two-cities)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -279,6 +284,85 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [More on the Caesar Cipher](http://practicalcryptography.com/ciphers/caesar-cipher)
 
 
+### **December 15 - Pascal's Triangle**
+- **Problem**
+  - Pascal's Triangle is a triangle(represented as a 2-D array) in which the ends of the rows are 1. Each of the other values is equal to the sum of the two nearest numbers in the row above.
+  - The pascal’s triangle is given as:
+  ```
+	                    1
+                  1          1
+             1          2        1
+         1         3         3      1
+    1       4          6         4     1
+  ```
+ - Up To any number of rows. The task here is to generate a pascal’s triangle for n rows and using this find `(x+y)^n`
+- **Example**
+```
+Sample input:
+rows = 3
+Sample output:
+1       --> row 0
+11      --> row 1
+121     --> row 2
+1331    --> row 3
+Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
+```
+- **Uses**
+  -  The numbers in Pascal's triangle have another name: Binomial coefficient, and they show up a bunch. 
+  - There is a formula for finding them, but for smaller numbers it's about as easy, or easier, to use the triangle as it is the formula.
+- **Application**
+  - **Binomial Expansion**
+      - What is (a+b)^4? It's a pain to do by hand.
+      - It's not hard to realize your final answer will contain the terms a^4, a^3b, a^2b^2, ab^3, and b^4.
+      - What is a pain is figuring out the coefficients.
+      - Enter Pascal's Triangle.
+      ```
+      The coefficients correspond to the 5 values in the 4th row of the triangle
+
+                              1
+                        1          1
+                   1          2        1
+               1         3         3      1
+          1        4          6         4     1
+
+      The polynomial is (a+b)^4 = a^4+4a^3b+6a^2b^2+4ab^3+b^4
+      ```
+  - **Binomial Probability Distributions**
+      - If the probability of rolling a die 5 times and getting exactly 2 sixes?
+      - Some might say it's (1/6)^2 (two sixes) times (5/6)^4 (four non-sixes).They'd be wrong. As it turns out, this is just the probability of one possibility, like getting two sixes first, then three non-sixes, or a six at the beginning and the end.
+      - The good news is that all these possibilities have the same probability, and the bad news is we have to add them all up to find the probability of exactly 2 sixes.
+      - We could just multiply if we knew how many combinations there were in total.Enter pascal's triangle (or binomial coefficients.) If you want the number of combinations that leads to 0 successes in 5 tries, you go to the first number on the 5th row of Pascal's triangle. For one you go to the 2nd, and for two you go to the 3rd.
+      ```
+      1   5   10   10   5   1
+      ```
+      - At a glance we can see the number of possibilities for 0, 1, 2, 3, 4, and 5 successes in 5 trials. To find the probability of 2 sixes, we just have to multiply (1/6)^2(5/6)^4 by 10.
+- **Resources:**
+  - [More about pascals triangle and how they work](https://www.youtube.com/watch?v=YUqHdxxdbyM)
+
+
+### **December 16 - Find Temperature Difference Between Two Cities**
+- **Problem**
+  - It’s getting harder to turn around in tech without bumping into some reference to APIs, or application programming interfaces. In the simplest terms, applications talk to each other via APIs.
+  - Usually, when we use an API to retrieve data (known as an API Call), we receive a JSON file containing data. To access this data, we will need to parse the JSON file. Depending on the language you are using, there are different ways to parse it. Just Google how to parse a JSON file in your language.
+  - OpenWeatherMap is a popular service that provides satellite images, Weather data, Historical data and Soil temperature and moisture.
+  - The problem is to find the current temperature difference between `London, GB` and `Chennai, Tamil Nadu, India` using the OpenWeatherMap API.
+  - `Note #1:` OpenWeatherMap APIs need a valid API key to allow responses, Packages won't work if you don't provide one. You can signup for a free API key on the OpenWeatherMap website.
+  - `Note #2:` API keys are private and **should not be made public**. When committing your code, please make sure you replace your original API key with a dummy key.
+  - `Note #2:`Alternatively, you can look into saving your API key as an Environment Variable.
+  One final alternative is to simply store the API key in a text file and add that file to your `.gitignore` file. When you need to access it, open the file using your program and retrieve the API key.
+
+
+- **Sample Output**
+  ```
+  Taken at 20:35 (IST), 04-12-2018
+  Current Temperature difference between Chennai,TN and London,GB is 19°C
+  ```
+
+- **Resources:**
+  - [How to get your API key from OpenWeatherMap](https://openweathermap.org/appid)
+  - [How to retrieve weather data for a city](https://openweathermap.org/current#name)
+
+
 FAQ:
 ======
 #### Who can join the Challenge?
@@ -320,3 +404,5 @@ This shouldn't happen unless you modify an existing file in the repository. Ther
 
 #### I'm facing difficulties with/need help understanding a particular question.
 Open up an issue on this repository and we'll do our best to help you out.
+
+###### [[Back to Top]](#----)
