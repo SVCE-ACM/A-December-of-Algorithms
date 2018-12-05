@@ -311,31 +311,31 @@ Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
 
   - There is a formula for finding them, but for smaller numbers it's about as easy, or easier, to use the triangle as it is the formula.
 - **Application**
-- **Binomial Expansion**
-    - What is (a+b)^4? It's a pain to do by hand.
-    - It's not hard to realize your final answer will contain the terms a^4, a^3b, a^2b^2, ab^3, and b^4.
-    - What is a pain is figuring out the coefficients.
-    - Enter Pascal's Triangle.
-    ```
-    The coefficients correspond to the 5 values in the 4th row of the triangle
+  - **Binomial Expansion**
+      - What is (a+b)^4? It's a pain to do by hand.
+      - It's not hard to realize your final answer will contain the terms a^4, a^3b, a^2b^2, ab^3, and b^4.
+      - What is a pain is figuring out the coefficients.
+      - Enter Pascal's Triangle.
+      ```
+      The coefficients correspond to the 5 values in the 4th row of the triangle
 
-                            1
-                      1          1
-                 1          2        1
-             1         3         3      1
-        1        4          6         4     1
+                              1
+                        1          1
+                   1          2        1
+               1         3         3      1
+          1        4          6         4     1
 
-    The polynomial is (a+b)^4 = a^4+4a^3b+6a^2b^2+4ab^3+b^4
-    ```
-- **Binomial Probability Distributions**
-    - If the probability of rolling a die 5 times and getting exactly 2 sixes?
-    - Some might say it's (1/6)^2 (two sixes) times (5/6)^4 (four non-sixes).They'd be wrong. As it turns out, this is just the probability of one possibility, like getting two sixes first, then three non-sixes, or a six at the beginning and the end.
-    - The good news is that all these possibilities have the same probability, and the bad news is we have to add them all up to find the probability of exactly 2 sixes.
-    - We could just multiply if we knew how many combinations there were in total.Enter pascal's triangle (or binomial coefficients.) If you want the number of combinations that leads to 0 successes in 5 tries, you go to the first number on the 5th row of Pascal's triangle. For one you go to the 2nd, and for two you go to the 3rd.
-    ```
-    1   5   10   10   5   1
-    ```
-    - At a glance we can see the number of possibilities for 0, 1, 2, 3, 4, and 5 successes in 5 trials. To find the probability of 2 sixes, we just have to multiply (1/6)^2(5/6)^4 by 10.
+      The polynomial is (a+b)^4 = a^4+4a^3b+6a^2b^2+4ab^3+b^4
+      ```
+  - **Binomial Probability Distributions**
+      - If the probability of rolling a die 5 times and getting exactly 2 sixes?
+      - Some might say it's (1/6)^2 (two sixes) times (5/6)^4 (four non-sixes).They'd be wrong. As it turns out, this is just the probability of one possibility, like getting two sixes first, then three non-sixes, or a six at the beginning and the end.
+      - The good news is that all these possibilities have the same probability, and the bad news is we have to add them all up to find the probability of exactly 2 sixes.
+      - We could just multiply if we knew how many combinations there were in total.Enter pascal's triangle (or binomial coefficients.) If you want the number of combinations that leads to 0 successes in 5 tries, you go to the first number on the 5th row of Pascal's triangle. For one you go to the 2nd, and for two you go to the 3rd.
+      ```
+      1   5   10   10   5   1
+      ```
+      - At a glance we can see the number of possibilities for 0, 1, 2, 3, 4, and 5 successes in 5 trials. To find the probability of 2 sixes, we just have to multiply (1/6)^2(5/6)^4 by 10.
 - **Resources:**
   - [More about pascals triangle and how they work](https://www.youtube.com/watch?v=YUqHdxxdbyM)
 
