@@ -348,7 +348,7 @@ Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
   - The problem is to find the current temperature difference between `London, GB` and `Chennai, Tamil Nadu, India` using the OpenWeatherMap API.
   - `Note #1:` OpenWeatherMap APIs need a valid API key to allow responses, Packages won't work if you don't provide one. You can signup for a free API key on the OpenWeatherMap website.
   - `Note #2:` API keys are private and **should not be made public**. When committing your code, please make sure you replace your original API key with a dummy key.
-  - `Note #2:`Alternatively, you can look into saving your API key as an Environment Variable.
+  - `Note #3:`Alternatively, you can look into saving your API key as an Environment Variable.
   One final alternative is to simply store the API key in a text file and add that file to your `.gitignore` file. When you need to access it, open the file using your program and retrieve the API key.
 
 
