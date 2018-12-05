@@ -286,6 +286,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 15 - Pascal's Triangle**
 - **Problem**
+  - Pascal's Triangle is a triangle(represented as a 2-D array) in which the ends of the rows are 1. Each of the other values is equal to the sum of the two nearest numbers in the row above.
   - The pascal’s triangle is given as:
   ```
 	                    1
@@ -342,17 +343,25 @@ Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
 
 ### **December 16 - Find Temperature Difference Between Two Cities**
 - **Problem**
-  - It’s getting harder to turn around in tech without bumping into some reference to APIs, or application programming interfaces. In the simplest terms, APIs are sets of requirements that govern how one application can talk to another.
+  - It’s getting harder to turn around in tech without bumping into some reference to APIs, or application programming interfaces. In the simplest terms, applications talk to each other via APIs.
+  - Usually, when we use an API to retrieve data (known as an API Call), we receive a JSON file containing data. To access this data, we will need to parse the JSON file. Depending on the language you are using, there are different ways to parse it. Just Google how to parse a JSON file in your language.
   - OpenWeatherMap is a popular service that provides satellite images, Weather data, Historical data and Soil temperature and moisture.
   - The problem is to find the current temperature difference between `London, GB` and `Chennai, Tamil Nadu, India` using the OpenWeatherMap API.
-  - `Note:` OpenWeatherMap APIs need a valid API key to allow responses, Packages won't work if you don't provide one. You can signup for a free API key on the OpenWeatherMap website.
+  - `Note #1:` OpenWeatherMap APIs need a valid API key to allow responses, Packages won't work if you don't provide one. You can signup for a free API key on the OpenWeatherMap website.
+  - `Note #2:` API keys are private and **should not be made public**. When committing your code, please make sure you replace your original API key with a dummy key.
+  - `Note #2:`Alternatively, you can look into saving your API key as an Environment Variable.
+  One final alternative is to simply store the API key in a text file and add that file to your `.gitignore` file. When you need to access it, open the file using your program and retrieve the API key.
+
+
 - **Sample Output**
   ```
   Taken at 20:35 (IST), 04-12-2018
   Current Temperature difference between Chennai,TN and London,GB is 19°C
   ```
+
 - **Resources:**
   - [How to get your API key from OpenWeatherMap](https://openweathermap.org/appid)
+  - [How to retrieve weather data for a city](https://openweathermap.org/current#name)
   - [Java package for use with openweathermap.org's API.](https://sourceforge.net/projects/openjavaweatherapi/)
   - [Java package (alternative) for use with openweathermap.org's API.](https://github.com/xSAVIKx/openweathermap-java-api)
   - [Python package for use with openweathermap.org's API.](https://github.com/csparpa/pyowm)
