@@ -19,9 +19,10 @@ do
 		n=f+s;
 	    f=s;
 	    s=n;
-       }
+           }
+	   }   
 	    printf("\t %d",n);
-      }
+      
    }
     printf("\n  enter 1 to print again and 0 to exit");
     scanf("%d",&j);
