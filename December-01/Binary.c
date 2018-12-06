@@ -2,6 +2,7 @@
 #include<stdio.h>
 void main()
 {
+	
 int s,g;	
 printf("Say my chosen number is :");
 scanf("%d",&s);
