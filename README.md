@@ -410,6 +410,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Enter Password: h3lL0
     Time Taken to brute (approx.): 18000 sceonds
     ```
+
+
   - **Resources**
     - [1000 most commonly used password](/master/src/docs/Dec18-1000_most_common_passwords.txt)
 
