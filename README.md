@@ -26,6 +26,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [**December 14 - Caesar Cipher**](#december-14---caesar-cipher)
 - [**December 15 - Pascal's Triangle**](#december-15---pascals-triangle)
 - [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature-difference-between-two-cities)
+- [**December 17 - Magic Squares**](#december-17---magic-squares)
+- [**December 18 - How Secure is your Password?**](#december-18---how-secure-is-your-password)
 - [**FAQ**](#faq)
 
 ## Algorithms
@@ -357,52 +359,89 @@ Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
   Taken at 20:35 (IST), 04-12-2018
   Current Temperature difference between Chennai,TN and London,GB is 19°C
   ```
-
 - **Resources:**
   - [How to get your API key from OpenWeatherMap](https://openweathermap.org/appid)
   - [How to retrieve weather data for a city](https://openweathermap.org/current#name)
 
 
+### **December 17 - Magic Squares**
+- **Problem**
+  - A magic square of order n is an arrangement of ``n^2`` numbers, containing distinct integers from ``1`` to ``n^2``, in a square, such that the ``n`` numbers in all rows, all columns, and both diagonals sum to the same constant.
+  - This constant is called the magic constant or magic sum, M, which is given by:
+      ```math
+      M = n(n^2+1)/2
+      ```
+  - Now the problem is to generate all the possible magic squares if the order of the square is given as input.
+
+
+- **Example**
+
+ <img src="/src/docs/Dec17-Example.png" width="375" height="288"/>
+- **Resources**
+  - [Magic Squares #1](http://www.math.wichita.edu/~richardson/mathematics/magic%20squaresorder3magicsquare.html)
+  - [Magic Squares #2](https://mindyourdecisions.com/blog/2015/11/08/how-many-3x3-magic-squares-are-there-sunday-puzzle/)
+
+
+### **December 18 - How Secure is your Password?**
+- **Problem**
+  - Brute Force Attack is the most widely known password cracking method. This attack simply tries to use every possible printable ASCII character combination as a password. Though brute forcing can be a little exhaustive, the likelihood of a password being cracked is made certain.
+  - The problem is to find the approximate time that will be take to crack a given password using Brute Force Attack. The larger the time, the stronger the password is.
+  - Assume **500,000** passwords can be tested per second.
+  - `Optional:` Perform a check for dictionary attack before checking for brute-force by directly comparing the input password with each password in the **.txt** file in the reference.
+
+
+- **Examples**
+  ```
+  Enter Password: abc
+  Time Taken to brute (approx.): Instantly
+  ```
+  ```
+  Enter Password: h3lL0
+  Time Taken to brute (approx.): 18000 sceonds
+  ```
+- **Resources**
+  - [1000 most commonly used password](/master/src/docs/Dec18-1000_most_common_passwords.txt)
+
 FAQ:
 ======
-#### Who can join the Challenge?
-Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
+  #### Who can join the Challenge?
+  Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
-#### When should I submit the pull request?
-You don't need to submit it everyday. Just submit it once you're done with all 31 algorithms.
+  #### When should I submit the pull request?
+  You don't need to submit it everyday. Just submit it once you're done with all 31 algorithms.
 
-#### What if I'm not able to code every day?
-Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
+  #### What if I'm not able to code every day?
+  Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
 
-#### What language should I use to code?
-Anything! New to C? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
+  #### What language should I use to code?
+  Anything! New to C? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
-#### Fork? Pull request? What is all that?
-If you are new to Git or GitHub, check out this [small tutorial.](https://guides.github.com/activities/hello-world/)
+  #### Fork? Pull request? What is all that?
+  If you are new to Git or GitHub, check out this [small tutorial.](https://guides.github.com/activities/hello-world/)
 
-#### Where are the rest of the problems?
-Our code ninjas are hard at work preparing the rest of the problems. Don't worry, they'll be up soon.
+  #### Where are the rest of the problems?
+  Our code ninjas are hard at work preparing the rest of the problems. Don't worry, they'll be up soon.
 
-#### How should I complete these programs?
-We have a folder for each day of the month. Simply complete your code and move the file into that folder. Be sure to rename your file to the following format: `language_username` or `language_username_problemname`
-Some examples:
-`python_exampleUser.py`
-`c_exampleUser.c`
-**Please do not modify any existing files in the repository.**
+  #### How should I complete these programs?
+  We have a folder for each day of the month. Simply complete your code and move the file into that folder. Be sure to rename your file to the following format: `language_username` or `language_username_problemname`
+  Some examples:
+  `python_exampleUser.py`
+  `c_exampleUser.c`
+  **Please do not modify any existing files in the repository.**
 
-#### I forked the repository but some problems were added only after that. How do I access those problems?
-Not to worry! Open your nearest terminal or command prompt and navigate over to your forked repository. Enter these commands:
-```bash
-git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms.git
-git fetch upstream
-git merge upstream/master
-```
-If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
+  #### I forked the repository but some problems were added only after that. How do I access those problems?
+  Not to worry! Open your nearest terminal or command prompt and navigate over to your forked repository. Enter these commands:
+  ```bash
+  git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms.git
+  git fetch upstream
+  git merge upstream/master
+  ```
+  If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
 
-#### I received a merge error. What do I do?
-This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+  #### I received a merge error. What do I do?
+  This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
 
-#### I'm facing difficulties with/need help understanding a particular question.
-Open up an issue on this repository and we'll do our best to help you out.
+  #### I'm facing difficulties with/need help understanding a particular question.
+  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.
 
 ###### [[Back to Top]](#----)
