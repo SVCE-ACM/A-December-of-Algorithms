@@ -382,23 +382,26 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         ```math
         M = n(n^2+1)/2
         ```
-    - Now the problem is to generate all the possible magic squares if the order of the square is given as input.
-
+    - Now the problem is to generate all the possible magic squares if the order of the square and magic sum is given as input.
+    - `Hint:` It will be helpful if you breakdown the problem. First generate one magic square. Before generating the others, look at the other squares in the example carefully, you will notice something very useful.
 
   - **Example**
+
    <img src="/src/docs/Dec17-Example.png" width="375" height="288"/>
 
   - **Resources**
-    - [Magic Squares #1](http://www.math.wichita.edu/~richardson/mathematics/magic%20squaresorder3magicsquare.html)
-    - [Magic Squares #2](https://mindyourdecisions.com/blog/2015/11/08/how-many-3x3-magic-squares-are-there-sunday-puzzle/)
+    - [Magic Squares #1](https://mindyourdecisions.com/blog/2015/11/08/how-many-3x3-magic-squares-are-there-sunday-puzzle/)
+    - [Magic Square #2](https://en.wikipedia.org/wiki/Magic_square)
 
 
 ### **December 18 - How Secure is your Password?**
   - **Problem**
-    - Brute Force Attack is the most widely known password cracking method. This attack simply tries to use every possible printable ASCII character combination as a password. Though brute forcing can be a little exhaustive, the likelihood of a password being cracked is made certain.
+    - Brute Force Attack is the most widely known password cracking method. This attack simply tries to use every possible ASCII printable characters (character code 32-126) combination as a password. Though brute forcing can be a little exhaustive, the likelihood of a password being cracked is made certain.
     - The problem is to find the approximate time that will be take to crack a given password using Brute Force Attack. The larger the time, the stronger the password is.
     - Assume **500,000** passwords can be tested per second.
-    - `Optional:` Perform a check for dictionary attack before checking for brute-force by directly comparing the input password with each password in the **.txt** file in the reference.
+    - `Optional #1:` Perform a check for dictionary attack before checking for brute-force by directly comparing the input password with each password in the **.txt** file in the reference.
+    - `Optional #2:` To make their password tougher to crack, people often substitute letters with numbers. O becomes 0 for example. Think of other such replacements. Strengthen your dictionary attack by implementing a way to substitute these letters.
+    - `Note:` That while this is a pretty cool concept, in the real world you don't really have the liberty of attempting so many different passwords on a website. You might have noticed that if you enter a wrong password enough times you may be locked out of your account. Instead hackers obtain `hashes` from data breaches. When they attempt to brute-force a password, they first hash it using the same algorithm that was used on the original password. They then compare each generated hash with a hashed password to see if they match.
 
 
   - **Examples**
@@ -408,12 +411,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ```
     ```
     Enter Password: h3lL0
-    Time Taken to brute (approx.): 18000 sceonds
+    Time Taken to brute (approx.): 13326.48 sceonds
     ```
 
 
   - **Resources**
     - [1000 most commonly used password](/master/src/docs/Dec18-1000_most_common_passwords.txt)
+    - [List of All Printable ASCII Characters with their Character Code](/master/src/docs/Dec18-Printable_ASCII.md)
+
 
 FAQ:
 ======
