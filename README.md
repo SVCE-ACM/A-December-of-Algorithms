@@ -28,6 +28,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature-difference-between-two-cities)
   - [**December 17 - Magic Squares**](#december-17---magic-squares)
   - [**December 18 - How Secure is your Password?**](#december-18---how-secure-is-your-password)
+  - [**December 19 - Hashing**](#december-19---hashing)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -419,6 +420,45 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Resources**
     - [1000 most commonly used password](/src/docs/Dec18-1000_most_common_passwords.txt)
+    
+    
+### **December 19 - Hashing**
+  - **Problem**
+    - A hash function is any function that can be used to map data of arbitrary size to data of a fixed size. Hash functions are often used in combination with a hash table, a common data structure used for rapid data lookup.
+    - Consider a simple hash function:
+        ```
+        int simpleHash(item) {
+            return item % 10;
+        }
+        ```
+        ```
+        Input: simpleHash(77)
+        Output: 7
+        Input: simpleHash(3)
+        Output: 3
+        Input: simpleHash(908)
+        Output: 8
+        ```
+    - As you see, each input is mapped to an output of fixed size.
+    - Now, implement a hash function that takes a string of variable length and returns an integer with a fixed maximum number of digits. Try to come up with your own method of returning a fixed length hash. The simplest method would be to just use a 3-digit length of the string. 001, 042, 340 for 1, 42 and 340 characters respectively. But that's no fun.
+    - **Hint:** Try something with the ASCII values of each word maybe.
+    
+  - **_Optional Problem_**
+    - Hash functions may return the same output for various inputs. This is known as collision. There are two main collision resolution techniques:
+      - [Separate Chaining](https://youtu.be/_xA8UvfOGgU)
+      - [Open Addressing](https://youtu.be/Dk57JonwKNk)
+    - Implement a hash table with one of the collision resolution techniques mentioned above.
+    
+  - **Uses**
+    - As mentioned above, hash functions are often used in combination with a hash table for rapid data lookup.
+    - They are also useful in cryptography. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or any equivalent alternatives) by knowing the stored hash value.
+    - Cryptographic hash functions also play a crucial role in blockchains.
+    
+  - **Resources**
+    - [Hash function – Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
+    - [Hash table - Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
+    - [An in-depth video about cryptocurrencies, blockchain and hash functions](https://youtu.be/bBC-nXj3Ng4)
+    
 
 FAQ:
 ======
