@@ -28,6 +28,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Find Temperature Difference Between Two Cities**](#december-16---find-temperature-difference-between-two-cities)
   - [**December 17 - Magic Squares**](#december-17---magic-squares)
   - [**December 18 - How Secure is your Password?**](#december-18---how-secure-is-your-password)
+  - [**December 19 - Hashing**](#december-19---hashing)
   - [**FAQ**](#faq)
 
 ## Algorithms
