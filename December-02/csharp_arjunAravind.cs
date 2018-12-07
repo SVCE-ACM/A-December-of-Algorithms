@@ -31,6 +31,12 @@ class SimTriangles {
         return angles;
     }
 
+    public void swap(ref float num1, ref float num2){
+	num1 = num1 + num2;
+	num2 = num1 - num2;
+	num1 = num1 - num2;
+    }
+
     public void printArray(float[] sides1, float[] sides2) {
         Console.Write("{0},{1},{2} and ", sides1[0], sides1[1], sides1[2]);
         Console.Write("{0},{1},{2}\n", sides2[0], sides2[1], sides2[2]);
@@ -56,9 +62,7 @@ class SimTriangles {
                 return true;
 
             //Let's swap the stuff
-            sides1[iter2] = sides1[iter2 - 1] + sides1[iter2];
-            sides1[iter2 - 1] = sides1[iter2] - sides1[iter2 - 1];
-            sides1[iter2] = sides1[iter2] - sides1[iter2 - 1];
+	    swap(ref sides1[iter2], ref sides1[iter2-1]);
 
             iter2--;
 
@@ -73,9 +77,7 @@ class SimTriangles {
                 return true;
 
             //We swap again
-            sides1[iter2] = sides1[iter2 - 1] + sides1[iter2];
-            sides1[iter2 - 1] = sides1[iter2] - sides1[iter2 - 1];
-            sides1[iter2] = sides1[iter2] - sides1[iter2 - 1];
+	    swap(ref sides1[iter2], ref sides1[iter2-1]);
         }
 
         return false;
@@ -105,13 +107,8 @@ class SimTriangles {
                 return true;
 
             //Let's swap the stuff
-            sides1[iter2] = sides1[iter2 - 1] + sides1[iter2];
-            sides1[iter2 - 1] = sides1[iter2] - sides1[iter2 - 1];
-            sides1[iter2] = sides1[iter2] - sides1[iter2 - 1];
-
-            angles1[iter2] = angles1[iter2 - 1] + angles1[iter2];
-            angles1[iter2 - 1] = angles1[iter2] - angles1[iter2 - 1];
-            angles1[iter2] = angles1[iter2] - angles1[iter2 - 1];
+	    swap(ref sides1[iter2], ref sides1[iter2-1]);
+	    swap(ref angles1[iter2], ref angles1[iter2-1]);
 
             iter2--;
 
@@ -130,13 +127,8 @@ class SimTriangles {
                 return true;
 
             //We swap again
-            sides1[iter2] = sides1[iter2 - 1] + sides1[iter2];
-            sides1[iter2 - 1] = sides1[iter2] - sides1[iter2 - 1];
-            sides1[iter2] = sides1[iter2] - sides1[iter2 - 1];
-
-            angles1[iter2] = angles1[iter2 - 1] + angles1[iter2];
-            angles1[iter2 - 1] = angles1[iter2] - angles1[iter2 - 1];
-            angles1[iter2] = angles1[iter2] - angles1[iter2 - 1];
+	    swap(ref sides1[iter2], ref sides1[iter2-1]);
+	    swap(ref angles1[iter2], ref angles1[iter2-1]);
         }
 
         return false;
@@ -156,9 +148,7 @@ class SimTriangles {
                 return true;
 
             //Let's swap the stuff
-            angles1[iter2] = angles1[iter2 - 1] + angles1[iter2];
-            angles1[iter2 - 1] = angles1[iter2] - angles1[iter2 - 1];
-            angles1[iter2] = angles1[iter2] - angles1[iter2 - 1];
+	    swap(ref angles1[iter2], ref angles1[iter2-1]);
 
             iter2--;
             
@@ -170,9 +160,7 @@ class SimTriangles {
                 return true;
 
             //We swap again
-            angles1[iter2] = angles1[iter2 - 1] + angles1[iter2];
-            angles1[iter2 - 1] = angles1[iter2] - angles1[iter2 - 1];
-            angles1[iter2] = angles1[iter2] - angles1[iter2 - 1];
+	    swap(ref angles1[iter2], ref angles1[iter2-1]);
         }
 
         return false;
