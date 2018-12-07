@@ -406,8 +406,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Optional Task**
     - `Optional #1:` Perform a check for dictionary attack before checking for brute-force by directly comparing the input password with each password in the **.txt** file in the reference.
     - `Optional #2:` To make their password tougher to crack, people often substitute letters with numbers. O becomes 0 for example. Think of other such replacements. Strengthen your dictionary attack by implementing a way to substitute these letters.
-    - `Optional #3:` Find the most approximate time that will be taken to brute-force a password provided that the order of brute-forcing is the ASCII Codes.  
-
 
   - **Examples**
     ```
@@ -418,20 +416,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Enter Password: abc
     Maximum time Taken to brute-force: Instantly
     ```
-    ```
-    Enter Password: abc
-    Time Taken to brute-force (approx.): Instantly
-    ```
-    ```
-    Enter Password: h3lL0
-    Time Taken to brute-force (approx.): 4374.26 sceonds
-    ```
-
 
   - **Resources**
     - [1000 most commonly used password](/src/docs/Dec18-1000_most_common_passwords.txt)
-    - [List of All Printable ASCII Characters with their Character Code](/src/docs/Dec18-Printable_ASCII.md)
-
 
 FAQ:
 ======
@@ -447,7 +434,7 @@ FAQ:
   #### What language should I use to code?
   Anything! New to C? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
-  #### Fork? Pull request? What is all that?
+  #### Fork? Pull request? What is all that? I don't know how to use GitHub!
   If you are new to Git or GitHub, check out this [small tutorial.](https://guides.github.com/activities/hello-world/)
 
   #### Where are the rest of the problems?
