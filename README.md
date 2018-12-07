@@ -411,7 +411,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ```
     ```
     Enter Password: h3lL0
-    Time Taken to brute (approx.): 13326.48 sceonds
+    Time Taken to brute (approx.): 4374.26 sceonds
     ```
 
 
