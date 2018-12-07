@@ -416,8 +416,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 
   - **Resources**
-    - [1000 most commonly used password](/master/src/docs/Dec18-1000_most_common_passwords.txt)
-    - [List of All Printable ASCII Characters with their Character Code](/master/src/docs/Dec18-Printable_ASCII.md)
+    - [1000 most commonly used password](/src/docs/Dec18-1000_most_common_passwords.txt)
+    - [List of All Printable ASCII Characters with their Character Code](/src/docs/Dec18-Printable_ASCII.md)
 
 
 FAQ:
