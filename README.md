@@ -383,6 +383,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         M = n(n^2+1)/2
         ```
     - Now the problem is to generate all the possible magic squares if the order of the square and magic sum is given as input.
+    - Try it out for `Order = 4` and `Magic Sum = 34`
     - `Hint:` It will be helpful if you breakdown the problem. First generate one magic square. Before generating the others, look at the other squares in the example carefully, you will notice something very useful.
 
   - **Example**
@@ -397,21 +398,33 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### **December 18 - How Secure is your Password?**
   - **Problem**
     - Brute Force Attack is the most widely known password cracking method. This attack simply tries to use every possible ASCII printable characters (character code 32-126) combination as a password. Though brute forcing can be a little exhaustive, the likelihood of a password being cracked is made certain.
-    - The problem is to find the approximate time that will be take to crack a given password using Brute Force Attack. The larger the time, the stronger the password is.
+    - The problem is to use the length of the string to find the maximum time that will be taken by a system to crack a given password using Brute Force Attack. The larger the time, the stronger the password is.
     - Assume **500,000** passwords can be tested per second.
+    - `Note:` That while this is a pretty cool concept, in the real world you don't really have the liberty of attempting so many different passwords on a website. You might have noticed that if you enter a wrong password enough times you may be locked out of your account. Instead hackers obtain `hashes` from data breaches. When they attempt to brute-force a password, they first hash it using the same algorithm that was used on the original password. They then compare each generated hash with a hashed password to see if they match.
+
+
+  - **Optional Task**
     - `Optional #1:` Perform a check for dictionary attack before checking for brute-force by directly comparing the input password with each password in the **.txt** file in the reference.
     - `Optional #2:` To make their password tougher to crack, people often substitute letters with numbers. O becomes 0 for example. Think of other such replacements. Strengthen your dictionary attack by implementing a way to substitute these letters.
-    - `Note:` That while this is a pretty cool concept, in the real world you don't really have the liberty of attempting so many different passwords on a website. You might have noticed that if you enter a wrong password enough times you may be locked out of your account. Instead hackers obtain `hashes` from data breaches. When they attempt to brute-force a password, they first hash it using the same algorithm that was used on the original password. They then compare each generated hash with a hashed password to see if they match.
+    - `Optional #3:` Find the most approximate time that will be taken to brute-force a password provided that the order of brute-forcing is the ASCII Codes.  
 
 
   - **Examples**
     ```
+    Enter Password: h3lL0
+    Maximum time taken to brute-force: 13326.48 sceonds
+    ```
+    ```
     Enter Password: abc
-    Time Taken to brute (approx.): Instantly
+    Maximum time Taken to brute-force: Instantly
+    ```
+    ```
+    Enter Password: abc
+    Time Taken to brute-force (approx.): Instantly
     ```
     ```
     Enter Password: h3lL0
-    Time Taken to brute (approx.): 4374.26 sceonds
+    Time Taken to brute-force (approx.): 4374.26 sceonds
     ```
 
 
@@ -460,6 +473,6 @@ FAQ:
   This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
 
   #### I'm facing difficulties with/need help understanding a particular question.
-  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.
+  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.M
 
 ###### [[Back to Top]](#----)
