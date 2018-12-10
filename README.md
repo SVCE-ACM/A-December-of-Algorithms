@@ -29,7 +29,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 17 - Magic Squares**](#december-17---magic-squares)
   - [**December 18 - How Secure is your Password?**](#december-18---how-secure-is-your-password)
   - [**December 19 - Hashing**](#december-19---hashing)
+<<<<<<< HEAD
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
+=======
+  - [**December 20 - Dijkstra's Shortest Reach**](#december-20---Dijkstras-shortest-reach)
+>>>>>>> 2a7479ab15e704fececb689769246939276b081c
   - [**FAQ**](#faq)
 
 ## Algorithms
