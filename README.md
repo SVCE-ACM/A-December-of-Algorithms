@@ -29,6 +29,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 17 - Magic Squares**](#december-17---magic-squares)
   - [**December 18 - How Secure is your Password?**](#december-18---how-secure-is-your-password)
   - [**December 19 - Hashing**](#december-19---hashing)
+  - [**December 20 - Dijkstra's Shortest Reach**](#december-20---Dijkstras-shortest-reach)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -354,7 +355,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [More about pascals triangle and how they work](https://www.youtube.com/watch?v=YUqHdxxdbyM)
 
 
-### **December 16 - Find Temperature Difference Between Two Cities**
+### **December 16 - Find Temperature Difference Between Two     Cities**
   - **Problem**
     - It’s getting harder to turn around in tech without bumping into some reference to APIs, or application programming interfaces. In the simplest terms, applications talk to each other via APIs.
     - Usually, when we use an API to retrieve data (known as an API Call), we receive a JSON file containing data. To access this data, we will need to parse the JSON file. Depending on the language you are using, there are different ways to parse it. Just Google how to parse a JSON file in your language.
@@ -465,7 +466,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1` or `INFINITE`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
     For example, consider the following graph of 9 nodes:
 
-     <img src="/src/docs/Dec20-Example.jpg"/>
+     <img src="/src/docs/Dec20-Example.jpg" width="550" height="288"/>
 
     - Write an algorithm that returns an array of integers that represent the shortest distance to each node from the start node in ascending order of node number, given the number of nodes, the edges and starting node number.
 
