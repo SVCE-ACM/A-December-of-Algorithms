@@ -1,4 +1,7 @@
 using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
 
 class Node {
 	/* Fields */
@@ -155,8 +158,75 @@ class LinkedList {
 	}
 }
 
+
+
+class HashTable {
+
+	/* Fields */
+	private LinkedList list;
+
+	/* Constructors */
+	public HashTable () {
+		list = new LinkedList();
+		for ( int iter = 0; iter < 9; iter++ ) {
+			list.AddNext(iter.ToString());
+		}
+	}
+
+	/* Public functions */
+	public void HashItUp (string sentence) {
+		string[] words = toArray(sentence);
+		int length = words.Length;
+
+		for ( int count = 0; count < length; count++ ) {
+			/* Here, we apply th hash function to these words */
+			int hash = HashFunction(words[count]);
+			list.AddChild(words[count], hash);
+		}
+	}
+
+	public void Display1 () {
+		list.PrintChildren(1);
+	}
+
+	/* Private functions */
+	private string[] toArray (string sentence) {
+		var punctuation = sentence.Where(Char.IsPunctuation).Distinct().ToArray();
+		var words = (sentence.Split().Select(x => x.Trim(punctuation))).ToArray();
+		return words;
+	}
+
+	private int HashFunction (string value) {
+		/* We add up the length of the string until it is less than 10 */
+		int length = value.Length;
+		int hashValue = GetLength(length);
+		return hashValue;
+	}
+
+	private int GetLength (int length) {
+		if ( length < 10 ) {
+			return length;
+		}
+		else{
+			int sum = 0;
+			while ( length != 0 ){
+				sum += (length%10);
+				length /= 10;
+			}
+			return GetLength(sum);
+		}
+	}
+
+}
+
+
+
 public class Test {
 	public static void Main(){
 		//LinkedList list;
+
+		HashTable h=new HashTable();
+		h.HashItUp("My name is arjunaravind and my friend is Aravind Balakrishnan. He lives in Chennai in thiruvanmiyur and he is an awesom person. Recently he went to the UnitedStatesOfAmerica and he is on vacation there.");
+		h.Display1();
 	}
 }
