@@ -30,6 +30,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 18 - How Secure is your Password?**](#december-18---how-secure-is-your-password)
   - [**December 19 - Hashing**](#december-19---hashing)
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
+  - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -498,6 +499,23 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
 
+## **December 21 - Currency Convertor**
+  - **Problem**
+      -  Calculate the currency exchange rates between two user input countries using the attached **.csv** file in the reference.
+      - ``Note:`` All the given ``VALUES`` in the csv file are a countries equivalent value in USD.
+      - ``Optional:`` Generate a complete list of currency units for conversion
+
+  - **Example**
+    ```
+      From Country: India
+      Currency I have: 1000
+      To Country: Russia
+
+      1000 (India) = 895.5453149 (Russia)
+    ```
+
+  - **Resources:**
+      - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
 
 FAQ:
 ======
