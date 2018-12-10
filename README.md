@@ -462,7 +462,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 20 - Dijkstra's Shortest Reach**
   - **Problem**
-    - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
+    - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1` or `INFINITE`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
     For example, consider the following graph of 9 nodes:
 
      <img src="/src/docs/Dec20-Example.jpg"/>
