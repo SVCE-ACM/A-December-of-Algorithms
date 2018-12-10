@@ -129,7 +129,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - Return the least common multiple of two or more numbers.
     - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
     - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
-    - `Optional:` Allow for input of more than 2 numbers and find the comined LCM of all the numbers.
+    - `Optional:` Allow for input of more than 2 numbers and find the combined LCM of all the numbers.
   - **Example**
     ```bash
     Input: 12, 7
@@ -420,8 +420,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Resources**
     - [1000 most commonly used password](/src/docs/Dec18-1000_most_common_passwords.txt)
-    
-    
+
+
 ### **December 19 - Hashing**
   - **Problem**
     - A hash function is any function that can be used to map data of arbitrary size to data of a fixed size. Hash functions are often used in combination with a hash table, a common data structure used for rapid data lookup.
@@ -442,23 +442,61 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - As you see, each input is mapped to an output of fixed size.
     - Now, implement a hash function that takes a string of variable length and returns an integer with a fixed maximum number of digits. Try to come up with your own method of returning a fixed length hash. The simplest method would be to just use a 3-digit length of the string. 001, 042, 340 for 1, 42 and 340 characters respectively. But that's no fun.
     - **Hint:** Try something with the ASCII values of each word maybe.
-    
+
   - **_Optional Problem_**
     - Hash functions may return the same output for various inputs. This is known as collision. There are two main collision resolution techniques:
       - [Separate Chaining](https://youtu.be/_xA8UvfOGgU)
       - [Open Addressing](https://youtu.be/Dk57JonwKNk)
     - Implement a hash table with one of the collision resolution techniques mentioned above.
-    
+
   - **Uses**
     - As mentioned above, hash functions are often used in combination with a hash table for rapid data lookup.
     - They are also useful in cryptography. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or any equivalent alternatives) by knowing the stored hash value.
     - Cryptographic hash functions also play a crucial role in blockchains.
-    
+
   - **Resources**
     - [Hash function – Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
     - [Hash table - Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
     - [An in-depth video about cryptocurrencies, blockchain and hash functions](https://youtu.be/bBC-nXj3Ng4)
-    
+
+
+### **December 20 - Dijkstra's Shortest Reach**
+  - **Problem**
+    - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
+    For example, consider the following graph of 9 nodes:
+
+     <img src="/src/docs/Dec20-Example.jpg"/>
+
+    - Write an algorithm that returns an array of integers that represent the shortest distance to each node from the start node in ascending order of node number, given the number of nodes, the edges and starting node number.
+
+  - **Example**
+    ```
+    {0, 4, 0, 0, 0, 0, 0, 8, 0}
+    {4, 0, 8, 0, 0, 0, 0, 11, 0}
+    {0, 8, 0, 7, 0, 4, 0, 0, 2}
+    {0, 0, 7, 0, 9, 14, 0, 0, 0}
+    {0, 0, 0, 9, 0, 10, 0, 0, 0}
+    {0, 0, 4, 14, 10, 0, 2, 0, 0}
+    {0, 0, 0, 0, 0, 2, 0, 1, 6}
+    {8, 11, 0, 0, 0, 0, 1, 0, 7}
+    {0, 0, 2, 0, 0, 0, 6, 7, 0}
+    ```
+    ```
+    Vertex   Distance from Source
+    0                0
+    1                4
+    2                12
+    3                19
+    4                21
+    5                11
+    6                9
+    7                8
+    8                14
+    ```
+  - **Resources**  
+    [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+
+
 
 FAQ:
 ======
