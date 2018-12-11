@@ -513,8 +513,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## **December 21 - Currency Convertor**
   - **Problem**
       -  Calculate the currency exchange rates between two user input countries using the attached **.csv** file in the reference.
-      - ``Note:`` All the given ``VALUES`` in the csv file are a countries equivalent value in USD.
-      - ``Optional:`` Generate a complete list of currency units for conversion
+      - ``Note:`` All the given ``VALUES`` in the csv file are a country's equivalent value in USD.
+      - ``Optional:`` Also, generate a complete list of currency exchange rates between the input currency and the world currencies. 
 
   - **Example**
     ```
