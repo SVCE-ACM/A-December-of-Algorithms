@@ -356,7 +356,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [More about pascals triangle and how they work](https://www.youtube.com/watch?v=YUqHdxxdbyM)
 
 
-### **December 16 - Find Temperature Difference Between Two     Cities**
+### **December 16 - Find Temperature Difference Between Two Cities**
   - **Problem**
     - It’s getting harder to turn around in tech without bumping into some reference to APIs, or application programming interfaces. In the simplest terms, applications talk to each other via APIs.
     - Usually, when we use an API to retrieve data (known as an API Call), we receive a JSON file containing data. To access this data, we will need to parse the JSON file. Depending on the language you are using, there are different ways to parse it. Just Google how to parse a JSON file in your language.
@@ -514,7 +514,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
       -  Calculate the currency exchange rates between two user input countries using the attached **.csv** file in the reference.
       - ``Note:`` All the given ``VALUES`` in the csv file are a country's equivalent value in USD.
-      - ``Optional:`` Also, generate a complete list of currency exchange rates between the input currency and the world currencies. 
+      - ``Optional:`` Also, generate a complete list of currency exchange rates between the input currency and the world currencies.
 
   - **Example**
     ```
