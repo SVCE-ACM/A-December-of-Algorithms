@@ -445,16 +445,19 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - Now, implement a hash function that takes a string of variable length and returns an integer with a fixed maximum number of digits. Try to come up with your own method of returning a fixed length hash. The simplest method would be to just use a 3-digit length of the string. 001, 042, 340 for 1, 42 and 340 characters respectively. But that's no fun.
     - **Hint:** Try something with the ASCII values of each word maybe.
 
+
   - **_Optional Problem_**
     - Hash functions may return the same output for various inputs. This is known as collision. There are two main collision resolution techniques:
       - [Separate Chaining](https://youtu.be/_xA8UvfOGgU)
       - [Open Addressing](https://youtu.be/Dk57JonwKNk)
     - Implement a hash table with one of the collision resolution techniques mentioned above.
 
+
   - **Uses**
     - As mentioned above, hash functions are often used in combination with a hash table for rapid data lookup.
     - They are also useful in cryptography. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or any equivalent alternatives) by knowing the stored hash value.
     - Cryptographic hash functions also play a crucial role in blockchains.
+
 
   - **Resources**
     - [Hash function – Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
@@ -463,6 +466,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 
 ### **December 20 - Dijkstra's Shortest Reach**
+  - **Terminologies Involved**
+    - A **graph** is a pictorial representation of a set of objects where some pairs of objects are connected by links.
+    - Each node of the graph is represented as a **vertex**.
+    - An **edge** represents a path between two vertices or a line between two vertices.
+    - A **path** represents a sequence of edges between the two vertices.
+    - **Distance** is the amount of time taken for information transmission between two nodes.
   - **Problem**
     - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1` or `INFINITE`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
     For example, consider the following graph of 9 nodes:
@@ -496,7 +505,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     8                14
     ```
   - **Resources**  
-    [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+    - [What is Dijkstra's Algorithm?](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+    - [Visualisation of Dijkstra's Algorithm #1](https://visualgo.net/en/sssp)
+    - [Visualisation of Dijkstra's Algorithm #2](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
 
 
 ## **December 21 - Currency Convertor**
