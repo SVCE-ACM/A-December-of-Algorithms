@@ -470,7 +470,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - A **graph** is a pictorial representation of a set of objects where some pairs of objects are connected by links.
     - Each node of the graph is represented as a **vertex**.
     - An **edge** represents a path between two vertices or a line between two vertices.
-    - A **path** represents a sequence of edges between the two vertices.
+    - A **path** indicates the direction in which information is moving.
     - **Distance** is the amount of time taken for information transmission between two nodes.
   - **Problem**
     - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1` or `INFINITE`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
