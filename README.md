@@ -467,11 +467,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 20 - Dijkstra's Shortest Reach**
   - **Terminologies Involved**
-    - A **graph** is a pictorial representation of a set of objects where some pairs of objects are connected by links.
-    - Each node of the graph is represented as a **vertex**.
-    - An **edge** represents a path between two vertices or a line between two vertices.
-    - A **path** indicates the direction in which information is moving.
-    - **Distance** is the amount of time taken for information transmission between two nodes.
+    - An **edge** is a connection or line between two vertices.
+    - A **path** is a sequence of vertices connected together by edges.
+    - Every vertex in a path is adjacent to the vertices next to it.
+    - Two vertices are adjacent if they share a common edge.
+    - **Distance** is the distance travelled to reach one vertex from another vertex. It is also called the weight of an edge.
+
+
   - **Problem**
     - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1` or `INFINITE`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
     For example, consider the following graph of 9 nodes:
@@ -479,6 +481,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      <img src="/src/docs/Dec20-Example.jpg" width="550" height="250"/>
 
     - Write an algorithm that returns an array of integers that represent the shortest distance to each node from the start node in ascending order of node number, given the number of nodes, the edges and starting node number.
+
 
   - **Example**
     ```
@@ -514,7 +517,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
       -  Calculate the currency exchange rates between two user input countries using the attached **.csv** file in the reference.
       - ``Note:`` All the given ``VALUES`` in the csv file are a country's equivalent value in USD.
-      - ``Optional:`` Also, generate a complete list of currency exchange rates between the input currency and the world currencies.
+      - ``Optional:`` Also, generate a complete list of currency exchange rates between the input currency and the world currencies. For instance, if the input is `India`, then the output should be a list of each country's exchange rate for India.
+      ```bash
+      USA = 71.93, Malaysia = 17 etc.
+      ```
+
 
   - **Example**
     ```
@@ -524,6 +531,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
       1000 (India) = 895.5453149 (Russia)
     ```
+
 
   - **Resources:**
       - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
