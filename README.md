@@ -31,7 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - Hashing**](#december-19---hashing)
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
-- [**December 22 - Huffman Encoding**](#december-22---huffman-encoding)
+  - [**December 22 - Huffman Encoding**](#december-22---huffman-encoding)
   - [**FAQ**](#faq)
 
 ## Algorithms
