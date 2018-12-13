@@ -31,6 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - Hashing**](#december-19---hashing)
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
+- [**December 22 - Huffman Encoding**](#december-22---huffman-encoding)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -535,6 +536,38 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Resources:**
       - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
+
+
+## **December 22 - Huffman Encoding**
+  - **Problem**
+    - Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters. The most frequent character gets the smallest code and the least frequent character gets the largest code.
+    - Write a program to generate Huffman codes if a set of characters and their corresponding frequency is given.
+
+
+  - **Example**
+  ```
+  Character   Frequency
+    a             5
+    b             9
+    c             12
+    d             13
+    e             16
+    f             45
+  ```
+  ```
+  f: 0
+  c: 100
+  d: 101
+  a: 1100
+  b: 1101
+  e: 111
+  ```
+
+
+  - **Resources:**
+      - [Huffman Coding](http://en.wikipedia.org/wiki/Huffman_coding)
+      - [Huffman Encoding #1](https://brilliant.org/wiki/huffman-encoding/)
+
 
 FAQ:
 ======
