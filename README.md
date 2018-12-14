@@ -47,6 +47,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Guess 43 (half of 37 to 50) → you’re too high.
       Guess 40 (half of 37 to 43) → you’re too high.
       Guess 38 (half of 37 to 40) → spot on!
+	  
+	  Input: A list of integers & a number x.
+	  Output: Find the given number in the list of integers. Print out each iteration of your search similar to the example given above.
       ```
   - **Resources**
     - [Binary Search](https://www.geeksforgeeks.org/binary-search/)
@@ -88,13 +91,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 4 - Fibonacci Series**
   - **Problem**
-    - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series
+    - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series.
   - **Uses**
     - A great real-time application of Fibonacci series that’s used mostly these days as an unknown fact is the [mile to kilometre conversion & Kilometer to mile conversion](http://www.catonmat.net/blog/using-fibonacci-numbers-to-convert-from-miles-to-kilometers/)…..
     - Let’s now see the Fibonacci series :
     ```bash
     0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,…
     ```
+	- Remember, you don't need to print out the whole series, you just need to find the nth number in the series.
   - **Resources**
     - [Video Link](https://youtu.be/wTlw7fNcO-0)
 
@@ -108,7 +112,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
       - No disk may be placed on top of a smaller disk.
     - You have only certain fixed moves:
-      - `left-right`, `left->middle`
+      - `left->right`, `left->middle`
       - `middle->left`, `middle->right`
       - `right->left`, `right->middle`
     - Your input will be a number indicating the total number of disks on the first (left) tower.    
