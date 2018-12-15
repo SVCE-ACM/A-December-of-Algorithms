@@ -30,6 +30,7 @@ func GetNum() int {
 func GetArray(rows int, cols int) [][]int {
 
 	arr := make([][]int, 0)
+	fmt.Printf("\n")
 
 	for rowIter := 0; rowIter < rows; rowIter++ {
 		arr1 := make([]int, 0)
