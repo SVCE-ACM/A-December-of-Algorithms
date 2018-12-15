@@ -13,8 +13,6 @@ import (
 */
 
 func GetNum() int {
-	fmt.Printf("Enter a number --> ")
-
 	scanner := bufio.NewScanner(os.Stdin)
 	_ = scanner.Scan()
 
@@ -29,58 +27,62 @@ func GetNum() int {
 	return enteredNumber
 }
 
-func GetArray(rows int, cols int) []int {
+func GetArray(rows int, cols int) [][]int {
 
-	arr := make([]int, 0, cols*rows)
+	arr := make([][]int, 0)
 
-	for rowIter := 0; rowIter < rows; row++ {
-		for colIter := 0; colIter <cols;  cols++ {
-			fmt.Printf("Enter the array element --> ")
-			arr[rows][cols] = GetNum()
+	for rowIter := 0; rowIter < rows; rowIter++ {
+		arr1 := make([]int, 0)
+		for colIter := 0; colIter < cols;  colIter++ {
+			fmt.Printf("Enter a number for the array --> ")
+			arr1 = append(arr1, GetNum())
 		}
+		arr = append(arr,arr1)
 	}
 
 	return arr
-
 }
 
-func drawHorizontalRight(yStart int, yEnd int, row int, arr []int){
+func drawHorizontalRight(yStart int, yEnd int, row int, arr [][]int){
 
-	for colIter := yStart; colIter < yEnd; colIter++ {
+	for colIter := yStart; colIter <= yEnd; colIter++ {
 		fmt.Printf("%v ", arr[row][colIter])
 	}
 
 }
 
-func drawVerticalStart(xStart int, xEnd int, col int, arr []int){
+func drawVerticalDown(xStart int, xEnd int, col int, arr [][]int){
 
-	for rowIter := xStart; rowIter < xEnd; rowIter++ {
+	for rowIter := xStart+1; rowIter < xEnd; rowIter++ {
 		fmt.Printf("%v ", arr[rowIter][col])
 	}
 
 }
 
-func drawHorizontalLeft(yStart int, yEnd int, row int, arr []int){
+func drawHorizontalLeft(yStart int, yEnd int, row int, arr [][]int){
 
-	for colIter := yStart; colIter >= yEnd; colIter++ {
+	for colIter := yStart; colIter >= yEnd; colIter-- {
 		fmt.Printf("%v ", arr[row][colIter])
 	}
 
 }
 
-func drawVerticalUp(xStart int, xEnd int, col int, arr []int) {
+func drawVerticalUp(xStart int, xEnd int, col int, arr [][]int) {
 
-	for rowIter := xStart; rowIter >= xEnd; rowIter++ {
+	for rowIter := xStart-1; rowIter > xEnd; rowIter-- {
 		fmt.Printf("%v ", arr[rowIter][col])
-	} 
+	}
 
 }
 
 func main() {
 
+	fmt.Printf("Enter the rows -> ")
 	rows := GetNum() //We take in the rows
+
+	fmt.Printf("Enter the cols -> ")
 	cols := GetNum() //We take in the cols
-	arr := GetArray() //We take in the array
+	arr := GetArray(rows,cols) //We take in the array
 
 	var horizontalStart, verticalStart int
 	var horizontalEnd, verticalEnd int
@@ -93,20 +95,26 @@ func main() {
 
 	for true {
 
-		if horizontalStart==horizontalEnd {
-			break
-		} else if verticalStart==verticalEnd {
-			break
-		}
-
 		drawHorizontalRight(horizontalStart, horizontalEnd, verticalStart, arr);
+
+		if horizontalStart==horizontalEnd {
+                        break
+                } else if verticalStart==verticalEnd {
+                        break
+                }
+
 		drawVerticalDown(verticalStart, verticalEnd, horizontalEnd, arr);
 		drawHorizontalLeft(horizontalEnd, horizontalStart, verticalEnd, arr);
 
-		verticalStart++
+		if horizontalStart==horizontalEnd {
+                        break
+                } else if verticalStart==verticalEnd {
+                        break
+                }
 
 		drawVerticalUp(verticalEnd, verticalStart, horizontalStart, arr);
 
+		verticalStart++
 		horizontalEnd--
 		verticalEnd--
 		horizontalStart++
