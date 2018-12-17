@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[18]:
-
-
 import inflect
 p = inflect.engine()
 a=input("enter first string")
@@ -32,8 +26,6 @@ else :
     else :
         print ("invalid input")
 
-
-# In[ ]:
 
 
 
