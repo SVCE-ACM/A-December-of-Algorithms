@@ -2,11 +2,22 @@
 
 round1(float x,float y)
 {
-	float z;
-	z= y-(int )y;	
-	if(z>0&& z<=0.5)
-	printf("IsApproximatelyEqual(%f, %f) -> true",x,y);
-	else if(x==y)
+	
+	float a,b;
+	a=x- (int)x;
+	//printf("\n a=%f",a);
+		b=y- (int)y;
+	if(a>0.5)	
+	x=(int)x+1;
+	else
+     x=(int)x;
+	if( b>0.5)
+	y=(int)y+1;
+	else
+	y=(int)y;
+	
+//	printf("\n x=%f",x);
+	if( x==y)
 	printf("IsApproximatelyEqual(%f, %f) -> true",x,y);
 	else
 		printf("IsApproximatelyEqual(%f, %f) -> false",x,y);	
@@ -14,15 +25,25 @@ round1(float x,float y)
 
 roundt(float x,float y)
 {
-	float t,z;
+	float t,a,b;
 	printf("\nEnter the tolerance level:");
 	scanf("%f",&t);
-	z= y-(int )y;
-//	printf("\nz=%f",z);
-	if(z<=t)
+		a=x- (int)x;
+	printf("\n a=%f",a);
+		b=y- (int)y;
+	if(a>t)	
+	x=(int)x+1;
+	else
+     x=(int)x;
+	if( b>t)
+	y=(int)y+1;
+	else
+	y=(int)y;
+		
+	if(x==y)
 	printf("IsApproximatelyEqual(%f, %f,%f) -> true",x,y,t);
 	else
-	printf("IsApproximatelyEqual(%f, %f,%f) -> false",x,y,z);
+	printf("IsApproximatelyEqual(%f, %f,%f) -> false",x,y,t);
 	
 	
 }
