@@ -32,6 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Huffman Encoding**](#december-22---huffman-encoding)
+  - [**December 23 - Word-Count**](#december-23---word---count)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -574,6 +575,38 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - [Huffman Encoding #1](https://brilliant.org/wiki/huffman-encoding/)
 
 
+### **December 23 - Word-Count**
+  - **Problem**
+      - Write a program that reads string from user to a text file and also write a function that counts how often each word appears in that text and prints:
+        ```
+          word1 count1
+          word2 count2
+        ```
+        Print the above list in order sorted by word. Store all the words as lowercase,
+        so 'The' and 'the' count as the same word.
+
+      - ``Optional:`` Implement another function which is similar to the previous but which prints just the top 20 most common words sorted
+      so the most common word is first, then the next most common, and so on.
+
+  - **Example**
+      ```
+      Martha! Why did you say that name?
+      Please! Stop!
+      Why did you say that name?
+      ```
+      ```
+      did       2
+      martha!   1
+      name?     2
+      please!   1
+      say       2
+      stop!     1
+      that      2
+      why       2
+      you       2
+      ```
+
+
 FAQ:
 ======
   #### Who can join the Challenge?
@@ -614,6 +647,6 @@ FAQ:
   This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
 
   #### I'm facing difficulties with/need help understanding a particular question.
-  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.M
+  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.
 
 ###### [[Back to Top]](#----)
