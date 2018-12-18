@@ -545,6 +545,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## **December 22 - Huffman Encoding**
   - **Problem**
     - Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters. The most frequent character gets the smallest code and the least frequent character gets the largest code.
+    - Normally, each character in a text file is stored as eight bits (digits, either 0 or 1) that map to that character using an encoding called ASCII. a Huffman-encoded file breaks down the rigid 8-bit structure so that the most frequently used characters are stored in just a few bits (that's why **f** is "0" rather than the ASCII, which is "01100110"). the least frequent characters, then, will contain the most number of bits (that's why **a** is "1100"). Huffman encoding, on the whole, creates a much smaller file than the original.
     - Write a program to generate Huffman codes if a set of characters and their corresponding frequency is given.
 
 
