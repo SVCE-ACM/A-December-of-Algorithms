@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[27]:
-
-
 import numpy 
 n= int (input("enter number of rows and columns"))
 a=[]
@@ -19,7 +13,7 @@ print(d)
                 
 
 
-# In[ ]:
+
 
 
 
