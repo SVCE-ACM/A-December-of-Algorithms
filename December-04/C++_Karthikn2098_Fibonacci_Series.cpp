@@ -9,6 +9,7 @@ using namespace std;
  * @desc: function to generate N FIBONACCI NUMBERs.
  * @param: N
  * @return: Nth fibonacci number.
+ * @TimeComplexity: O(N)
  */
 int FIBONACCI(int N) {
     //array that stores the fibonacci numbers.
