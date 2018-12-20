@@ -33,7 +33,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
-  - [**December 24 - Reverse a String Using Recursion**](#december-24---)
+  - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
   - [**FAQ**](#faq)
 
 ## Algorithms
