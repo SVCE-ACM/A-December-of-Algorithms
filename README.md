@@ -573,7 +573,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       ```
 
 
-### *December 25 - Santa's Bag and The Elves*
+### **December 25 - Santa's Bag and The Elves**
 - **Problem :**
   - Santa carries a huge bag full of gifts. Elves are his small helpers. They help Santa in packing & arranging gifts. But they can not lift weights beyond a certain limit. Also Santa is a generous person. He likes to gift only the valuable things to his people.They require your help so that they gift more valuable articles to many people by not overloading the bag.
   Here value => the level to which the one loves the gift
