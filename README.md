@@ -32,7 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
-  - [**December 25 - Santa's Bag and the Elves**](#december-25---santa's-bag-and-the-elves)
+  - [**December 25 - Santa's Bag and the Elves**](#december-25---santa\'s-bag-and-the-elves)
   - [**FAQ**](#faq)
 
 ## Algorithms
