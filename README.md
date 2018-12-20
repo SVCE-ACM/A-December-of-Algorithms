@@ -31,8 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - Hashing**](#december-19---hashing)
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
-  - [**December 22 - Huffman Encoding**](#december-22---huffman-encoding)
-  - [**December 23 - Word-Count**](#december-23---word-count)
+  - [**December 22 - Word-Count**](#december-23---word-count)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -48,7 +47,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Guess 43 (half of 37 to 50) → you’re too high.
       Guess 40 (half of 37 to 43) → you’re too high.
       Guess 38 (half of 37 to 40) → spot on!
-	  
+
 	  Input: A list of integers & a number x.
 	  Output: Find the given number in the list of integers. Print out each iteration of your search similar to the example given above.
       ```
@@ -543,50 +542,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
 
 
-## **December 22 - Huffman Encoding**
+## **December 22 - Word-Count**
   - **Problem**
-    - Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters. The most frequent character gets the smallest code and the least frequent character gets the largest code.
-    - Normally, each character in a text file is stored as eight bits (digits, either 0 or 1) that map to that character using an encoding called ASCII. a Huffman-encoded file breaks down the rigid 8-bit structure so that the most frequently used characters are stored in just a few bits (that's why **f** is "0" rather than the ASCII, which is "01100110"). the least frequent characters, then, will contain the most number of bits (that's why **a** is "1100"). Huffman encoding, on the whole, creates a much smaller file than the original.
-    - Write a program to generate Huffman codes if a set of characters and their corresponding frequency is given.
-
-
-  - **Example**
-  ```
-  Character   Frequency
-    a             5
-    b             9
-    c             12
-    d             13
-    e             16
-    f             45
-  ```
-  ```
-  f: 0
-  c: 100
-  d: 101
-  a: 1100
-  b: 1101
-  e: 111
-  ```
-
-
-  - **Resources:**
-      - [Huffman Coding](http://en.wikipedia.org/wiki/Huffman_coding)
-      - [Huffman Encoding #1](https://brilliant.org/wiki/huffman-encoding/)
-
-
-### **December 23 - Word-Count**
-  - **Problem**
-      - Write a program that reads string from user to a text file and also write a function that counts how often each word appears in that text and prints:
+      - Write a program that reads a string from a user into a text file and prints out how often each word appears in the string.
         ```
           word1 count1
           word2 count2
         ```
-        Print the above list in order sorted by word. Store all the words as lowercase,
-        so 'The' and 'the' count as the same word.
+      Before printing, sort your list of words in alphabetical order. You may ignore case while counting the words. So "The" and "the" will be counted as the same word.
 
-      - ``Optional:`` Implement another function which is similar to the previous but which prints just the top 20 most common words sorted
-      so the most common word is first, then the next most common, and so on.
+      - ``Optional:`` Implement another function which is similar to the previous but which prints just the top 20 most common words sorted so the most common word is first, then the next most common, and so on.
 
   - **Example**
       ```
