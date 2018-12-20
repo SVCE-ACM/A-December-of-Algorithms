@@ -573,13 +573,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 
 ### *December 25 - Santa's Bag and The Elves*
-- *Problem*
+- **Problem :**
   - Santa carries a huge bag full of gifts. Elves are his small helpers. They help Santa in packing & arranging gifts. But they can not lift weights beyond a certain limit. Also Santa is a generous person. He likes to gift only the valuable things to his people.They require your help so that they gift more valuable articles to many people by not overloading the bag.
   Here value => the level to which the one loves the gift
 
-  <img src="/src/docs/dec25-Knapsack.png">
+  <img src="/src/docs/dec25-Knapsack.png" width="550" height="550">
 
-- *Example*
+- **Example :**
 
     Bag capacity, W = 10
   
@@ -592,12 +592,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
     Answer : Load the bag with gifts 1,3,and 5
  
-- *Uses*
+- **Uses :**
   -  Download managers
   -  Preparating for exam just a night before the exam
   -  Packing travel bags
 
-- *Resources:*
+- **Resources :**
   - [What is Knapsack Problem?](https://en.wikipedia.org/wiki/Knapsack_problem)
 
 FAQ:
