@@ -32,6 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
+  - [**December 23 - Exam Seating Arrangement**](#december-23---exam-seating-arrangement)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -569,6 +570,38 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       that      2
       why       2
       you       2
+      ```
+
+## **December 23 - Exam Seating Arrangement**
+  - **Problem**
+    - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
+    - There is only one condition when it comes to seating the students is that **No two students of the same department should sit together**
+
+
+  - **Example**
+      ```
+      Number of classrooms: 2
+      Size of classrooms (1-50): 16
+      Enter the number of departments (2-10): 2
+      Department 1 Code: CS
+      Department 2 code: EC
+      Students in department 1 (1-100): 15
+      Starting roll no: 1
+      Students in department 2 (1-100): 16
+      Starting roll no: 1
+      ```
+      ```
+      ROOM 1
+      CS1   EC1   CS2   EC2
+      EC4   CS4   EC3   CS3
+      CS5   EC5   CS6   EC6
+      EC8   CS8   EC7   CS7
+
+      ROOM 2
+      CS9   EC9   CS10    EC10
+      EC12  CS12  EC11    CS11
+      CS13  EC13  CS14    EC14
+      EC8   ____  EC15    CS15
       ```
 
 
