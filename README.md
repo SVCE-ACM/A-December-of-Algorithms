@@ -570,7 +570,37 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       why       2
       you       2
       ```
+## **December   -Minimize Virus attack**
 
+-**Problem**
+
+-In a network of nodes, some nodes are initially affected by virus. Whenever two nodes are directly connected and one of those two nodes is infected by virus, both nodes will be infected by virus. This spread of virus continues until no more nodes can be further infected (in the same manner).
+
+-Assume K to be the final number of nodes infected with virus in the entire network, after the spread of virus stops.
+
+-We will have to remove one node from the initial list.
+-Return the node and address of the node that when removed, would minimize K value.
+
+- **Note:** Consider each node i to be directly connected to another node j only if graph[i][j] = 1.
+
+-**Example:**
+
+-Input: graph = [[1,1,0],[1,1,1],[0,1,1]]
+-Output:
+  1
+  Address: graph[1][1]
+
+- **Constraints:**
+
+-1 < graph[0].length <= 300
+
+-0 <= (graph[i][j] == graph[j][i])<= 1
+
+-graph[i][i] = 1
+
+**References:**
+-https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm
+-https://en.wikipedia.org/wiki/Graph_(abstract_data_type)
 
 FAQ:
 ======
