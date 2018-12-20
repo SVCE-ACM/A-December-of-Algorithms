@@ -33,6 +33,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
+  - [**December 24 - Reverse a String Using Recursion**](#december-24---)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -604,6 +605,22 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     CS13  EC13  CS14    EC14
     EC8   ____  EC15    CS15
     ```
+
+
+## **December 24 - Reverse a String Using Recursion**
+  - **Problem**
+    - In simple words, Recursion means a function calling itself.
+    - Recursion makes breaking down and reducing complexity of a program much easier.
+    - Recursion has the power of performing of a finite set of instructions for infinite times without iterative control structures such as `for` and `while`.
+    - `Note:` Refrain from using string functions.
+  - **Example**
+    ```
+    Enter String: string STRING
+    Reversed String: GNIRTS gnirts
+    ```
+  - **Resources:**
+    - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+
 
 FAQ:
 ======
