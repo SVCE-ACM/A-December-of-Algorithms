@@ -594,7 +594,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
 
 
-## **December 28 - Number of Diagnols**
+## **December 28 - Number of Diagonals**
   - **Problem :**
     - There is a n-sided polygon. Find the number of diagnols that are possible. Do not count duplicates lines.
 
