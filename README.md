@@ -32,7 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
-  - [**December 27 - Cup & String Phone**](#december-27---cup-&-string-phone)
+  - [**December 27 - Cup & String Phone**](#december-27---cup-\&-string-phone)
   - [**December 28 - Line Segments & Points**](#december-28---line-segments-&-points)
   - [**FAQ**](#faq)
 
@@ -594,7 +594,18 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
 
 
+## **December 28 - Line segments & Points**
+  - **Problem :**
+    - There are 'n' points. Find the number of line segments that can be drawn. Do not count duplicates lines.
 
+  - **Example :**
+    1) Input : 11
+       Output : 55
+
+    2) Input : 8
+       Output : 28
+ 
+  
 
 FAQ:
 ======
