@@ -570,6 +570,31 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       why       2
       you       2
       ```
+      
+### **December 24 - Common Prefix**
+
+-**Problem**
+ -Write a function to find the common prefix amongst a given array of strings. If present, the function must return the prefix string as   the output.
+
+ -If there is no common prefix, return "No common prefix".
+
+-**Example 1:**
+Input: ["Element", "Elegant" ,"Electric" ,"Election"]
+Output: "Ele"
+
+-**Example 2:**
+Input: ["dog", "cat", "parrot"]
+Output: "No common prefix"
+
+-**Note**:
+-All given inputs must be of either lowercase(a-z) or uppercase alone(A-Z).
+-Prefix must consist of minimum 2 characters.
+
+-**Resources:**
+-String manipulation basics and algorithms (https://en.wikipedia.org/wiki/String_(computer_science))
+
+
+
 
 
 FAQ:
