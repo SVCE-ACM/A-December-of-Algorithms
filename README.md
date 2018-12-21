@@ -33,7 +33,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 27 - Cup and String Phone**](#december-27---cup-and-string-phone)
-  - [**December 28 - Line Segments and Points**](#december-28---line-segments-and-points)
+  - [**December 28 - Number of Diagonals**](#december-28---number-of-diagonals)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -594,17 +594,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
 
 
-## **December 28 - Line segments and Points**
+## **December 28 - Number of Diagnols**
   - **Problem :**
-    - There are 'n' points. Find the number of line segments that can be drawn. Do not count duplicates lines.
+    - There is a n-sided polygon. Find the number of diagnols that are possible. Do not count duplicates lines.
 
   - **Example :**
-    1) Input : 11
-       Output : 55
+    1) Input : 8
+       Output : 20
 
-    2) Input : 8
-       Output : 28
- 
+    2) Input : 11
+       Output : 44
+  
+  - **Uses :**
+    - Graphics & Animation
+    - Gaming
+    - Fully connected Mesh Topology Network
+
+  - **Resources :**
+    - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html) 
   
 
 FAQ:
