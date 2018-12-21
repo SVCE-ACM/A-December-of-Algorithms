@@ -576,9 +576,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## **December 23 - Exam Seating Arrangement**
   - **Problem**
-    - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
+    - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
     - There is only one condition when it comes to seating the students is that **No two students of the same department should sit together**
-
+    - Each Seat notation should be of the format `<Department_Code><Roll_Number>` and `____` if the seat is vacant.
 
   - **Example**
     ```
@@ -588,9 +588,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Department 1 Code: CS
     Department 2 code: EC
     Students in department 1 (1-100): 15
-    Starting roll no: 1
     Students in department 2 (1-100): 16
-    Starting roll no: 1
     ```
     ```
     ROOM 1
@@ -609,8 +607,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## **December 24 - Reverse a String Using Recursion**
   - **Problem**
-    - In simple words, Recursion means a function calling itself.
-    - Recursion makes breaking down and reducing complexity of a program much easier.
+    - Recursion simply refers to a function which calls itself. Recursive functions have two parts - a base case or stopping scenario and something that calls the same function with modified parameters. Check out the resources section for some great explanations of how it works.
+    - Once you understand recursion, you will find yourself able to break down and reduce the complexity of a program much more easily. While they certainly don't replace loops, they are excellent in certain scenarios.
+    For this question, you will have to recursively reverse a string.
+    - First write a program to reverse a string normally. Then try to convert it into a recursive function.
     - Recursion has the power of performing of a finite set of instructions for infinite times without iterative control structures such as `for` and `while`.
     - `Note:` Refrain from using string functions.
   - **Example**
@@ -619,7 +619,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Reversed String: GNIRTS gnirts
     ```
   - **Resources:**
-    - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+    - [Recursion #1](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+    - [Recursion #2](https://www.geeksforgeeks.org/recursion/)
+    - [How Recursion Works - explained with flowcharts and a video](https://medium.freecodecamp.org/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9)
+    - [Understanding Recursion](https://stackoverflow.com/a/717839)
 
 
 FAQ:
