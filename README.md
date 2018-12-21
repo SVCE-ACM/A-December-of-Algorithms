@@ -31,6 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - Hashing**](#december-19---hashing)
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
+  - [**December 22 - Word-Count**](#december-22---word-count)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -46,7 +47,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Guess 43 (half of 37 to 50) → you’re too high.
       Guess 40 (half of 37 to 43) → you’re too high.
       Guess 38 (half of 37 to 40) → spot on!
-	  
+
 	  Input: A list of integers & a number x.
 	  Output: Find the given number in the list of integers. Print out each iteration of your search similar to the example given above.
       ```
@@ -540,6 +541,37 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Resources:**
       - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
 
+
+## **December 22 - Word-Count**
+  - **Problem**
+      - Write a program that reads a string from a user into a text file and prints out how often each word appears in the string.
+        ```
+          word1 count1
+          word2 count2
+        ```
+      Before printing, sort your list of words in alphabetical order. You may ignore case while counting the words. So "The" and "the" will be counted as the same word.
+
+      - ``Optional:`` Implement another function which is similar to the previous but which prints just the top 20 most common words sorted so the most common word is first, then the next most common, and so on.
+
+  - **Example**
+      ```
+      Martha! Why did you say that name?
+      Please! Stop!
+      Why did you say that name?
+      ```
+      ```
+      did       2
+      martha!   1
+      name?     2
+      please!   1
+      say       2
+      stop!     1
+      that      2
+      why       2
+      you       2
+      ```
+
+
 FAQ:
 ======
   #### Who can join the Challenge?
@@ -580,6 +612,6 @@ FAQ:
   This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
 
   #### I'm facing difficulties with/need help understanding a particular question.
-  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.M
+  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.
 
 ###### [[Back to Top]](#----)
