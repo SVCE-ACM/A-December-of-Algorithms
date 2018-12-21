@@ -32,6 +32,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
+  - [**December 27 - Cup & String Phone**](#december-27---cup-&-string-phone)
+  - [**December 28 - Line Segments & Points**](#december-28---line-segments-&-points)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -570,6 +572,28 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       why       2
       you       2
       ```
+
+## **December 27 - Cup & String Phone**
+  - **Problem :**
+    - Tharun is playing with his friends using a string phone. To make this interesting he asked his friends to join him. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
+
+    For example Tharun plays with 2 of his friends. Then he will bring 3 Strings.
+
+  - **Example :**
+  
+    Input : 7
+    Output : 28
+ 
+  - **Uses :**
+    - Triangular Series
+    - Networking between computers
+    - No. of greetings exchanged among 'n' people
+    - No. of matches played by 'n' teams
+
+  - **Resources :**
+    - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
+
+
 
 
 FAQ:
