@@ -577,7 +577,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## **December 23 - Exam Seating Arrangement**
   - **Problem**
     - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
-    - There is only one condition when it comes to seating the students is that **No two students of the same department should sit together**
+    - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
+    - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally. 
     - Each Seat notation should be of the format `<Department_Code><Roll_Number>` and `____` if the seat is vacant.
 
   - **Example**
@@ -660,6 +661,7 @@ FAQ:
   git merge upstream/master
   ```
   If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
+  Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.
 
   #### I received a merge error. What do I do?
   This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
