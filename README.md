@@ -624,6 +624,32 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Recursion #2](https://www.geeksforgeeks.org/recursion/)
     - [How Recursion Works - explained with flowcharts and a video](https://medium.freecodecamp.org/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9)
     - [Understanding Recursion](https://stackoverflow.com/a/717839)
+    
+    
+ ## **December 25 - Common Prefix**
+ 
+ -**Problem**
+   -Write a function to find the longest common prefix amongst a given array of strings. If present the function must return the prefix string in the output.
+ 
+   -If there is no common prefix, return "No common prefix".
+
+-**Example 1:**
+ ```
+Input: ["Element", "Elegant" ,"Electric" ,"Election"]
+Output: "Ele"
+```
+-**Example 2:**
+```
+Input: ["dog", "cat", "parrot"]
+Output: "No common prefix"
+Explanation: There is no common prefix among the input strings.
+```
+-`Note:`
+     -All given inputs are in lowercase letters a-z.
+     -Prefix must be of minimum 2 characters.
+     
+-**Resources:**
+ - String manipulation basics and algorithms (https://en.wikipedia.org/wiki/Category:String_manipulation_templates).
 
 
 FAQ:
