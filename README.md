@@ -661,7 +661,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ````
 
 
-### **December 27 - Correct Path**
+### **December 26 - Correct Path**
   - **Problem**
     - The function CorrectPath(str) reads str, which will represent the movements made in a 5x5 grid of cells starting from the top left position.  
     - The characters of the input string are only: r, l, u, d, ?.  
