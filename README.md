@@ -637,6 +637,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - The Location of Santa and Child's Locations (Index) are given as input.
     - Use Randomize function and distance to the Child's index to reach the location.
     - `Optional:` Use Recursion to solve the problem.
+    - Merry Christmas!
 
 
   - **Example**
