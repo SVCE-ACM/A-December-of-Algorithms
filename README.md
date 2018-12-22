@@ -34,8 +34,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
-  - [**December 25 - Vowel Square**](#december-25---vowel-square)
-  - [**December 26 - Correct Path**](#december-26---correct-path)
+  - []()
+  - [**December 26 - Vowel Square**](#december-25---vowel-square)
+  - [**December 27 - Correct Path**](#december-26---correct-path)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -272,7 +273,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
 
 
-### **December 13 -  Lexicographical Arrangement**
+### **December 13 - Lexicographical Arrangement**
   - **Problem**
     - Given an input string, find all possible permutations of this string. Arrange these permutations in alphabetical order and find the position at which the input string occurs.
   - **Example**
@@ -629,7 +630,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Understanding Recursion](https://stackoverflow.com/a/717839)
 
 
-### **December 25 - Vowel Square**
+### **December 25 - Santa's Self-Driving Sleigh**
+  - **Problem**
+    - Help Santa bring gifts to the homes of well-behaved children on Christmas Eve by writing the right program for his new Self-Driving Sleigh.
+    - Assume a 10x10 matrix where both Santa and a Child can be anywhere on the border.
+    - The Location of Santa and Child's Locations (Index) are given as input.
+    - Use Randomize function and distance to the Child's index to reach the location.
+    - `Optional:` Use Recursion to solve the problem.
+
+
+  - **Example**
+    ```
+    Santa's Location: (1,0)
+    Child's Location: (9,8)
+    ```
+    <img src="/src/docs/Dec25-Example.png"/>
+
+
+### **December 26 - Vowel Square**
   - **Problem**
     - The function VowSq(strArr) takes the parameter as a 2D matrix of some size containing alphabets, find if a 2x2 square matrix composed only of vowels exists in the input matrix.   
     - If a 2x2 square of vowels is found your input should return the top-left position (row-column) of the square.
@@ -662,7 +680,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ````
 
 
-### **December 26 - Correct Path**
+### **December 27 - Correct Path**
   - **Problem**
     - The function CorrectPath(str) reads str, which will represent the movements made in a 5x5 grid of cells starting from the top left position.  
     - The characters of the input string are only: r, l, u, d, ?.  
