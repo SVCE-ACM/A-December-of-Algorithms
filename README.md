@@ -34,6 +34,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
+  - [**December 25 - Vowel Square**](#december-25---vowel-square)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -289,7 +290,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Uses and Resources**
     - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
 
-  ### **December 14 - Caesar Cipher**
+
+### **December 14 - Caesar Cipher**
   - **Problem**
     - The Caesar cipher is one of the earliest known ciphers. Simply put, it should take in an input of a 'key' and some plain text. This key will be a number from 0-25. Your task is to simply replace each character of the message with a new character. This new character is the key-th element from the old character. Check out the examples for better understanding. Also, develop a function to decrypt the given cipher when you are given the key.
     - `Optional:` The Caesar cipher is trivial for modern computers to crack, even without the key. Write a program that bruteforces the cipher. Bruteforcing means simply trying out every possible combination. So in this case, try out every possible key to decode the cipher.
@@ -520,7 +522,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Visualisation of Dijkstra's Algorithm #2](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
 
 
-## **December 21 - Currency Convertor**
+### **December 21 - Currency Convertor**
   - **Problem**
       -  Calculate the currency exchange rates between two user input countries using the attached **.csv** file in the reference.
       - ``Note:`` All the given ``VALUES`` in the csv file are a country's equivalent value in USD.
@@ -574,11 +576,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       ```
 
 
-## **December 23 - Exam Seating Arrangement**
+### **December 23 - Exam Seating Arrangement**
   - **Problem**
     - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
     - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
-    - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally. 
+    - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally.
     - Each Seat notation should be of the format `<Department_Code><Roll_Number>` and `____` if the seat is vacant.
 
   - **Example**
@@ -606,7 +608,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ```
 
 
-## **December 24 - Reverse a String Using Recursion**
+### **December 24 - Reverse a String Using Recursion**
   - **Problem**
     - Recursion simply refers to a function which calls itself. Recursive functions have two parts - a base case or stopping scenario and something that calls the same function with modified parameters. Check out the resources section for some great explanations of how it works.
     - Once you understand recursion, you will find yourself able to break down and reduce the complexity of a program much more easily. While they certainly don't replace loops, they are excellent in certain scenarios.
@@ -624,6 +626,39 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Recursion #2](https://www.geeksforgeeks.org/recursion/)
     - [How Recursion Works - explained with flowcharts and a video](https://medium.freecodecamp.org/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9)
     - [Understanding Recursion](https://stackoverflow.com/a/717839)
+
+
+### **December 25 - Vowel Square**
+  - **Problem**
+    - The function VowSq(strArr) takes the parameter as a 2D matrix of some size containing alphabets, find if a 2x2 square matrix composed only of vowels exists in the input matrix.   
+    - If a 2x2 square of vowels is found your input should return the top-left position (row-column) of the square.
+    - If no 2x2 square of vowels exists, then return the string unavailable.  
+    - The input matrix should at least be of size 2x2.
+    - Credits to coderbyte.com
+
+
+  - **Example #1**
+    - For ``strArr = ["abcd", "eikr", "oufj"]``
+    - The Matrix should be:
+    ```
+    a b c d
+    e i k r         
+    o u f j  
+    ```
+    ````
+    1-0
+    ````
+
+
+  - **Example #2**
+    - For ``strArr = ["gh", "bf"]``
+    - The Matrix should be:
+    ```
+    g h b f
+    ```
+    ````
+    Unavailable
+    ````
 
 
 FAQ:
