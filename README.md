@@ -34,9 +34,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
-  - []()
-  - [**December 26 - Vowel Square**](#december-25---vowel-square)
-  - [**December 27 - Correct Path**](#december-26---correct-path)
+  - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh)
+  - [**December 26 - Vowel Square**](#december-26---vowel-square)
+  - [**December 27 - Correct Path**](#december-27---correct-path)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -644,7 +644,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Santa's Location: (1,0)
     Child's Location: (9,8)
     ```
-    <img src="/src/docs/Dec25-Example.png"/>
+    <img src="/src/docs/Dec25-Example.png" width="250" height="250"/>
 
 
 ### **December 26 - Vowel Square**
