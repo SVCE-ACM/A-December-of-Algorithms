@@ -630,7 +630,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Understanding Recursion](https://stackoverflow.com/a/717839)
 
 
-### **December 25 - Santa's Self-Driving Sleigh**
+### **December 25 - Santa's Self-Driving Sleigh** :christmas_tree:
   - **Problem**
     - Help Santa bring gifts to the homes of well-behaved children on Christmas Eve by writing the right program for his new Self-Driving Sleigh.
     - Assume a 10x10 matrix where both Santa and a Child can be anywhere on the border.
