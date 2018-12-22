@@ -35,6 +35,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
   - [**December 25 - Vowel Square**](#december-25---vowel-square)
+  - [**December 26 - Correct Path**](#december-26---correct-path)
   - [**FAQ**](#faq)
 
 ## Algorithms
