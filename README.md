@@ -32,6 +32,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
   - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
   - [**December 22 - Word-Count**](#december-22---word-count)
+  - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
+  - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -572,6 +574,58 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       ```
 
 
+## **December 23 - Exam Seating Arrangement**
+  - **Problem**
+    - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
+    - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
+    - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally. 
+    - Each Seat notation should be of the format `<Department_Code><Roll_Number>` and `____` if the seat is vacant.
+
+  - **Example**
+    ```
+    Number of classrooms: 2
+    Size of classrooms (1-50): 16
+    Enter the number of departments (2-10): 2
+    Department 1 Code: CS
+    Department 2 code: EC
+    Students in department 1 (1-100): 15
+    Students in department 2 (1-100): 16
+    ```
+    ```
+    ROOM 1
+    CS1   EC1   CS2   EC2
+    EC4   CS4   EC3   CS3
+    CS5   EC5   CS6   EC6
+    EC8   CS8   EC7   CS7
+
+    ROOM 2
+    CS9   EC9   CS10    EC10
+    EC12  CS12  EC11    CS11
+    CS13  EC13  CS14    EC14
+    EC8   ____  EC15    CS15
+    ```
+
+
+## **December 24 - Reverse a String Using Recursion**
+  - **Problem**
+    - Recursion simply refers to a function which calls itself. Recursive functions have two parts - a base case or stopping scenario and something that calls the same function with modified parameters. Check out the resources section for some great explanations of how it works.
+    - Once you understand recursion, you will find yourself able to break down and reduce the complexity of a program much more easily. While they certainly don't replace loops, they are excellent in certain scenarios.
+    For this question, you will have to recursively reverse a string.
+    - First write a program to reverse a string normally. Then try to convert it into a recursive function.
+    - Recursion has the power of performing of a finite set of instructions for infinite times without iterative control structures such as `for` and `while`.
+    - `Note:` Refrain from using string functions.
+  - **Example**
+    ```
+    Enter String: string STRING
+    Reversed String: GNIRTS gnirts
+    ```
+  - **Resources:**
+    - [Recursion #1](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+    - [Recursion #2](https://www.geeksforgeeks.org/recursion/)
+    - [How Recursion Works - explained with flowcharts and a video](https://medium.freecodecamp.org/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9)
+    - [Understanding Recursion](https://stackoverflow.com/a/717839)
+
+
 FAQ:
 ======
   #### Who can join the Challenge?
@@ -607,6 +661,7 @@ FAQ:
   git merge upstream/master
   ```
   If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
+  Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.
 
   #### I received a merge error. What do I do?
   This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
