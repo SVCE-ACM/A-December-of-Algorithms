@@ -546,7 +546,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
 
 
-## **December 22 - Word-Count**
+### **December 22 - Word-Count**
   - **Problem**
       - Write a program that reads a string from a user into a text file and prints out how often each word appears in the string.
         ```
@@ -659,6 +659,27 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ````
     Unavailable
     ````
+
+
+### **December 27 - Correct Path**
+  - **Problem**
+    - The function CorrectPath(str) reads str, which will represent the movements made in a 5x5 grid of cells starting from the top left position.  
+    - The characters of the input string are only: r, l, u, d, ?.  
+    - Each of the characters stand for the direction within the grid, for example:  
+      - r = right
+      - l = left
+      - u = up  
+      - d = down
+    - Find what characters the question marks should be in order for a path to go from the top left of the grid to the bottom right without touching previous cells of the path.
+    - Program should display the full string answer that has a path formed from the top left to the bottom right of 5x5 grid.  
+    - There can be only one correct path to an input string and there is at least one question mark in the input string.
+
+
+  - **Example**
+    ```
+      Input String = r?d?drdd
+      Output String = rrdrdrdd  
+    ```
 
 
 FAQ:
