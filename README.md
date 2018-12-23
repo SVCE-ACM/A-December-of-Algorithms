@@ -34,7 +34,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
-  - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh)
+  - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
   - [**December 26 - Vowel Square**](#december-26---vowel-square)
   - [**December 27 - Correct Path**](#december-27---correct-path)
   - [**FAQ**](#faq)
