@@ -34,6 +34,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
+  - [**December 26 - Common Prefix**](#december-26---common-prefix)
+  
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -626,7 +628,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Understanding Recursion](https://stackoverflow.com/a/717839)
     
 
-### **December 25 - Common Prefix**
+### **December 26 - Common Prefix**
  
  - **Problem**
 
