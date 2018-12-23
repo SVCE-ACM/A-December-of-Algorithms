@@ -26,6 +26,18 @@ class Sentence {
 
 	}
 
+	public int GetCountOf(string word) {
+		string[] wordArray = sentence.Split(new char[] {' '});
+		int length = wordArray.Length;
+		int occurences=0;
+
+		for(int count = 0; count < length; count++ ){
+			if(wordArray[count] == word) { occurences++; }
+		}
+
+		return occurences;
+	}
+
 	private bool AlreadyExistsInList(string word) {
 		foreach (string element in list){
 			if(element==word) { return true; }
@@ -45,7 +57,7 @@ public class Test {
 		int length = arr.Length;
 		
 		for(int count=0; count < length; count++) {
-			Console.Write("{0} ", arr[count]);
+			Console.Write("'{0}' appears {1} time(s).\n", arr[count], s.GetCountOf(arr[count]));
 		}
 
 	}
