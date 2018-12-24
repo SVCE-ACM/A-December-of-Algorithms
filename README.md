@@ -35,8 +35,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
   - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
-  - [**December 26 - Vowel Square**](#december-26---vowel-square)
-  - [**December 27 - Correct Path**](#december-27---correct-path)
+  - [**December 26 - Common Prefix**](#december-26---common-prefix)
+  - [**December 27 - Vowel Square**](#december-27---vowel-square)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -273,7 +273,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [This is how linked lists work](https://www.youtube.com/watch?v=NobHlGUjV3g)
 
 
-### **December 13 - Lexicographical Arrangement**
+### **December 13 -  Lexicographical Arrangement**
   - **Problem**
     - Given an input string, find all possible permutations of this string. Arrange these permutations in alphabetical order and find the position at which the input string occurs.
   - **Example**
@@ -291,7 +291,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - The output for this will be `5` as `dac` is present in the 5th position in the alphabetical list of permutations.
   - **Uses and Resources**
     - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
-
 
 ### **December 14 - Caesar Cipher**
   - **Problem**
@@ -632,11 +631,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 25 - Santa's Self-Driving Sleigh** :christmas_tree:
   - **Problem**
-    - Help Santa bring gifts to the homes of well-behaved children on Christmas Eve by writing the right program for his new Self-Driving Sleigh.
+    - Help Santa bring gifts to the homes of well-behaved children on Christmas Eve by finding a path between Santa and Child.
     - Assume a 10x10 matrix where both Santa and a Child can be anywhere on the border.
     - The Location of Santa and Child's Locations (Index) are given as input.
-    - Use Randomize function and distance to the Child's index to reach the location.
     - `Optional:` Use Recursion to solve the problem.
+    - `Note`: There may exist more than one path so displaying any one would suffice.
     - Merry Christmas!
 
 
@@ -645,14 +644,61 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Santa's Location: (1,0)
     Child's Location: (9,8)
     ```
+    ```
+    * 0 1 2 3 4 5 6 7 8 9
+    0 * S * * * * * * * *   
+    1 *   * * * * * * * *   
+    2 *   * * * * * * * *   
+    3 *   * * * * * * * *      
+    4 *       * * * * * *   
+    5 * * *   * * * * * *   
+    6 * * *   * * * * * *   
+    7 * * *   * * * * * *
+    8 * * *             K
+    9 * * * * * * * * * *
+    ```
+
+
+  - **Explanation**
+
     <img src="/src/docs/Dec25-Example.png" width="250" height="250"/>
 
 
-### **December 26 - Vowel Square**
+### **December 26 - Common Prefix**
   - **Problem**
-    - The function VowSq(strArr) takes the parameter as a 2D matrix of some size containing alphabets, find if a 2x2 square matrix composed only of vowels exists in the input matrix.   
+    - Write a function to find the longest common prefix amongst a given array of strings. If present, the function must return the prefix string in the output.
+    - If there is no common prefix, return "No common prefix".
+
+
+  - **Note:**
+    - All given inputs are in lowercase letters a-z.
+    - Prefix must be of minimum 2 characters.
+
+
+  - **Example 1:**
+    ```
+    Input: ["Element", "Elegant" ,"Electric" ,"Election"]
+    Output: "Ele"
+    ```
+
+
+  - **Example 2:**
+    ```
+    Input: ["dog", "cat", "parrot"]
+    Output: "No common prefix"
+    ```
+    **Explanation**: There is no common prefix among the input strings.
+
+
+ - **Resources:**
+    - [String manipulation and basics](https://en.wikipedia.org/wiki/String_(computer_science))
+
+
+### **December 27 - Vowel Square**
+  - **Problem**
+    - The function VowSq(strArr) takes the parameter as a 2D matrix of some size containing alphabets, find if a 2x2 square matrix composed only of vowels exists in the input matrix.
     - If a 2x2 square of vowels is found your input should return the top-left position (row-column) of the square.
-    - If no 2x2 square of vowels exists, then return the string unavailable.  
+    - If no 2x2 square of vowels exists, then return the string unavailable.
     - The input matrix should at least be of size 2x2.
     - Credits to coderbyte.com
 
@@ -662,8 +708,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - The Matrix should be:
     ```
     a b c d
-    e i k r         
-    o u f j  
+    e i k r
+    o u f j
     ```
     ````
     1-0
@@ -673,33 +719,15 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Example #2**
     - For ``strArr = ["gh", "bf"]``
     - The Matrix should be:
-    ```
-    g h b f
-    ```
-    ````
-    Unavailable
-    ````
+      ```
+      g h b f
+      ```
+      ````
+      Unavailable
+      ````
 
 
-### **December 27 - Correct Path**
-  - **Problem**
-    - The function CorrectPath(str) reads str, which will represent the movements made in a 5x5 grid of cells starting from the top left position.  
-    - The characters of the input string are only: r, l, u, d, ?.  
-    - Each of the characters stand for the direction within the grid, for example:  
-      - r = right
-      - l = left
-      - u = up  
-      - d = down
-    - Find what characters the question marks should be in order for a path to go from the top left of the grid to the bottom right without touching previous cells of the path.
-    - Program should display the full string answer that has a path formed from the top left to the bottom right of 5x5 grid.  
-    - There can be only one correct path to an input string and there is at least one question mark in the input string.
 
-
-  - **Example**
-    ```
-      Input String = r?d?drdd
-      Output String = rrdrdrdd  
-    ```
 
 
 FAQ:
