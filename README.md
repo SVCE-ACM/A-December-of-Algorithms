@@ -677,7 +677,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
                        [9,1,7,4]
     - Output: True
 
-   - Explanation:
+    - Explanation:
               In the above grid, the diagonals are:
               "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]".
               In each diagonal all elements are the same, so the function must return "Identical Diagonals".
