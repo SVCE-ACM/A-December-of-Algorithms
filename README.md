@@ -37,6 +37,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
   - [**December 26 - Common Prefix**](#december-26---common-prefix)
   - [**December 27 - Vowel Square**](#december-27---vowel-square)
+  - [**December 28 - Identical Diagonals**](#december-28---Identical-diagonals)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -725,6 +726,31 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       ````
       Unavailable
       ````
+      
+### **December 28 - Identical Diagonals**
+ 
+ - **Problem**
+
+   - Given an M x N matrix, write a function to determine if the diagonals of the matrix are identical.
+   - If so, return "Identical diagonals".
+   - Else return "Diagonals are non-identical."
+ 
+
+ -  **Example 1:**
+```
+    - Input matrices = [7,4,6,8], 
+                       [1,7,4,6],
+                       [9,1,7,4]
+    - Output: True
+
+    - Explanation:
+              In the above grid, the diagonals are:
+              "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]".
+              In each diagonal all elements are the same, so the function must return "Identical Diagonals".
+
+ ```
+ - **Resources**
+    - [Introduction to matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))  
 
 
 
