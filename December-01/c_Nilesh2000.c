@@ -14,19 +14,21 @@ void main()
    while(First<=Last)
     {
      Mid=(First+Last)/2;
-     printf("\nGuess %d (half of 0 to %d)", Mid, Arr[n]);
+     printf("\nGuess %d (half of %d to %d) -> ", Arr[Mid], First, Last+1);
       if(Arr[Mid]==Search)
        {
-         printf("\nElement Found At Position...%d", Mid+1);
+         printf("spot on!");
          Flag=1;
           break;
        }
       else if(Arr[Mid]<Search)
        {
+         printf("you're too low.");
          First=Mid+1;
        }
       else
        {
+         printf("you're too high.");
          Last=Mid-1;
        }
     }
