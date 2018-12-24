@@ -29,6 +29,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 17 - Magic Squares**](#december-17---magic-squares)
   - [**December 18 - How Secure is your Password?**](#december-18---how-secure-is-your-password)
   - [**December 19 - Hashing**](#december-19---hashing)
+  - [**December 20 - Dijkstra's Shortest Reach**](#december-20---dijkstras-shortest-reach)
+  - [**December 21 - Currency Convertor**](#december-21---currency-convertor)
+  - [**December 22 - Word-Count**](#december-22---word-count)
+  - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
+  - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
+  - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
+  - [**December 26 - Common Prefix**](#december-26---common-prefix)
+  - [**December 27 - Vowel Square**](#december-27---vowel-square)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -44,6 +52,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Guess 43 (half of 37 to 50) → you’re too high.
       Guess 40 (half of 37 to 43) → you’re too high.
       Guess 38 (half of 37 to 40) → spot on!
+
+	  Input: A list of integers & a number x.
+	  Output: Find the given number in the list of integers. Print out each iteration of your search similar to the example given above.
       ```
   - **Resources**
     - [Binary Search](https://www.geeksforgeeks.org/binary-search/)
@@ -85,13 +96,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 4 - Fibonacci Series**
   - **Problem**
-    - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series
+    - In mathematics, the Fibonacci numbers are the numbers in the following integer sequence, called the Fibonacci sequence, and characterized by the fact that every number after the first two is the sum of the two preceding ones. The problem here is to find the nth number in the series.
   - **Uses**
     - A great real-time application of Fibonacci series that’s used mostly these days as an unknown fact is the [mile to kilometre conversion & Kilometer to mile conversion](http://www.catonmat.net/blog/using-fibonacci-numbers-to-convert-from-miles-to-kilometers/)…..
     - Let’s now see the Fibonacci series :
     ```bash
     0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144,…
     ```
+	- Remember, you don't need to print out the whole series, you just need to find the nth number in the series.
   - **Resources**
     - [Video Link](https://youtu.be/wTlw7fNcO-0)
 
@@ -105,7 +117,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
       - No disk may be placed on top of a smaller disk.
     - You have only certain fixed moves:
-      - `left-right`, `left->middle`
+      - `left->right`, `left->middle`
       - `middle->left`, `middle->right`
       - `right->left`, `right->middle`
     - Your input will be a number indicating the total number of disks on the first (left) tower.    
@@ -129,7 +141,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - Return the least common multiple of two or more numbers.
     - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
     - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
-    - `Optional:` Allow for input of more than 2 numbers and find the comined LCM of all the numbers.
+    - `Optional:` Allow for input of more than 2 numbers and find the combined LCM of all the numbers.
   - **Example**
     ```bash
     Input: 12, 7
@@ -280,7 +292,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Uses and Resources**
     - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
 
-  ### **December 14 - Caesar Cipher**
+### **December 14 - Caesar Cipher**
   - **Problem**
     - The Caesar cipher is one of the earliest known ciphers. Simply put, it should take in an input of a 'key' and some plain text. This key will be a number from 0-25. Your task is to simply replace each character of the message with a new character. This new character is the key-th element from the old character. Check out the examples for better understanding. Also, develop a function to decrypt the given cipher when you are given the key.
     - `Optional:` The Caesar cipher is trivial for modern computers to crack, even without the key. Write a program that bruteforces the cipher. Bruteforcing means simply trying out every possible combination. So in this case, try out every possible key to decode the cipher.
@@ -420,8 +432,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Resources**
     - [1000 most commonly used password](/src/docs/Dec18-1000_most_common_passwords.txt)
-    
-    
+
+
 ### **December 19 - Hashing**
   - **Problem**
     - A hash function is any function that can be used to map data of arbitrary size to data of a fixed size. Hash functions are often used in combination with a hash table, a common data structure used for rapid data lookup.
@@ -442,23 +454,281 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - As you see, each input is mapped to an output of fixed size.
     - Now, implement a hash function that takes a string of variable length and returns an integer with a fixed maximum number of digits. Try to come up with your own method of returning a fixed length hash. The simplest method would be to just use a 3-digit length of the string. 001, 042, 340 for 1, 42 and 340 characters respectively. But that's no fun.
     - **Hint:** Try something with the ASCII values of each word maybe.
-    
+
+
   - **_Optional Problem_**
     - Hash functions may return the same output for various inputs. This is known as collision. There are two main collision resolution techniques:
       - [Separate Chaining](https://youtu.be/_xA8UvfOGgU)
       - [Open Addressing](https://youtu.be/Dk57JonwKNk)
     - Implement a hash table with one of the collision resolution techniques mentioned above.
-    
+
+
   - **Uses**
     - As mentioned above, hash functions are often used in combination with a hash table for rapid data lookup.
     - They are also useful in cryptography. A cryptographic hash function allows one to easily verify that some input data maps to a given hash value, but if the input data is unknown, it is deliberately difficult to reconstruct it (or any equivalent alternatives) by knowing the stored hash value.
     - Cryptographic hash functions also play a crucial role in blockchains.
-    
+
+
   - **Resources**
     - [Hash function – Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
     - [Hash table - Wikipedia](https://en.wikipedia.org/wiki/Hash_table)
     - [An in-depth video about cryptocurrencies, blockchain and hash functions](https://youtu.be/bBC-nXj3Ng4)
-    
+
+
+### **December 20 - Dijkstra's Shortest Reach**
+  - **Terminologies Involved**
+    - An **edge** is a connection or line between two vertices.
+    - A **path** is a sequence of vertices connected together by edges.
+    - Every vertex in a path is adjacent to the vertices next to it.
+    - Two vertices are adjacent if they share a common edge.
+    - **Distance** is the distance travelled to reach one vertex from another vertex. It is also called the weight of an edge.
+
+
+  - **Problem**
+    - Given an undirected graph and a starting node, determine the lengths of the shortest paths from the starting node to all other nodes in the graph. If a node is unreachable, its distance is `-1` or `INFINITE`. Nodes will be numbered consecutively from to, and edges will have varying distances or lengths.
+    For example, consider the following graph of 9 nodes:
+
+     <img src="/src/docs/Dec20-Example.jpg" width="550" height="250"/>
+
+    - Write an algorithm that returns an array of integers that represent the shortest distance to each node from the start node in ascending order of node number, given the number of nodes, the edges and starting node number.
+
+
+  - **Example**
+    ```
+    {0, 4, 0, 0, 0, 0, 0, 8, 0}
+    {4, 0, 8, 0, 0, 0, 0, 11, 0}
+    {0, 8, 0, 7, 0, 4, 0, 0, 2}
+    {0, 0, 7, 0, 9, 14, 0, 0, 0}
+    {0, 0, 0, 9, 0, 10, 0, 0, 0}
+    {0, 0, 4, 14, 10, 0, 2, 0, 0}
+    {0, 0, 0, 0, 0, 2, 0, 1, 6}
+    {8, 11, 0, 0, 0, 0, 1, 0, 7}
+    {0, 0, 2, 0, 0, 0, 6, 7, 0}
+    ```
+    ```
+    Vertex   Distance from Source
+    0                0
+    1                4
+    2                12
+    3                19
+    4                21
+    5                11
+    6                9
+    7                8
+    8                14
+    ```
+  - **Resources**  
+    - [What is Dijkstra's Algorithm?](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+    - [Visualisation of Dijkstra's Algorithm #1](https://visualgo.net/en/sssp)
+    - [Visualisation of Dijkstra's Algorithm #2](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
+
+
+### **December 21 - Currency Convertor**
+  - **Problem**
+      -  Calculate the currency exchange rates between two user input countries using the attached **.csv** file in the reference.
+      - ``Note:`` All the given ``VALUES`` in the csv file are a country's equivalent value in USD.
+      - ``Optional:`` Also, generate a complete list of currency exchange rates between the input currency and the world currencies. For instance, if the input is `India`, then the output should be a list of each country's exchange rate for India.
+      ```bash
+      USA = 71.93, Malaysia = 17 etc.
+      ```
+
+
+  - **Example**
+    ```
+      From Country: India
+      Currency I have: 1000
+      To Country: Russia
+
+      1000 (India) = 895.5453149 (Russia)
+    ```
+
+
+  - **Resources:**
+      - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
+
+
+### **December 22 - Word-Count**
+  - **Problem**
+      - Write a program that reads a string from a user into a text file and prints out how often each word appears in the string.
+        ```
+          word1 count1
+          word2 count2
+        ```
+      Before printing, sort your list of words in alphabetical order. You may ignore case while counting the words. So "The" and "the" will be counted as the same word.
+
+      - ``Optional:`` Implement another function which is similar to the previous but which prints just the top 20 most common words sorted so the most common word is first, then the next most common, and so on.
+
+  - **Example**
+      ```
+      Martha! Why did you say that name?
+      Please! Stop!
+      Why did you say that name?
+      ```
+      ```
+      did       2
+      martha!   1
+      name?     2
+      please!   1
+      say       2
+      stop!     1
+      that      2
+      why       2
+      you       2
+      ```
+
+
+### **December 23 - Exam Seating Arrangement**
+  - **Problem**
+    - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
+    - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
+    - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally.
+    - Each Seat notation should be of the format `<Department_Code><Roll_Number>` and `____` if the seat is vacant.
+
+  - **Example**
+    ```
+    Number of classrooms: 2
+    Size of classrooms (1-50): 16
+    Enter the number of departments (2-10): 2
+    Department 1 Code: CS
+    Department 2 code: EC
+    Students in department 1 (1-100): 15
+    Students in department 2 (1-100): 16
+    ```
+    ```
+    ROOM 1
+    CS1   EC1   CS2   EC2
+    EC4   CS4   EC3   CS3
+    CS5   EC5   CS6   EC6
+    EC8   CS8   EC7   CS7
+
+    ROOM 2
+    CS9   EC9   CS10    EC10
+    EC12  CS12  EC11    CS11
+    CS13  EC13  CS14    EC14
+    EC8   ____  EC15    CS15
+    ```
+
+
+### **December 24 - Reverse a String Using Recursion**
+  - **Problem**
+    - Recursion simply refers to a function which calls itself. Recursive functions have two parts - a base case or stopping scenario and something that calls the same function with modified parameters. Check out the resources section for some great explanations of how it works.
+    - Once you understand recursion, you will find yourself able to break down and reduce the complexity of a program much more easily. While they certainly don't replace loops, they are excellent in certain scenarios.
+    For this question, you will have to recursively reverse a string.
+    - First write a program to reverse a string normally. Then try to convert it into a recursive function.
+    - Recursion has the power of performing of a finite set of instructions for infinite times without iterative control structures such as `for` and `while`.
+    - `Note:` Refrain from using string functions.
+  - **Example**
+    ```
+    Enter String: string STRING
+    Reversed String: GNIRTS gnirts
+    ```
+  - **Resources:**
+    - [Recursion #1](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+    - [Recursion #2](https://www.geeksforgeeks.org/recursion/)
+    - [How Recursion Works - explained with flowcharts and a video](https://medium.freecodecamp.org/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9)
+    - [Understanding Recursion](https://stackoverflow.com/a/717839)
+
+
+### **December 25 - Santa's Self-Driving Sleigh** :christmas_tree:
+  - **Problem**
+    - Help Santa bring gifts to the homes of well-behaved children on Christmas Eve by finding a path between Santa and Child.
+    - Assume a 10x10 matrix where both Santa and a Child can be anywhere on the border.
+    - The Location of Santa and Child's Locations (Index) are given as input.
+    - `Optional:` Use Recursion to solve the problem.
+    - `Note`: There may exist more than one path so displaying any one would suffice.
+    - Merry Christmas!
+
+
+  - **Example**
+    ```
+    Santa's Location: (1,0)
+    Child's Location: (9,8)
+    ```
+    ```
+    * 0 1 2 3 4 5 6 7 8 9
+    0 * S * * * * * * * *   
+    1 *   * * * * * * * *   
+    2 *   * * * * * * * *   
+    3 *   * * * * * * * *      
+    4 *       * * * * * *   
+    5 * * *   * * * * * *   
+    6 * * *   * * * * * *   
+    7 * * *   * * * * * *
+    8 * * *             K
+    9 * * * * * * * * * *
+    ```
+
+
+  - **Explanation**
+
+    <img src="/src/docs/Dec25-Example.png" width="250" height="250"/>
+
+
+### **December 26 - Common Prefix**
+  - **Problem**
+    - Write a function to find the longest common prefix amongst a given array of strings. If present, the function must return the prefix string in the output.
+    - If there is no common prefix, return "No common prefix".
+
+
+  - **Note:**
+    - All given inputs are in lowercase letters a-z.
+    - Prefix must be of minimum 2 characters.
+
+
+  - **Example 1:**
+    ```
+    Input: ["Element", "Elegant" ,"Electric" ,"Election"]
+    Output: "Ele"
+    ```
+
+
+  - **Example 2:**
+    ```
+    Input: ["dog", "cat", "parrot"]
+    Output: "No common prefix"
+    ```
+    **Explanation**: There is no common prefix among the input strings.
+
+
+ - **Resources:**
+    - [String manipulation and basics](https://en.wikipedia.org/wiki/String_(computer_science))
+
+
+### **December 27 - Vowel Square**
+  - **Problem**
+    - The function VowSq(strArr) takes the parameter as a 2D matrix of some size containing alphabets, find if a 2x2 square matrix composed only of vowels exists in the input matrix.
+    - If a 2x2 square of vowels is found your input should return the top-left position (row-column) of the square.
+    - If no 2x2 square of vowels exists, then return the string unavailable.
+    - The input matrix should at least be of size 2x2.
+    - Credits to coderbyte.com
+
+
+  - **Example #1**
+    - For ``strArr = ["abcd", "eikr", "oufj"]``
+    - The Matrix should be:
+    ```
+    a b c d
+    e i k r
+    o u f j
+    ```
+    ````
+    1-0
+    ````
+
+
+  - **Example #2**
+    - For ``strArr = ["gh", "bf"]``
+    - The Matrix should be:
+      ```
+      g h b f
+      ```
+      ````
+      Unavailable
+      ````
+
+
+
+
 
 FAQ:
 ======
@@ -495,11 +765,12 @@ FAQ:
   git merge upstream/master
   ```
   If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
+  Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.
 
   #### I received a merge error. What do I do?
   This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
 
   #### I'm facing difficulties with/need help understanding a particular question.
-  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.M
+  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms/issues) on this repository and we'll do our best to help you out.
 
 ###### [[Back to Top]](#----)
