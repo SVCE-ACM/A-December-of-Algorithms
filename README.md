@@ -661,7 +661,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [String manipulation and basics](https://en.wikipedia.org/wiki/String_(computer_science))
     
   
- ### **December 27 - Identical Diagonals**
+ ### **December 28 - Identical Diagonals**
  
  - **Problem**
 
