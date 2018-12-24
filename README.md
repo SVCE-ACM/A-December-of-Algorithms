@@ -35,6 +35,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
   - [**December 26 - Common Prefix**](#december-26---common-prefix)
+  - [**December 27 - Identical Diagonals**](#december-27---Identical-diagonals)
+  
   
   - [**FAQ**](#faq)
 
@@ -657,6 +659,33 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
  - **Resources:**
     - [String manipulation and basics](https://en.wikipedia.org/wiki/String_(computer_science))
+    
+  
+ ### **December 27 - Identical Diagonals**
+ 
+ - **Problem**
+
+   - Given an M x N matrix, write a function to determine if the diagonals of the matrix are identical.
+   - If so, return "Identical diagonals".
+   - Else return "Diagonals are non-identical."
+ 
+
+ -  **Example 1:**
+```
+    - Input matrices = [7,4,6,8], 
+                       [1,7,4,6],
+                       [9,1,7,4]
+    - Output: True
+
+   - Explanation:
+              In the above grid, the diagonals are:
+              "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]".
+              In each diagonal all elements are the same, so the function must return "Identical Diagonals".
+
+ ```
+ - **Resources**
+    - [Introduction to matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+
 
 
 
