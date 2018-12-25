@@ -14,7 +14,7 @@ int main(void)
 }
 int isLucky(int Num)
 {
-  int firstHalf=0, lastHalf=0, Digits=0, Rem;
+  int firstHalf=0, lastHalf=0, Digits=0;
   int tempNum=Num;
    while(tempNum!=0)
     {
@@ -23,14 +23,12 @@ int isLucky(int Num)
     }
     for(int i=(Digits/2)+1;i<=Digits;i++)
      {
-       Rem=Num%10;
-       firstHalf+=Rem;
+       firstHalf+=(Num%10);
        Num/=10;
      }
    for(int i=1;i<=Digits/2;i++)
     {
-      Rem=Num%10;
-      lastHalf+=Rem;
+      lastHalf+=(Num%10);
       Num/=10;
     }
    if(firstHalf==lastHalf)
