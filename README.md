@@ -781,7 +781,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.\
 
     2) Input : 10\
-       Output : 55\
+       Output : 55
  
   - **Uses :**
     - Triangular Series
@@ -799,16 +799,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Example :**
     1) Input : 8\
-       Output : 20\
+       Output : 20
 
     2) Input : 11\
-       Output : 44\
+       Output : 44
 
     3) Input : 4 (Quadrilateral - Rectangle)\
-       Output : 2\
+       Output : 2
 
     4) Input : 5 (Pentagon)\
-       Output : 5\
+       Output : 5
 
   - **Uses :**
     - Graphics & Animation
