@@ -801,7 +801,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     1) Input : 4 (Quadrilateral - Rectangle)\
        Output : 2
 
-       <img src="/src/Docs/dec30-diagonals-of-rectangle.jpg" width="300" height="300"> <img src="/src/Docs/dec30-pentagon.png" width="300" height="300">
+       <img src="/src/docs/dec30-diagonals-of-rectangle.jpg" width="300" height="300"> <img src="/src/docs/dec30-pentagon.png" width="300" height="300">
 
     2) Input : 5 (Pentagon)\
        Output : 5
