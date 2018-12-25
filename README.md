@@ -775,9 +775,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Examples :**
   
-    1) Input : 5
-       Output : 15
-       <img src="/src/docs/dec30-pentagon.png">
+    1) Input : 5\
+       Output : 15\
+       <img src="/src/docs/dec30-pentagon.png">\
        Here 5 boxes are Tharun & his 4 friends and the connections are the string.
 
     1) Input : 7\
