@@ -38,6 +38,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Common Prefix**](#december-26---common-prefix)
   - [**December 27 - Vowel Square**](#december-27---vowel-square)
   - [**December 28 - Identical Diagonals**](#december-28---Identical-Diagonals)
+  - [**December 29 - Cup and String Phone**](#december-29---cup-and-string-phone)
+  - [**December 30 - Number of Diagonals**](#december-30---number-of-diagonals)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -761,6 +763,35 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  
  - **Resources**
     - [Introduction to matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+
+
+## **December 29 - Cup and String Phone**
+  - **Problem :**
+    - Tharun is playing with his friends using a string phone. To make this interesting he asked his friends to join him. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
+
+    For example Tharun plays with 2 of his friends. Then he will bring 3 Strings.This is because 1 string is enough to connect 2 friends.
+
+    <img src="/src/docs/dec29-string-phone.jpg" width="450" height="300">
+
+  - **Examples :**
+  
+    1) Input : 7
+       Output : 28
+       Explanation : 
+          Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.
+
+    2) Input : 10
+       Output : 55
+ 
+  - **Uses :**
+    - Triangular Series
+    - Networking between computers 
+    - No. of greetings exchanged among 'n' people
+    - No. of matches played by 'n' teams
+
+  - **Resources :**
+    - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
+
 
 
 
