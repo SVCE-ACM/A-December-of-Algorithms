@@ -778,7 +778,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     1) Input : 5\
        Output : 10\
        <img src="/src/docs/dec29-mesh.jpg">\
-       Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Every friend should communicate with the other, so we need 10 strings to connect them all.
+       Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Each friend needs to be able to contact the other friends separately, so we need 10 strings to connect them all.
 
     1) Input : 7\
        Output : 21\
@@ -789,13 +789,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
        Output : 45
  
   - **Uses :**
-    - Triangular Series
-    - Networking between computers - Fully connected Mesh Topology
+    - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
+    - [Networking between computers - Fully connected Mesh Topology](https://en.wikipedia.org/wiki/Network_topology)
     - [No. of greetings exchanged among 'n' people](https://www.quora.com/What-is-the-practical-use-of-triangular-numbers-in-the-real-world)
     - No. of matches played by 'n' teams
-
-  - **Resources :**
-    - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
 
 
 ## **December 30 - Number of Diagonals**
@@ -818,9 +815,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
        Output : 44 
 
   - **Uses :**
-    - Graphics & Animation
-    - Gaming
-    - Fully connected Mesh Topology Network
+    - [Graphics & Animation](https://en.wikipedia.org/wiki/B%C3%A9zier_surface)
+    - [CAD](https://en.wikipedia.org/wiki/Computer-aided_design) and [Structural Engineering](https://en.wikipedia.org/wiki/Structural_engineering)
 
   - **Resources :**
     - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html) 
