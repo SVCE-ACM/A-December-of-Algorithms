@@ -777,7 +777,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
     1) Input : 5\
        Output : 15\
-       <img src="/src/docs/dec29-mesh.png">\
+       <img src="/src/docs/dec29-mesh.jpg">\
        Here 5 boxes represent Tharun & his 4 friends and the connections are the string.
 
     1) Input : 7\
