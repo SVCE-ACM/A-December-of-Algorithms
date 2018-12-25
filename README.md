@@ -798,17 +798,19 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - There is a n-sided polygon. Find the number of [diagonals](https://en.wikipedia.org/wiki/Diagonal) that are possible. Do not count duplicates lines. Diagonals are Line segments that connect the non-adjacent vertices.
 
   - **Example :**
-    1) Input : 8\
-       Output : 20
-
-    2) Input : 11\
-       Output : 44
-
-    3) Input : 4 (Quadrilateral - Rectangle)\
+    1) Input : 4 (Quadrilateral - Rectangle)\
        Output : 2
 
-    4) Input : 5 (Pentagon)\
+       <img src="/src/Docs/dec30-diagonals-of-rectangle.jpg" width="300" height="300"> <img src="/src/Docs/dec30-pentagon.png" width="300" height="300">
+
+    2) Input : 5 (Pentagon)\
        Output : 5
+
+    3) Input : 8\
+       Output : 20
+
+    4) Input : 11\
+       Output : 44 
 
   - **Uses :**
     - Graphics & Animation
