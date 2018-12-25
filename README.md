@@ -767,7 +767,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## **December 29 - Cup and String Phone**
   - **Problem :**
-    - Tharun is playing with his friends using a string phone. To make this interesting he asked his friends to join him. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
+    - Tharun is playing with his friends using a string phone. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
 
     For example Tharun plays with 2 of his friends. Then he will bring 3 Strings.This is because 1 string is enough to connect 2 friends.
 
@@ -775,6 +775,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Examples :**
   
+    1) Input : 5
+       Output : 15
+       <img src="/src/docs/dec30-pentagon.png">
+       Here 5 boxes are Tharun & his 4 friends and the connections are the string.
+
     1) Input : 7\
        Output : 28\
        Explanation : \
@@ -785,8 +790,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  
   - **Uses :**
     - Triangular Series
-    - Networking between computers 
-    - No. of greetings exchanged among 'n' people
+    - Networking between computers - Fully connected Mesh Topology
+    - [No. of greetings exchanged among 'n' people](https://www.quora.com/What-is-the-practical-use-of-triangular-numbers-in-the-real-world)
     - No. of matches played by 'n' teams
 
   - **Resources :**
