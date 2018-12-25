@@ -112,7 +112,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
     - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower have no disks.
-    - Your task is to move all the disks from the first tower to the third hour while following these rules:
+    - Your task is to move all the disks from the first tower to the third tower while following these rules:
       - Only one disk can be moved at a time.
       - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
       - No disk may be placed on top of a smaller disk.
@@ -140,7 +140,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Return the least common multiple of two or more numbers.
     - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
-    - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
+    - **Hint:** There are multiple ways to implement GCD. Take a leap and try doing it with recursion.
     - `Optional:` Allow for input of more than 2 numbers and find the combined LCM of all the numbers.
   - **Example**
     ```bash
