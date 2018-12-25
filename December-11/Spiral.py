@@ -6,31 +6,44 @@ This file doesn't contain any code.
 It's just here to give an example of the file naming scheme.
 Cheers!
 """
-import sys
-import numpy as np
 
-def spiral(mat,n):
-    matrix1 =np.matrix(mat)
-    print("THE ORGINAL MATRIX \n",matrix1)
-    flag=0
-
-    for i in range(0,n):
-        if(flag==0):
-            for j in range(0,n):
-               print(mat[i][j],"-->",end=" ")
-               flag=1
-        elif(flag==1):
-            for j in range(n-1,-1,-1):
-                print(mat[i][j],"-->",end=" ")
-            flag=0
+def spiralPrint(m, n, a):
+    k = 0
+    l = 0
+    while (k < m and l < n):
 
 
+        for i in range(l, n):
+            print(a[k][i],"-->", end=" ")
+
+        k += 1
+
+
+        for i in range(k, m):
+            print(a[i][n - 1],"-->", end=" ")
+
+        n -= 1
+        if (k < m):
+
+            for i in range(n - 1, (l - 1), -1):
+                print(a[m - 1][i],"-->", end=" ")
+
+            m -= 1
+        if (l < n):
+            for i in range(m - 1, k - 1, -1):
+                print(a[i][l],"-->", end=" ")
+
+            l += 1
 def main():
-     n = int(input("Enter the number of rows in a matrix:"))
-     a = [[0 for x in range(n)] for y in range(n)]
-     for i in range(n):
-         for j in range(n):
-             a[i][j] = int(input())
-     spiral(a,n)
+  n = int(input("Enter the number of rows/columns in a matrix:"))
+  a = [[0 for x in range (n)] for y in range(n)]
+  for i in range (n):
+    for j in range(n):
+        a[i][j]=int(input())
+
+  spiralPrint(n,n,a)
 if __name__ == '__main__':
     main()
+
+
+
