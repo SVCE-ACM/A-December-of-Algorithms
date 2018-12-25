@@ -37,6 +37,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
   - [**December 26 - Common Prefix**](#december-26---common-prefix)
   - [**December 27 - Vowel Square**](#december-27---vowel-square)
+  - [**December 28 - Identical Diagonals**](#december-28---Identical-Diagonals)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -112,7 +113,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
     - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower have no disks.
-    - Your task is to move all the disks from the first tower to the third hour while following these rules:
+    - Your task is to move all the disks from the first tower to the third tower while following these rules:
       - Only one disk can be moved at a time.
       - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
       - No disk may be placed on top of a smaller disk.
@@ -140,7 +141,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Return the least common multiple of two or more numbers.
     - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
-    - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
+    - **Hint:** There are multiple ways to implement GCD. Take a leap and try doing it with recursion.
     - `Optional:` Allow for input of more than 2 numbers and find the combined LCM of all the numbers.
   - **Example**
     ```bash
@@ -726,7 +727,40 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Unavailable
       ````
 
+### **December 28 - Identical Diagonals**
+ 
+ - **Problem**
 
+   - Given an M x N matrix, write a function to determine if the diagonals of the matrix are identical.
+   - If so, return "Identical diagonals".
+   - Else return "Diagonals are non-identical."
+ 
+
+ -  **Example 1:**
+```
+    - Input matrix =   [7 4 6 8 
+                        1 7 4 6
+                        9 1 7 4]
+    - Output: Identical diagonals
+
+    - Explanation:
+              In the above grid, the diagonals are:
+              "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]".
+              In each diagonal all elements are the same, so the function must return "Identical Diagonals".
+
+ ```
+ 
+  -  **Example 2:**
+```
+    - Input matrix =   [1 2 3 4 
+                        5 6 7 8
+                        1 4 7 9]
+    - Output: Diagonals are non-identical
+```
+ 
+ 
+ - **Resources**
+    - [Introduction to matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
 
 
 
