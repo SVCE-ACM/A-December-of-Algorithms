@@ -776,17 +776,17 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Examples :**
   
     1) Input : 5\
-       Output : 15\
+       Output : 10\
        <img src="/src/docs/dec29-mesh.jpg">\
-       Here 5 boxes represent Tharun & his 4 friends and the connections are the strings.
+       Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Every friend should communicate with the other, so we need 10 strings to connect them all.
 
     1) Input : 7\
-       Output : 28\
+       Output : 21\
        Explanation : \
             Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.\
 
     2) Input : 10\
-       Output : 55
+       Output : 45
  
   - **Uses :**
     - Triangular Series
