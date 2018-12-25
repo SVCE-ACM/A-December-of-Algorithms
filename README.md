@@ -793,6 +793,30 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
 
 
+## **December 30 - Number of Diagonals**
+  - **Problem :**
+    - There is a n-sided polygon. Find the number of [diagonals](https://en.wikipedia.org/wiki/Diagonal) that are possible. Do not count duplicates lines. Diagonals are Line segments that connect the non-adjacent vertices.
+
+  - **Example :**
+    1) Input : 8
+       Output : 20
+
+    2) Input : 11
+       Output : 44
+  
+    3) Input : 4 (Quadrilateral - Rectangle)
+       Output : 2
+
+    4) Input : 5 (Pentagon)
+       Output : 5
+
+  - **Uses :**
+    - Graphics & Animation
+    - Gaming
+    - Fully connected Mesh Topology Network
+
+  - **Resources :**
+    - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html) 
 
 
 FAQ:
