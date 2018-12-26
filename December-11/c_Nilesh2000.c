@@ -17,19 +17,27 @@ void main()
   int rowLength=m-1;
   int colLength=n-1;
   printf("\nMatrix In Spiral Form:-\n");
+  printf("Start --> ");
     while(rowStart<=rowLength && colStart<=colLength)
      {
-       for(i=rowStart;i<=colLength;i++)
+       for(i=colStart;i<=colLength;i++)
         printf("%d --> ", Arr[rowStart][i]);
-       for(i=colStart+1;i<=rowLength;i++)
-        printf("%d --> ", Arr[i][colLength]);
-       for(i=colLength-1;i>=colStart;i--)
-        printf("%d --> ", Arr[rowLength][i]);
-       for(i=rowLength-1;i>rowStart;i--)
-        printf("%d --> ", Arr[i][colStart]);
        rowStart++;
-       rowLength--;
-       colStart++;
+       for(i=rowStart;i<=rowLength;i++)
+        printf("%d --> ", Arr[i][colLength]);
        colLength--;
+       if(rowStart<=rowLength)
+        {
+          for(i=colLength;i>=colStart;i--)
+           printf("%d --> ", Arr[rowLength][i]);
+          rowLength--;
+        }
+       if(colStart<=colLength)
+        {
+          for(i=rowLength;i>=rowStart;i--)
+           printf("%d --> ", Arr[i][colStart]);
+          colStart++;
+        }
      }
+  printf("End\n");
 }
