@@ -1,3 +1,10 @@
+/*
+Author: Koushika Kesavan
+Date of Creation: 26 December 2018, Tuesday
+Title: Fibonacci series
+All rights reserved
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
