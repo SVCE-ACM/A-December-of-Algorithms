@@ -737,7 +737,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - Else return "Diagonals are non-identical."
 
 
- -  **Example 1:**
+ - **Example #1:**
     ```
     Input matrix =   [7 4 6 8
                       1 7 4 6
@@ -748,7 +748,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - In the above grid, the diagonals are: "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]". In each diagonal all elements are the same, so the function must return "Identical Diagonals".
 
 
-  -  **Example 2:**
+
+  - **Example #2:**
     ```
     Input matrix =   [1 2 3 4
                       5 6 7 8
