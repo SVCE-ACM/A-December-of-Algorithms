@@ -769,7 +769,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem :**
     - Tharun is playing with his friends using a string phone. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
 
-    For example Tharun plays with 2 of his friends. Then he will bring 3 Strings.This is because 1 string is enough to connect 2 friends.
+    For example Tharun plays with 2 of his friends. Then he will bring 3 Strings. This is because 1 string is needed to connect any two people. Since there are three people, including Tharun, then 3 connections are needed. Tharun-FriendA, Tharun-FriendB and FriendA-FriendB. So three strings are needed.
 
     <img src="/src/docs/dec29-string-phone.jpg" width="450" height="300">
 
@@ -783,7 +783,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     1) Input : 7\
        Output : 21\
        Explanation : \
-            Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.\
+            Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.
 
     2) Input : 10\
        Output : 45
