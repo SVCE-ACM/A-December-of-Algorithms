@@ -1,5 +1,5 @@
 # include <stdio.h>
-int main(void)
+void main()
 {
   int n, Search;
   printf("\nEnter The Number Of Integers You Want To Input...");
@@ -14,7 +14,7 @@ int main(void)
    while(First<=Last)
     {
      Mid=(First+Last)/2;
-     printf("\nGuess %d (half of %d to %d) -> ", Arr[Mid], First, Last);
+     printf("\nGuess %d (half of %d to %d) -> ", Arr[Mid], First, Last+1);
       if(Arr[Mid]==Search)
        {
          printf("spot on!");
@@ -34,5 +34,4 @@ int main(void)
     }
    if(Flag==0)
     printf("\nElement Not Found!!");
-  return 0;
 }
