@@ -6,34 +6,35 @@ This file doesn't contain any code.
 It's just here to give an example of the file naming scheme.
 Cheers!
 """
-def binary_sort(sort, n, x):
-    start = 0
-    end = n - 1
+def binarySearch(arr, l, r, x):
 
-    while start <= end:
-        mid = int((start + end) / 2)
-        if x == sort[mid]:
+    if r >= l:
+
+        mid = int(l + (r - l) / 2)
+
+
+        if arr[mid] == x:
             return mid
-        elif x < sort[mid]:
-            end = mid - 1
+
+        elif arr[mid] > x:
+            return binarySearch(arr, l, mid - 1, x)
+
         else:
-            start = mid + 1
+            return binarySearch(arr, mid + 1, r, x)
 
-    return -1
+    else:
 
-def main():
- n = int(input("Enter the size of the list: "))
- sort = []
- for i in range(n):
-    sort.append(input("Enter {} element: " .format(i+1)))
+        return -1
+arr=[]
+number=0
+num=int(input("ENTER NO. OF NUMBERS"))
+for i in range(0,num):
+    number=int(input("ENTER NUMBER:"))
+    arr.append(number)
+x = int(input("ENTER THE NUMBER TO SEARCH:"))
+result = binarySearch(arr, 0, len(arr) - 1, x)
 
- x = input("Enter the number to search: ")
- position = binary_sort(sort, n, x)
-
- if position != -1:
-    print("Entered number {} is present at position: {}" .format(x, position+1))
- else:
-    print("Entered number {} is not present in the list" .format(x))
-
-if __name__ == '__main__':
-      main()
+if result != -1:
+    print("Element is present at index % d" % result)
+else:
+    print("Element is not present in array")
