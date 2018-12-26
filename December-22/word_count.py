@@ -7,29 +7,37 @@ It's just here to give an example of the file naming scheme.
 Cheers!
 """
 
-import string
-def word_count(string1):
-    list1=string1.split()
-    list4=[]
-    list3=[]
-    str=string.digits
-    for ltr in str:
-        list4.append(ltr)
+import sys
+import operator
 
-    for i in list1:
-        temp=0
-        for j in list1:
-            if i==j:
-                temp+=1
+def storewords(filename,string):
+    with open('filename.txt', 'w') as f:
+     dict={}
+     str1=" "
+     for word in string.split():
+                if word in dict:
+                    dict[word]=dict[word]+1
+                else:
+                    dict[word]=1
+     dict = sorted(dict.items(), key=operator.itemgetter(1),reverse=True)
+     str1=str(dict)
+     f.write(str1)
+     f.close()
+    return dict
 
-        list3.append(i)
-        list3.append(temp)
-
-    for i in range(0,len(list3),2):
-        print("word:",list3[i],"is repeated:",list3[i+1])
+def print_words(filename,string):
+    dict=storewords(filename,string)
+    for k in range(0,len(dict)):
+        print (dict[k][0], dict[k][1])
+    with open('filename.txt', 'r') as f:
+        print("IN FILE>>>>")
+        for word in f:
+            print(word)
 
 
 def main():
-    word_count("Martha! Why did you say that name? Please! Stop! Why did you say that name?")
+ string=input("ENTER THE STRING:")
+ filename=input("ENTER THE FILENAME:")
+ print_words(filename,string)
 if __name__ == '__main__':
-    main()
+  main()
