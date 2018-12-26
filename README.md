@@ -37,6 +37,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
   - [**December 26 - Common Prefix**](#december-26---common-prefix)
   - [**December 27 - Vowel Square**](#december-27---vowel-square)
+  - [**December 28 - Identical Diagonals**](#december-28---Identical-Diagonals)
+  - [**December 29 - Cup and String Phone**](#december-29---cup-and-string-phone)
+  - [**December 30 - Number of Diagonals**](#december-30---number-of-diagonals)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -112,7 +115,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
     - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower have no disks.
-    - Your task is to move all the disks from the first tower to the third hour while following these rules:
+    - Your task is to move all the disks from the first tower to the third tower while following these rules:
       - Only one disk can be moved at a time.
       - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
       - No disk may be placed on top of a smaller disk.
@@ -140,7 +143,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Return the least common multiple of two or more numbers.
     - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
-    - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
+    - **Hint:** There are multiple ways to implement GCD. Take a leap and try doing it with recursion.
     - `Optional:` Allow for input of more than 2 numbers and find the combined LCM of all the numbers.
   - **Example**
     ```bash
@@ -726,8 +729,97 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Unavailable
       ````
 
+### **December 28 - Identical Diagonals**
+ 
+ - **Problem**
+
+   - Given an M x N matrix, write a function to determine if the diagonals of the matrix are identical.
+   - If so, return "Identical diagonals".
+   - Else return "Diagonals are non-identical."
+ 
+
+ -  **Example 1:**
+```
+    - Input matrix =   [7 4 6 8 
+                        1 7 4 6
+                        9 1 7 4]
+    - Output: Identical diagonals
+
+    - Explanation:
+              In the above grid, the diagonals are:
+              "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]".
+              In each diagonal all elements are the same, so the function must return "Identical Diagonals".
+
+ ```
+ 
+  -  **Example 2:**
+```
+    - Input matrix =   [1 2 3 4 
+                        5 6 7 8
+                        1 4 7 9]
+    - Output: Diagonals are non-identical
+```
+ 
+ 
+ - **Resources**
+    - [Introduction to matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
 
 
+## **December 29 - Cup and String Phone**
+  - **Problem :**
+    - Tharun is playing with his friends using a string phone. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
+
+    For example Tharun plays with 2 of his friends. Then he will bring 3 Strings. This is because 1 string is needed to connect any two people. Since there are three people, including Tharun, then 3 connections are needed. Tharun-FriendA, Tharun-FriendB and FriendA-FriendB. So three strings are needed.
+
+    <img src="/src/docs/dec29-string-phone.jpg" width="450" height="300">
+
+  - **Examples :**
+  
+    1) Input : 5\
+       Output : 10\
+       <img src="/src/docs/dec29-mesh.jpg">\
+       Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Each friend needs to be able to contact the other friends separately, so we need 10 strings to connect them all.
+
+    1) Input : 7\
+       Output : 21\
+       Explanation : \
+            Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.
+
+    2) Input : 10\
+       Output : 45
+ 
+  - **Uses :**
+    - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
+    - [Networking between computers - Fully connected Mesh Topology](https://en.wikipedia.org/wiki/Network_topology)
+    - [No. of greetings exchanged among 'n' people](https://www.quora.com/What-is-the-practical-use-of-triangular-numbers-in-the-real-world)
+    - No. of matches played by 'n' teams
+
+
+## **December 30 - Number of Diagonals**
+  - **Problem :**
+    - There is a n-sided polygon. Find the number of [diagonals](https://en.wikipedia.org/wiki/Diagonal) that are possible. Do not count duplicates lines. Diagonals are Line segments that connect the non-adjacent vertices.
+
+  - **Example :**
+    1) Input : 4 (Quadrilateral - Rectangle)\
+       Output : 2
+
+       <img src="/src/docs/dec30-diagonals-of-rectangle.jpg" width="300" height="300"> <img src="/src/docs/dec30-pentagon.png" width="300" height="300">
+
+    2) Input : 5 (Pentagon)\
+       Output : 5
+
+    3) Input : 8\
+       Output : 20
+
+    4) Input : 11\
+       Output : 44 
+
+  - **Uses :**
+    - [Graphics & Animation](https://en.wikipedia.org/wiki/B%C3%A9zier_surface)
+    - [CAD](https://en.wikipedia.org/wiki/Computer-aided_design) and [Structural Engineering](https://en.wikipedia.org/wiki/Structural_engineering)
+
+  - **Resources :**
+    - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html) 
 
 
 FAQ:
