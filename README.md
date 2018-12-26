@@ -40,6 +40,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 28 - Identical Diagonals**](#december-28---Identical-Diagonals)
   - [**December 29 - Cup and String Phone**](#december-29---cup-and-string-phone)
   - [**December 30 - Number of Diagonals**](#december-30---number-of-diagonals)
+  - [**December 31 - Closest Cell**](#december-31---closest-cell)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -294,6 +295,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - The output for this will be `5` as `dac` is present in the 5th position in the alphabetical list of permutations.
   - **Uses and Resources**
     - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
+
 
 ### **December 14 - Caesar Cipher**
   - **Problem**
@@ -815,7 +817,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Output : 2
     ```
 
-       <img src="/src/docs/Dec30-ExampleImg.jpg" width=322 height=140>
+       <img src="/src/docs/Dec30-ExampleImg.jpg" width=483>
 
 
   - **Example #2:**
@@ -843,6 +845,30 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Resources :**
     - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html)
+
+
+### **December 31 - Closest Cell**
+  - **Problem**
+    - ClosestCell2(strArr) reads a 2D matrix that contains only 1, 0, or 2. From the index where a ‘1’ is, return the number of places either left, right, down, or up you must move to reach a cell which is represented by a 2. You can fold or wrap around the matrix to move to the cell which has ‘2’.
+      - The 2D matrix can have any number of 0's and 2's, but only a single 1.
+      -	It may not contain any 2's at all, then your program should return a 0.
+      -	You can try moving in each direction from the ‘1’, but you may need to add a special case if you reach the border and to jump to the other side of the matrix.
+    - Credits to coderbyte.com
+
+
+  - **Example**
+    ```
+    2D matrix:
+    If strArr is ["000", “100”, “200”] then:
+    0 0 0
+    1 0 0
+    2 0 0
+    2D matrix Input:"000", "100", "200"
+    Output:1
+    2D matrix Input:"0000", "2010", "0000", "2002"
+    Output:2
+    ```
+    - For this input program should return 2 because the closest cell (‘2’) is 2 spaces away from the ‘1’ by moving left to wrap to the other side and then moving down once.
 
 
 FAQ:
