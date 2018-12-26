@@ -811,11 +811,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Example #1:**
     ```
-    Input : 4 (Quadrilateral - Rectangle)\
+    Input : 4 (Quadrilateral - Rectangle)
     Output : 2
     ```
 
-       <img src="/src/docs/Dec30-ExampleImg.jpg">
+       <img src="/src/docs/Dec30-ExampleImg.jpg" width=322 height=140>
 
 
   - **Example #2:**
