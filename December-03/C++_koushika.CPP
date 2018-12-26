@@ -1,3 +1,10 @@
+/*
+Author: Koushika Kesavan
+Date of Creation: 26 December 2018, Wednesday
+Title: Lucky Number
+All rights reserved
+*/
+
 #include<stdio.h>
 #include<iostream.h>
 #include<stdlib.h>
