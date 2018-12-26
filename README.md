@@ -729,97 +729,119 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Unavailable
       ````
 
-### **December 28 - Identical Diagonals**
- 
- - **Problem**
 
+### **December 28 - Identical Diagonals**
+  - **Problem**
    - Given an M x N matrix, write a function to determine if the diagonals of the matrix are identical.
    - If so, return "Identical diagonals".
    - Else return "Diagonals are non-identical."
- 
+
 
  -  **Example 1:**
-```
-    - Input matrix =   [7 4 6 8 
-                        1 7 4 6
-                        9 1 7 4]
-    - Output: Identical diagonals
+    ```
+    Input matrix =   [7 4 6 8
+                      1 7 4 6
+                      9 1 7 4]
+    Output: Identical diagonals
+    ```
+  - **Explanation:**
+    - In the above grid, the diagonals are: "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]". In each diagonal all elements are the same, so the function must return "Identical Diagonals".
 
-    - Explanation:
-              In the above grid, the diagonals are:
-              "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]".
-              In each diagonal all elements are the same, so the function must return "Identical Diagonals".
 
- ```
- 
   -  **Example 2:**
-```
-    - Input matrix =   [1 2 3 4 
-                        5 6 7 8
-                        1 4 7 9]
-    - Output: Diagonals are non-identical
-```
- 
- 
+    ```
+    Input matrix =   [1 2 3 4
+                      5 6 7 8
+                      1 4 7 9]
+    Output: Diagonals are non-identical
+    ```
+
+
  - **Resources**
-    - [Introduction to matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+    - [Introduction to Matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
 
 
-## **December 29 - Cup and String Phone**
-  - **Problem :**
+### **December 29 - Cup and String Phone**
+  - **Problem:**
     - Tharun is playing with his friends using a string phone. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
+    - For Example, Tharun plays with 2 of his friends. Then he will bring 3 Strings. This is because 1 string is needed to connect any two people. Since there are three people, including Tharun, then 3 connections are needed. Tharun-Friend_A, Tharun-Friend_B and Friend_A-Friend_B. So three strings are needed.
 
-    For example Tharun plays with 2 of his friends. Then he will bring 3 Strings. This is because 1 string is needed to connect any two people. Since there are three people, including Tharun, then 3 connections are needed. Tharun-FriendA, Tharun-FriendB and FriendA-FriendB. So three strings are needed.
 
-    <img src="/src/docs/dec29-string-phone.jpg" width="450" height="300">
+<img src="/src/docs/dec29-string-phone.jpg" width="378" height="259">
 
-  - **Examples :**
-  
-    1) Input : 5\
-       Output : 10\
-       <img src="/src/docs/dec29-mesh.jpg">\
-       Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Each friend needs to be able to contact the other friends separately, so we need 10 strings to connect them all.
 
-    1) Input : 7\
-       Output : 21\
-       Explanation : \
-            Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.
+  - **Examples #1:**
+      ```
+      Input : 5
+      Output : 10
+      ```     
+      <img src="/src/docs/dec29-mesh.jpg">
 
-    2) Input : 10\
-       Output : 45
- 
-  - **Uses :**
+      - Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Each friend needs to be able to contact the other friends separately, so we need 10 strings to connect them all.
+
+
+  - **Examples #2:**
+    ```
+    Input : 7
+    Output : 21
+    ```
+    **Explanation:**
+    - Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.
+
+
+  - **Examples #3:**
+      ```
+      Input : 10
+      Output : 45
+      ```
+
+
+  - **Uses:**
     - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
     - [Networking between computers - Fully connected Mesh Topology](https://en.wikipedia.org/wiki/Network_topology)
     - [No. of greetings exchanged among 'n' people](https://www.quora.com/What-is-the-practical-use-of-triangular-numbers-in-the-real-world)
     - No. of matches played by 'n' teams
 
 
-## **December 30 - Number of Diagonals**
+### **December 30 - Number of Diagonals**
   - **Problem :**
     - There is a n-sided polygon. Find the number of [diagonals](https://en.wikipedia.org/wiki/Diagonal) that are possible. Do not count duplicates lines. Diagonals are Line segments that connect the non-adjacent vertices.
 
-  - **Example :**
-    1) Input : 4 (Quadrilateral - Rectangle)\
-       Output : 2
 
-       <img src="/src/docs/dec30-diagonals-of-rectangle.jpg" width="300" height="300"> <img src="/src/docs/dec30-pentagon.png" width="300" height="300">
+  - **Example #1:**
+    ```
+    Input : 4 (Quadrilateral - Rectangle)\
+    Output : 2
+    ```
 
-    2) Input : 5 (Pentagon)\
-       Output : 5
+       <img src="/src/docs/Dec30-ExampleImg.jpg">
 
-    3) Input : 8\
-       Output : 20
 
-    4) Input : 11\
-       Output : 44 
+  - **Example #2:**
+    ```
+    Input : 5 (Pentagon)
+    Output : 5
+    ```
+
+  - **Example #3:**
+    ```
+    Input : 8
+    Output : 20
+    ```
+
+  - **Example #4:**
+    ```
+    Input : 11
+    Output : 44
+    ```
 
   - **Uses :**
     - [Graphics & Animation](https://en.wikipedia.org/wiki/B%C3%A9zier_surface)
     - [CAD](https://en.wikipedia.org/wiki/Computer-aided_design) and [Structural Engineering](https://en.wikipedia.org/wiki/Structural_engineering)
 
+
   - **Resources :**
-    - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html) 
+    - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html)
 
 
 FAQ:
