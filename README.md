@@ -849,7 +849,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 31 - Closest Cell**
   - **Problem**
-    - ClosestCell2(strArr) reads a 2D matrix that contains only 1, 0, or 2. From the index where a ‘1’ is, return the number of places either left, right, down, or up you must move to reach a cell which is represented by a 2. You can fold or wrap around the matrix to move to the cell which has ‘2’.
+    - ClosestCell2(strArr) reads a 2D matrix that contains only 1, 0, or 2. From the index where ‘1’ is, return the number of places either left, right, down, or up you must move to reach a cell which is represented by a 2. You can fold or wrap around the matrix to move to the cell which has ‘2’.
       - The 2D matrix can have any number of 0's and 2's, but only a single 1.
       -	It may not contain any 2's at all, then your program should return a 0.
       -	You can try moving in each direction from the ‘1’, but you may need to add a special case if you reach the border and to jump to the other side of the matrix.
@@ -858,17 +858,22 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   - **Example**
     ```
-    2D matrix:
-    If strArr is ["000", “100”, “200”] then:
+    Input:
     0 0 0
     1 0 0
     2 0 0
-    2D matrix Input:"000", "100", "200"
-    Output:1
+    Output: 1
+    ```
+    - **Explanation:** It takes exactly one movement to reach 2.
+    ```
     2D matrix Input:"0000", "2010", "0000", "2002"
+    0 0 0 0
+    2 0 1 0
+    0 0 0 0
+    2 0 0 2
     Output:2
     ```
-    - For this input program should return 2 because the closest cell (‘2’) is 2 spaces away from the ‘1’ by moving left to wrap to the other side and then moving down once.
+    - **Explanation:** For this input program should return 2 because the closest cell (‘2’) is 2 spaces away from the ‘1’ by moving left to wrap to the other side and then moving down once.
 
 
 FAQ:
