@@ -1,3 +1,10 @@
+/*
+Author: Koushika Kesavan
+Date of Creation: 28 December 2018, Thursday
+Title: LCM of 2 numbers
+All rights reserved
+*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<iostream.h>
