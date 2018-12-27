@@ -13,4 +13,4 @@ for line in file.readlines():
         print (line)
 
 end_time = datetime.now()
-print('Maximum time taken to brute-force: {}'.format(end_time - start_time))
+print('Maximum time taken to brute-force: {}'.format(end_time - start_time)+' seconds')
