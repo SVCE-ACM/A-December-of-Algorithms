@@ -873,7 +873,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     2 0 0 2
     Output:2
     ```
-    - **Explanation:** For this input program should return 2 because the closest cell (‘2’) is 2 spaces away from the ‘1’ by moving left to wrap to the other side and then moving down once.
+    - **Explanation:** For this input program should return 2. There are two ways to do this. Both involve starting at cell [1,0]. We can either move left twice and reach the 1 by wrapping around or we can move right twice. In either case, we reach 1 in two steps.
 
 
 FAQ:
