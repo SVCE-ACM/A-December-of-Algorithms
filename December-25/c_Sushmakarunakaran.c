@@ -33,7 +33,7 @@ void main()
 		for(j=0;j<12;j++)
 		{
 		    printf("%c",a[i][j]);
-		   // printf("\t");
+		   
 	    }
 	printf("\n");	  
     }
