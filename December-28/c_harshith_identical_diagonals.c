@@ -25,7 +25,7 @@ void main()
 	   }
     }
 	if(x==0)
-	  printf("\n \t YEAH!! diagonal elements are identical");
+	  printf("\nDiagonals are identical");
 	else
-	  printf("\n \t NOPE! diagonal elements are not identical");  
+	  printf("\nDiagonals are non-identical");  
 }
