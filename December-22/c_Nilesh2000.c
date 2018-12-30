@@ -2,12 +2,11 @@
 # include <string.h>
 int main()
 {
-  char Str[100]="Martha! Why did you say that name? Please! Stop! Why did you say that name?", Words[100][100], Temp[100];
+  char Str[100], Words[100][100], Temp[100];
   int i, j, k, n, Count;
   j=k=0;
   //Accepting input
-  //gets(Str);
-  Str[strlen(Str)]='\0';
+  gets(Str);
   //Copying Each and every word into a 2-D Array from the string
    for(i=0;Str[i]!='\0';i++)
     {
@@ -23,7 +22,7 @@ int main()
       }
     }
   Words[j][k] = '\0'; //Null character for last word
-  n=j;
+  n=j+1; //Storing count of words
   //Sorting the array of words
   for(i=0;i<n-1;i++)
    {
@@ -57,3 +56,6 @@ int main()
   printf("\n");
   return 0;
 }
+
+//Source
+//https://stackoverflow.com/questions/53970726/frequency-of-a-word-in-a-string/53971534#53971534
