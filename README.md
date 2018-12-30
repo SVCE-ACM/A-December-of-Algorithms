@@ -6,6 +6,8 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 
 **Send a pull request only after completing all 31 algorithms.**
 
+**Please submit all PRs on or before January 7th 11:59 PM IST.**
+
 ## What Do I Do?
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
