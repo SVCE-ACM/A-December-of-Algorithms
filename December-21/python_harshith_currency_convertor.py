@@ -1,4 +1,3 @@
-!pip install xlrd
 import pandas as pd
 data=pd.read_excel("EXCHANGE RATES.xlsx")
 a=input("From country")
