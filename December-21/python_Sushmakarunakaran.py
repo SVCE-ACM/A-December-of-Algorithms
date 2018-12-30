@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import pandas as pd
 data=pd.read_excel("EXCHANGE RATES.xlsx")
 a=input("enter the form country")
@@ -19,7 +13,7 @@ print(f)
     
 
 
-# In[ ]:
+
 
 
 
