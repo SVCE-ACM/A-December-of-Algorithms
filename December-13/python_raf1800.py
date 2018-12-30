@@ -12,7 +12,7 @@ def LexiArr(x) :
         else:
             print(word)
         j+=1
-
+        
 def main():
     x=input("Enter a word: ")
     LexiArr(x)
