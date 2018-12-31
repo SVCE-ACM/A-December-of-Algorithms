@@ -1,8 +1,9 @@
-#!python3
-
-"""
-Hi there.
-This file doesn't contain any code.
-It's just here to give an example of the file naming scheme.
-Cheers!
-"""
+a=int(input('Enter the first number: '))
+b=int(input('Enter the second number: '))
+def gcd(n1,n2):
+    if n2:
+        return gcd(n2,n1%n2)
+    else:
+        return n1
+lcm=int((a*b)/(gcd(a,b)))
+print('The LCM is',lcm)
