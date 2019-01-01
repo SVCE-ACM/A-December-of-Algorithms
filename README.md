@@ -6,6 +6,8 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 
 **Send a pull request only after completing all 31 algorithms.**
 
+**Please submit all PRs on or before January 7th 11:59 PM IST.**
+
 ## What Do I Do?
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
@@ -38,6 +40,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Common Prefix**](#december-26---common-prefix)
   - [**December 27 - Vowel Square**](#december-27---vowel-square)
   - [**December 28 - Identical Diagonals**](#december-28---Identical-Diagonals)
+  - [**December 29 - Cup and String Phone**](#december-29---cup-and-string-phone)
+  - [**December 30 - Number of Diagonals**](#december-30---number-of-diagonals)
+  - [**December 31 - Closest Cell**](#december-31---closest-cell)
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -292,6 +297,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - The output for this will be `5` as `dac` is present in the 5th position in the alphabetical list of permutations.
   - **Uses and Resources**
     - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
+
 
 ### **December 14 - Caesar Cipher**
   - **Problem**
@@ -727,41 +733,149 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       Unavailable
       ````
 
-### **December 28 - Identical Diagonals**
- 
- - **Problem**
 
+### **December 28 - Identical Diagonals**
+  - **Problem**
    - Given an M x N matrix, write a function to determine if the diagonals of the matrix are identical.
    - If so, return "Identical diagonals".
    - Else return "Diagonals are non-identical."
- 
 
- -  **Example 1:**
-```
-    - Input matrix =   [7 4 6 8 
-                        1 7 4 6
-                        9 1 7 4]
-    - Output: Identical diagonals
 
-    - Explanation:
-              In the above grid, the diagonals are:
-              "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]".
-              In each diagonal all elements are the same, so the function must return "Identical Diagonals".
+ - **Example #1:**
+    ```
+    Input matrix =   [7 4 6 8
+                      1 7 4 6
+                      9 1 7 4]
+    Output: Identical diagonals
+    ```
+  - **Explanation:**
+    - In the above grid, the diagonals are: "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]". In each diagonal all elements are the same, so the function must return "Identical Diagonals".
 
- ```
- 
-  -  **Example 2:**
-```
-    - Input matrix =   [1 2 3 4 
-                        5 6 7 8
-                        1 4 7 9]
-    - Output: Diagonals are non-identical
-```
- 
- 
+
+
+  - **Example #2:**
+    ```
+    Input matrix =   [1 2 3 4
+                      5 6 7 8
+                      1 4 7 9]
+    Output: Diagonals are non-identical
+    ```
+
+
  - **Resources**
-    - [Introduction to matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+    - [Introduction to Matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
 
+
+### **December 29 - Cup and String Phone**
+  - **Problem:**
+    - Tharun is playing with his friends using a string phone. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
+    - For Example, Tharun plays with 2 of his friends. Then he will bring 3 Strings. This is because 1 string is needed to connect any two people. Since there are three people, including Tharun, then 3 connections are needed. Tharun-Friend_A, Tharun-Friend_B and Friend_A-Friend_B. So three strings are needed.
+
+
+<img src="/src/docs/dec29-string-phone.jpg" width="378" height="259">
+
+
+  - **Examples #1:**
+      ```
+      Input : 5
+      Output : 10
+      ```     
+      <img src="/src/docs/dec29-mesh.jpg">
+
+      - Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Each friend needs to be able to contact the other friends separately, so we need 10 strings to connect them all.
+
+
+  - **Examples #2:**
+    ```
+    Input : 7
+    Output : 21
+    ```
+    **Explanation:**
+    - Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.
+
+
+  - **Examples #3:**
+      ```
+      Input : 10
+      Output : 45
+      ```
+
+
+  - **Uses:**
+    - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
+    - [Networking between computers - Fully connected Mesh Topology](https://en.wikipedia.org/wiki/Network_topology)
+    - [No. of greetings exchanged among 'n' people](https://www.quora.com/What-is-the-practical-use-of-triangular-numbers-in-the-real-world)
+    - No. of matches played by 'n' teams
+
+
+### **December 30 - Number of Diagonals**
+  - **Problem :**
+    - There is a n-sided polygon. Find the number of [diagonals](https://en.wikipedia.org/wiki/Diagonal) that are possible. Do not count duplicates lines. Diagonals are Line segments that connect the non-adjacent vertices.
+
+
+  - **Example #1:**
+    ```
+    Input : 4 (Quadrilateral - Rectangle)
+    Output : 2
+    ```
+
+       <img src="/src/docs/Dec30-ExampleImg.jpg" width=483>
+
+
+  - **Example #2:**
+    ```
+    Input : 5 (Pentagon)
+    Output : 5
+    ```
+
+  - **Example #3:**
+    ```
+    Input : 8
+    Output : 20
+    ```
+
+  - **Example #4:**
+    ```
+    Input : 11
+    Output : 44
+    ```
+
+  - **Uses :**
+    - [Graphics & Animation](https://en.wikipedia.org/wiki/B%C3%A9zier_surface)
+    - [CAD](https://en.wikipedia.org/wiki/Computer-aided_design) and [Structural Engineering](https://en.wikipedia.org/wiki/Structural_engineering)
+
+
+  - **Resources :**
+    - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html)
+
+
+### **December 31 - Closest Cell**
+  - **Problem**
+    - ClosestCell2(strArr) reads a 2D matrix that contains only 1, 0, or 2. From the index where ‘1’ is, return the number of places either left, right, down, or up you must move to reach a cell which is represented by a 2. You can fold or wrap around the matrix to move to the cell which has ‘2’.
+      - The 2D matrix can have any number of 0's and 2's, but only a single 1.
+      -	It may not contain any 2's at all, then your program should return a 0.
+      -	You can try moving in each direction from the ‘1’, but you may need to add a special case if you reach the border and to jump to the other side of the matrix.
+    - Credits to coderbyte.com
+
+
+  - **Example**
+    ```
+    Input:
+    0 0 0
+    1 0 0
+    2 0 0
+    Output: 1
+    ```
+    - **Explanation:** It takes exactly one movement to reach 2.
+    ```
+    2D matrix Input:"0000", "2010", "0000", "2002"
+    0 0 0 0
+    2 0 1 0
+    0 0 0 0
+    2 0 0 2
+    Output:2
+    ```
+    - **Explanation:** For this input program should return 2. There are two ways to do this. Both involve starting at cell [1,0]. We can either move left twice and reach the 1 by wrapping around or we can move right twice. In either case, we reach 1 in two steps.
 
 
 FAQ:
