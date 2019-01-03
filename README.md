@@ -555,11 +555,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
 
 
-<<<<<<< HEAD
-## **December 22 - Word-Count**
-=======
 ### **December 22 - Word-Count**
->>>>>>> upstream/master
   - **Problem**
       - Write a program that reads a string from a user into a text file and prints out how often each word appears in the string.
         ```
@@ -589,19 +585,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       ```
 
 
-<<<<<<< HEAD
-## **December 23 - Exam Seating Arrangement**
-  - **Problem**
-    - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
-    - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
-    - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally. 
-=======
+
+
 ### **December 23 - Exam Seating Arrangement**
   - **Problem**
     - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
     - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
     - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally.
->>>>>>> upstream/master
     - Each Seat notation should be of the format `<Department_Code><Roll_Number>` and `____` if the seat is vacant.
 
   - **Example**
