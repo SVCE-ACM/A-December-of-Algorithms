@@ -36,8 +36,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
-<<<<<<< HEAD
-=======
   - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
   - [**December 26 - Common Prefix**](#december-26---common-prefix)
   - [**December 27 - Vowel Square**](#december-27---vowel-square)
@@ -45,7 +43,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 29 - Cup and String Phone**](#december-29---cup-and-string-phone)
   - [**December 30 - Number of Diagonals**](#december-30---number-of-diagonals)
   - [**December 31 - Closest Cell**](#december-31---closest-cell)
->>>>>>> upstream/master
+
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -631,11 +629,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ```
 
 
-<<<<<<< HEAD
-## **December 24 - Reverse a String Using Recursion**
-=======
+
+
+
 ### **December 24 - Reverse a String Using Recursion**
->>>>>>> upstream/master
+
   - **Problem**
     - Recursion simply refers to a function which calls itself. Recursive functions have two parts - a base case or stopping scenario and something that calls the same function with modified parameters. Check out the resources section for some great explanations of how it works.
     - Once you understand recursion, you will find yourself able to break down and reduce the complexity of a program much more easily. While they certainly don't replace loops, they are excellent in certain scenarios.
@@ -655,8 +653,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Understanding Recursion](https://stackoverflow.com/a/717839)
 
 
-<<<<<<< HEAD
-=======
+
 ### **December 25 - Santa's Self-Driving Sleigh** :christmas_tree:
   - **Problem**
     - Help Santa bring gifts to the homes of well-behaved children on Christmas Eve by finding a path between Santa and Child.
@@ -899,9 +896,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - **Explanation:** For this input program should return 2. There are two ways to do this. Both involve starting at cell [1,0]. We can either move left twice and reach the 1 by wrapping around or we can move right twice. In either case, we reach 1 in two steps.
 
 
->>>>>>> upstream/master
+
 FAQ:
-======
+
   #### Who can join the Challenge?
   Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
