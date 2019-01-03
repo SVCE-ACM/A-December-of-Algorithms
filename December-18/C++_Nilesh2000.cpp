@@ -5,8 +5,8 @@ using namespace std;
 class Permute
 {
 private:
-  char startRange[5];
-  char endRange[5];
+  char startRange[3];
+  char endRange[3];
   int Possibilities;
   int calcPossibilityNum(char startRange[], char endRange[])
   {
@@ -23,9 +23,7 @@ public:
   Permute()
   {
     memcpy(startRange, "Aa0", 3);
-    fill(startRange+3, startRange+5, '\0');
     memcpy(endRange, "Zz9", 3);
-    fill(endRange+3, endRange+5, '\0');
     Possibilities=calcPossibilityNum(startRange, endRange)+23;
   }
   double getPermutations(string Password)
