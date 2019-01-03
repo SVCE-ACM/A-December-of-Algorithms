@@ -6,6 +6,8 @@ Welcome to A December of Algorithms. This is a small collection of algorithms to
 
 **Send a pull request only after completing all 31 algorithms.**
 
+**Please submit all PRs on or before January 7th 11:59 PM IST.**
+
 ## What Do I Do?
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
@@ -34,6 +36,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Word-Count**](#december-22---word-count)
   - [**December 23 - Exam Seating Arrangement**](#december-23---Exam-seating-arrangement)
   - [**December 24 - Reverse a String Using Recursion**](#december-24---reverse-a-string-using-recursion)
+<<<<<<< HEAD
+=======
+  - [**December 25 - Santa's Self-Driving Sleigh**](#december-25---santas-self-driving-sleigh-christmas_tree)
+  - [**December 26 - Common Prefix**](#december-26---common-prefix)
+  - [**December 27 - Vowel Square**](#december-27---vowel-square)
+  - [**December 28 - Identical Diagonals**](#december-28---Identical-Diagonals)
+  - [**December 29 - Cup and String Phone**](#december-29---cup-and-string-phone)
+  - [**December 30 - Number of Diagonals**](#december-30---number-of-diagonals)
+  - [**December 31 - Closest Cell**](#december-31---closest-cell)
+>>>>>>> upstream/master
   - [**FAQ**](#faq)
 
 ## Algorithms
@@ -109,7 +121,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Let’s slowly spice things up with a simple algorithm, yet, mind-bending if you have never seen it before. Hanoi tower has a beautiful literate solution using recursion.
     - Say we have 3 towers. The first tower consists of a number of disks with the smallest ones at the top and the largest ones at the bottom. The second and third tower have no disks.
-    - Your task is to move all the disks from the first tower to the third hour while following these rules:
+    - Your task is to move all the disks from the first tower to the third tower while following these rules:
       - Only one disk can be moved at a time.
       - You may only move a disk that is at the top of a tower. You cannot move any disk without first moving disks that are above it.
       - No disk may be placed on top of a smaller disk.
@@ -137,7 +149,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Problem**
     - Return the least common multiple of two or more numbers.
     - Use the `greatest common divisor (GCD)` formula and the fact that `lcm(x,y) = x * y / gcd(x,y)` to determine the least common multiple.
-    - **Hint:** There are multiple ways to implement GCD Take a leap and try doing it with recursion.
+    - **Hint:** There are multiple ways to implement GCD. Take a leap and try doing it with recursion.
     - `Optional:` Allow for input of more than 2 numbers and find the combined LCM of all the numbers.
   - **Example**
     ```bash
@@ -289,7 +301,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Uses and Resources**
     - This question is a brain teaser and though it may not seem to have any practical application, it is used in various areas such as Crypto-Analysis and Brute-forcing cryptographic keys.
 
-  ### **December 14 - Caesar Cipher**
+
+### **December 14 - Caesar Cipher**
   - **Problem**
     - The Caesar cipher is one of the earliest known ciphers. Simply put, it should take in an input of a 'key' and some plain text. This key will be a number from 0-25. Your task is to simply replace each character of the message with a new character. This new character is the key-th element from the old character. Check out the examples for better understanding. Also, develop a function to decrypt the given cipher when you are given the key.
     - `Optional:` The Caesar cipher is trivial for modern computers to crack, even without the key. Write a program that bruteforces the cipher. Bruteforcing means simply trying out every possible combination. So in this case, try out every possible key to decode the cipher.
@@ -520,7 +533,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Visualisation of Dijkstra's Algorithm #2](https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html)
 
 
-## **December 21 - Currency Convertor**
+### **December 21 - Currency Convertor**
   - **Problem**
       -  Calculate the currency exchange rates between two user input countries using the attached **.csv** file in the reference.
       - ``Note:`` All the given ``VALUES`` in the csv file are a country's equivalent value in USD.
@@ -544,7 +557,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       - [Support File (Exchange Rates.csv)](src/docs/Dec21-Exchange_Rates.csv)
 
 
+<<<<<<< HEAD
 ## **December 22 - Word-Count**
+=======
+### **December 22 - Word-Count**
+>>>>>>> upstream/master
   - **Problem**
       - Write a program that reads a string from a user into a text file and prints out how often each word appears in the string.
         ```
@@ -574,11 +591,19 @@ We have a small collection of algorithms, one for every day of the month. Scroll
       ```
 
 
+<<<<<<< HEAD
 ## **December 23 - Exam Seating Arrangement**
   - **Problem**
     - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
     - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
     - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally. 
+=======
+### **December 23 - Exam Seating Arrangement**
+  - **Problem**
+    - Exams happen all the time in our education system and a huge amount of effort is put into planning the seating arrangement to prevent students form indulging in malpractices. The task here is to create a system that does this automatically when the number of departments, the number of classrooms, and the students roll numbers are given and automatically generate the output plan.
+    - There is only one condition when it comes to seating the students: **No two students of the same department should sit together**
+    - This is only in the horizontal and vertical directions. Students may be seated next to each other diagonally.
+>>>>>>> upstream/master
     - Each Seat notation should be of the format `<Department_Code><Roll_Number>` and `____` if the seat is vacant.
 
   - **Example**
@@ -606,7 +631,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ```
 
 
+<<<<<<< HEAD
 ## **December 24 - Reverse a String Using Recursion**
+=======
+### **December 24 - Reverse a String Using Recursion**
+>>>>>>> upstream/master
   - **Problem**
     - Recursion simply refers to a function which calls itself. Recursive functions have two parts - a base case or stopping scenario and something that calls the same function with modified parameters. Check out the resources section for some great explanations of how it works.
     - Once you understand recursion, you will find yourself able to break down and reduce the complexity of a program much more easily. While they certainly don't replace loops, they are excellent in certain scenarios.
@@ -626,6 +655,251 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Understanding Recursion](https://stackoverflow.com/a/717839)
 
 
+<<<<<<< HEAD
+=======
+### **December 25 - Santa's Self-Driving Sleigh** :christmas_tree:
+  - **Problem**
+    - Help Santa bring gifts to the homes of well-behaved children on Christmas Eve by finding a path between Santa and Child.
+    - Assume a 10x10 matrix where both Santa and a Child can be anywhere on the border.
+    - The Location of Santa and Child's Locations (Index) are given as input.
+    - `Optional:` Use Recursion to solve the problem.
+    - `Note`: There may exist more than one path so displaying any one would suffice.
+    - Merry Christmas!
+
+
+  - **Example**
+    ```
+    Santa's Location: (1,0)
+    Child's Location: (9,8)
+    ```
+    ```
+    * 0 1 2 3 4 5 6 7 8 9
+    0 * S * * * * * * * *   
+    1 *   * * * * * * * *   
+    2 *   * * * * * * * *   
+    3 *   * * * * * * * *      
+    4 *       * * * * * *   
+    5 * * *   * * * * * *   
+    6 * * *   * * * * * *   
+    7 * * *   * * * * * *
+    8 * * *             K
+    9 * * * * * * * * * *
+    ```
+
+
+  - **Explanation**
+
+    <img src="/src/docs/Dec25-Example.png" width="250" height="250"/>
+
+
+### **December 26 - Common Prefix**
+  - **Problem**
+    - Write a function to find the longest common prefix amongst a given array of strings. If present, the function must return the prefix string in the output.
+    - If there is no common prefix, return "No common prefix".
+
+
+  - **Note:**
+    - All given inputs are in lowercase letters a-z.
+    - Prefix must be of minimum 2 characters.
+
+
+  - **Example 1:**
+    ```
+    Input: ["Element", "Elegant" ,"Electric" ,"Election"]
+    Output: "Ele"
+    ```
+
+
+  - **Example 2:**
+    ```
+    Input: ["dog", "cat", "parrot"]
+    Output: "No common prefix"
+    ```
+    **Explanation**: There is no common prefix among the input strings.
+
+
+ - **Resources:**
+    - [String manipulation and basics](https://en.wikipedia.org/wiki/String_(computer_science))
+
+
+### **December 27 - Vowel Square**
+  - **Problem**
+    - The function VowSq(strArr) takes the parameter as a 2D matrix of some size containing alphabets, find if a 2x2 square matrix composed only of vowels exists in the input matrix.
+    - If a 2x2 square of vowels is found your input should return the top-left position (row-column) of the square.
+    - If no 2x2 square of vowels exists, then return the string unavailable.
+    - The input matrix should at least be of size 2x2.
+    - Credits to coderbyte.com
+
+
+  - **Example #1**
+    - For ``strArr = ["abcd", "eikr", "oufj"]``
+    - The Matrix should be:
+    ```
+    a b c d
+    e i k r
+    o u f j
+    ```
+    ````
+    1-0
+    ````
+
+
+  - **Example #2**
+    - For ``strArr = ["gh", "bf"]``
+    - The Matrix should be:
+      ```
+      g h b f
+      ```
+      ````
+      Unavailable
+      ````
+
+
+### **December 28 - Identical Diagonals**
+  - **Problem**
+   - Given an M x N matrix, write a function to determine if the diagonals of the matrix are identical.
+   - If so, return "Identical diagonals".
+   - Else return "Diagonals are non-identical."
+
+
+ - **Example #1:**
+    ```
+    Input matrix =   [7 4 6 8
+                      1 7 4 6
+                      9 1 7 4]
+    Output: Identical diagonals
+    ```
+  - **Explanation:**
+    - In the above grid, the diagonals are: "[9]", "[1, 1]", "[7, 7, 7]", "[4, 4, 4]", "[6, 6]", "[8]". In each diagonal all elements are the same, so the function must return "Identical Diagonals".
+
+
+
+  - **Example #2:**
+    ```
+    Input matrix =   [1 2 3 4
+                      5 6 7 8
+                      1 4 7 9]
+    Output: Diagonals are non-identical
+    ```
+
+
+ - **Resources**
+    - [Introduction to Matrices](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+
+
+### **December 29 - Cup and String Phone**
+  - **Problem:**
+    - Tharun is playing with his friends using a string phone. He asked them to bring cup of their own and he will bring the strings for all of them so that all can communicate with each other. Now he wants to find the number of strings required to communicate with his friends. Help him with a program that takes a number of friends as input and give the number of strings as output.
+    - For Example, Tharun plays with 2 of his friends. Then he will bring 3 Strings. This is because 1 string is needed to connect any two people. Since there are three people, including Tharun, then 3 connections are needed. Tharun-Friend_A, Tharun-Friend_B and Friend_A-Friend_B. So three strings are needed.
+
+
+<img src="/src/docs/dec29-string-phone.jpg" width="378" height="259">
+
+
+  - **Examples #1:**
+      ```
+      Input : 5
+      Output : 10
+      ```     
+      <img src="/src/docs/dec29-mesh.jpg">
+
+      - Here 5 boxes represent Tharun & his 4 friends and the connections are the strings. Each friend needs to be able to contact the other friends separately, so we need 10 strings to connect them all.
+
+
+  - **Examples #2:**
+    ```
+    Input : 7
+    Output : 21
+    ```
+    **Explanation:**
+    - Tharun & his 6 friends come together to play this game. So to connect all of 7 cups, we need 28 strings.
+
+
+  - **Examples #3:**
+      ```
+      Input : 10
+      Output : 45
+      ```
+
+
+  - **Uses:**
+    - [Triangular Series](https://en.wikipedia.org/wiki/Triangular_number)
+    - [Networking between computers - Fully connected Mesh Topology](https://en.wikipedia.org/wiki/Network_topology)
+    - [No. of greetings exchanged among 'n' people](https://www.quora.com/What-is-the-practical-use-of-triangular-numbers-in-the-real-world)
+    - No. of matches played by 'n' teams
+
+
+### **December 30 - Number of Diagonals**
+  - **Problem :**
+    - There is a n-sided polygon. Find the number of [diagonals](https://en.wikipedia.org/wiki/Diagonal) that are possible. Do not count duplicates lines. Diagonals are Line segments that connect the non-adjacent vertices.
+
+
+  - **Example #1:**
+    ```
+    Input : 4 (Quadrilateral - Rectangle)
+    Output : 2
+    ```
+
+       <img src="/src/docs/Dec30-ExampleImg.jpg" width=483>
+
+
+  - **Example #2:**
+    ```
+    Input : 5 (Pentagon)
+    Output : 5
+    ```
+
+  - **Example #3:**
+    ```
+    Input : 8
+    Output : 20
+    ```
+
+  - **Example #4:**
+    ```
+    Input : 11
+    Output : 44
+    ```
+
+  - **Uses :**
+    - [Graphics & Animation](https://en.wikipedia.org/wiki/B%C3%A9zier_surface)
+    - [CAD](https://en.wikipedia.org/wiki/Computer-aided_design) and [Structural Engineering](https://en.wikipedia.org/wiki/Structural_engineering)
+
+
+  - **Resources :**
+    - [Line segments and Points](https://www.basic-mathematics.com/number-of-segments.html)
+
+
+### **December 31 - Closest Cell**
+  - **Problem**
+    - ClosestCell2(strArr) reads a 2D matrix that contains only 1, 0, or 2. From the index where ‘1’ is, return the number of places either left, right, down, or up you must move to reach a cell which is represented by a 2. You can fold or wrap around the matrix to move to the cell which has ‘2’.
+      - The 2D matrix can have any number of 0's and 2's, but only a single 1.
+      -	It may not contain any 2's at all, then your program should return a 0.
+      -	You can try moving in each direction from the ‘1’, but you may need to add a special case if you reach the border and to jump to the other side of the matrix.
+    - Credits to coderbyte.com
+
+
+  - **Example**
+    ```
+    Input:
+    0 0 0
+    1 0 0
+    2 0 0
+    Output: 1
+    ```
+    - **Explanation:** It takes exactly one movement to reach 2.
+    ```
+    2D matrix Input:"0000", "2010", "0000", "2002"
+    0 0 0 0
+    2 0 1 0
+    0 0 0 0
+    2 0 0 2
+    Output:2
+    ```
+    - **Explanation:** For this input program should return 2. There are two ways to do this. Both involve starting at cell [1,0]. We can either move left twice and reach the 1 by wrapping around or we can move right twice. In either case, we reach 1 in two steps.
+
+
+>>>>>>> upstream/master
 FAQ:
 ======
   #### Who can join the Challenge?
