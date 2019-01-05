@@ -1,10 +1,11 @@
 import re
 def IsURL(s):
-    if(re.match(r'https://*\.com/*',s,re.M|re.I)):
+    url = re.compile(r"https://\w+\.\w+")
+    if url.search(s):
         print("True")
     else:
         print("False")
-    
+
 def main():
     s = input("Enter a string: ")
     IsURL(s)
