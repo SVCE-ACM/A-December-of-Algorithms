@@ -4,7 +4,6 @@ def singularPlural(String1, String2):
             print(String1)
         else:
             if(String1[-1] == 's' or String1[-1] == 'x' or String1[-1] == 'z' ):
-               #or String1.find("ch", len(String1)-3) or String1.find("sh", len(String1)-3)):
                 print(String1 + "es")
             elif(String1[-1] == 'y'):
                 print(String1[:-1:]+"ies")
