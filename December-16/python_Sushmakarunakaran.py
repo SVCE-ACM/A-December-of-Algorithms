@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[10]:
-
-
 import requests
 api_address ='http://api.openweathermap.org/data/2.5/weather?appid=71ebadb9a97ad010c0248b72657635c5&q='
 city1=input("enter city1 name :")
@@ -18,7 +12,7 @@ print("the difference in temperature is")
 print(data1-data2)
 
 
-# In[ ]:
+
 
 
 
