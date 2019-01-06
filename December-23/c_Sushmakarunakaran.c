@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	int i,k=0,j,d,s,r,l,cl,n[10],b=0,m=1;
+	int i,k=0,j,d,s,r,l,cl,n[10],b=0,m=1,v=0;
 	char c[10][4];
 	printf("Number of classrooms: ");
 	scanf("%d",&cl);
@@ -33,7 +33,8 @@ int main()
 			else
 			printf("%s%d\t",c[k],m);
 			k=(k+1)%d;
-			if((j+1)%d==0)
+			v++;
+			if(v%d==0)
 			m++;
 		}
 		if(l%d==0)
