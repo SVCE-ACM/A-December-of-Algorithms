@@ -3,10 +3,12 @@ def singularPlural(String1, String2):
         if(int(String2)==-1 or int(String2)==1):
             print(String1)
         else:
-            if(String1[-1] == 's' or String1[-1] == 'x' or String1[-1] == 'z' ):
+            if((String1[-1] in ('o','s','x','z')) or String1[-2:] == "ch" or String1[-2:] == "sh"):
                 print(String1 + "es")
-            elif(String1[-1] == 'y'):
+            elif(String1[-1] == 'y' and String1[-2] not in ('a','e','i','o','u')):
                 print(String1[:-1:]+"ies")
+            elif(String1[-2:] == "um"):
+                print(String1[:-2:]+"a")
             else:
                 print(String1 + "s")
     else:
