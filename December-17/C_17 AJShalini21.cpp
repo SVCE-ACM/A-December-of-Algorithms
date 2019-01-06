@@ -1,0 +1,93 @@
+#include<stdio.h>
+int main()
+{
+	int s,m[4][4]={NULL},i,j,l,k,n;
+	printf("Enter order: ");
+	scanf("%d",&n);
+	printf("Enter the sum: ");
+	scanf("%d",&s);
+	if(n==4&&s>33)
+	{
+	    m[0][0]=s-20;m[0][1]=1;m[0][2]=12;m[0][3]=7;	
+	    m[1][0]=11;m[1][1]=8;m[1][2]=s-21;m[1][3]=2;
+	    m[2][0]=5;m[2][1]=10;m[2][2]=3;m[2][3]=s-18;
+	    m[3][0]=4;m[3][1]=s-19;m[3][2]=6;m[3][3]=9;
+	}
+	if(s%n!=0)
+	printf("\nInvalid sum");
+	else
+	{
+		l=(s/n)-5;
+		i=0;j=n/2;
+		for(k=l;k<l+9;k++)
+		{
+			m[i][j]=k+1;
+			i=(i+2)%n;
+			j=(j+1)%n;
+			if(m[i][j]==NULL)
+			  continue;
+			else
+			{
+			  i=(i+2)%n;
+			  j=(j+2)%n;
+		    }
+		}
+	}
+	printf("\n1.");
+	for(i=0;i<n;i++)
+	{  
+	    printf("\n");
+	    for(j=0;j<n;j++)
+	    printf("%d\t",m[i][j]);
+    }
+    printf("\n2.");
+    for(i=0;i<n;i++)
+    {
+	    printf("\n");
+	    for(j=0;j<n;j++)
+	    printf("%d\t",m[j][i]);
+	}
+	printf("\n3.");
+	for(i=n-1;i>=0;i--)
+	{
+		printf("\n");
+	    for(j=0;j<n;j++)
+	    printf("%d\t",m[i][j]);
+    }
+    printf("\n4.");
+    for(i=n-1;i>=0;i--)
+    {
+	    printf("\n");
+	    for(j=0;j<n;j++)
+	    printf("%d\t",m[j][i]);
+	}
+	printf("\n5.");
+	for(i=0;i<n;i++)
+	{
+	     printf("\n");
+	    for(j=n-1;j>=0;j--)
+	    printf("%d\t",m[i][j]);	
+    }
+    printf("\n6.");
+    for(i=0;i<n;i++)
+    {
+	    printf("\n");
+	    for(j=n-1;j>=0;j--)
+	    printf("%d\t",m[j][i]);	
+	}
+	printf("\n7.");
+	for(i=n-1;i>=0;i--)
+	{
+	    printf("\n");
+	    for(j=n-1;j>=0;j--)
+	    printf("%d\t",m[i][j]);
+	}
+	printf("\n8.");
+	for(i=n-1;i>=0;i--)
+	{
+		printf("\n");	
+	    for(j=n-1;j>=0;j--)
+	    printf("%d\t",m[j][i]);
+	}
+	return 0;
+}
