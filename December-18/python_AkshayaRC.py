@@ -1,7 +1,7 @@
 import re
 import time
 import itertools
-file=open("pwd.txt","r")
+file=open("Dec18-1000_most_common_passwords.txt","r")
 pwd=input("enter password: ")
 flag=0
 start=time.time()
