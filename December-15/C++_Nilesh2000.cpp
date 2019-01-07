@@ -19,8 +19,6 @@ void printPascal(int r)
       cout <<"\t--> Row " <<Line;
       cout <<"\n";
     }
-  cout <<"\nPolynomial : ";
-  cout <<"\n";
 }
 int main(void)
 {
