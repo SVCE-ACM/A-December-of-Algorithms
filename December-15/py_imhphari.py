@@ -1,15 +1,30 @@
-n=int(input("Enter number of rows: "))
-a=[]
-for i in range(n):
-    a.append([])
-    a[i].append(1)
-    """print(a[i])"""
-    for j in range(1,i):
-        a[i].append(a[i-1][j-1]+a[i-1][j])
-    if(n!=0):
-        a[i].append(1)
-for i in range(n):
-    print("   "*(n-i),end=" ",sep=" ")
-    for j in range(0,i+1):
-        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
-    print()
+def fact(n):
+    if n==0:
+        return 1
+    else:
+        fact=1
+        for i in range(1,n+1):
+            fact=fact*i
+        return fact    
+
+row=int(input("enter no.of rows: "))
+lis=[]
+c=0
+for n in range(row+1):
+    print("\n")
+    for r in range(n,row):
+       print("  ",end="")
+    for r in range(0,n+1):
+        num=fact(n)//(fact(r)*fact(n-r))
+        print(num,end="   ")
+    for r in range(n,n+1):
+        n=row
+        num=fact(n)//(fact(r)*fact(n-r))
+        lis.append(num)
+print("\nPolynomial: ")
+for i in range(len(lis)):
+    print("(",lis[i],"x^",row,"y^",c,")",end=" ",sep="")
+    if i!=len(lis)-1:
+        print("+",end="")
+    c+=1
+    row-=1
