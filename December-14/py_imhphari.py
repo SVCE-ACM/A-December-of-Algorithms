@@ -13,6 +13,6 @@ def encrypt(text,s):
   
 text = input("Enter string:")
 s = 3
-print ("Text  : " + text) 
-print ("Shift : " + str(s)) 
-print ("Cipher: " + encrypt(text,s) )
+print ("Input: " + text) 
+#print ("Shift : " + str(s)) 
+print ("Encoded output: " + encrypt(text,s) )
