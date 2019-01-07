@@ -1,4 +1,4 @@
-def generateSquare(n): 
+def gensq(n): 
     magicSquare = [[0 for x in range(n)] 
                       for y in range(n)] 
   
@@ -39,4 +39,4 @@ def generateSquare(n):
                 print() 
   
 n = 3
-generateSquare(n)      
+gensq(n)      
