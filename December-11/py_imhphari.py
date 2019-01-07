@@ -1,4 +1,4 @@
-def spiralPrint(m,n,a) : 
+def spiral(m,n,a) : 
     k=0
     l=0
  
@@ -28,4 +28,4 @@ a=[[1,2,3],[4,5,6],[7,8,9]]
         
 r=3
 c=3
-spiralPrint(r,c,a) 
+spiral(r,c,a) 
